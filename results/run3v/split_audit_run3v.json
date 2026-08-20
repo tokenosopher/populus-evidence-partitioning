@@ -1,0 +1,65 @@
+{
+ "bank_hash": "94e506d408b6def1",
+ "op_seed": 6011,
+ "split_seed": 2203,
+ "sizes": {
+  "train2": 89,
+  "train3": 348,
+  "diag2": 12,
+  "diag3": 60,
+  "ho2": 29,
+  "ho3_familiar": 200,
+  "ho3_h2_only": 586,
+  "ho3_h2_fho": 41,
+  "ho_fn_pairs": 14,
+  "ho_fn_triples": 102,
+  "f_ho": 18
+ },
+ "forbidden_intersections": {
+  "ho2_in_train2": 0,
+  "ho2_as_train3_subchain": 0,
+  "diag2_in_train2": 0,
+  "diag2_as_train3_subchain": 0,
+  "diag2_overlap_ho2": 0,
+  "diag3_in_train3": 0,
+  "diag3_overlap_ho3_familiar": 0,
+  "ho3_familiar_in_train3": 0,
+  "f_ho_maps_reachable_by_training": 0,
+  "train3_subchains_not_terminated_in_train2": 0,
+  "diag_maps_in_f_ho": 0,
+  "h2_maps_in_f_ho": 0,
+  "ho3_h2_only_maps_in_f_ho": 0
+ },
+ "cross_bank_programme_intersections": {
+  "train3&ho3_familiar": 0,
+  "train3&diag3": 0,
+  "train3&ho3_h2_only": 0,
+  "train3&ho3_h2_fho": 0,
+  "diag3&ho3_h2_only": 0,
+  "ho3_familiar&ho3_h2_only": 0
+ },
+ "termination_balance_ok": true,
+ "template_split": {
+  "train": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "diag": [
+   8,
+   9
+  ],
+  "sealed": [
+   10,
+   11,
+   12,
+   13
+  ]
+ },
+ "all_clear": true
+}

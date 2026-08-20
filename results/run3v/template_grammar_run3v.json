@@ -1,0 +1,4878 @@
+{
+ "t_span": 33,
+ "ops": {
+  "0": {
+   "train": [
+    {
+     "text": "Apply this rule: compute 9 times the value you receive plus 7, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      5,
+      1,
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 9 times the number plus 7, all modulo 17.",
+     "tokens": 21,
+     "combo": [
+      2,
+      0,
+      3,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 9 times the incoming value plus 7, all modulo 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      4,
+      3,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Multiply the value you receive by 9, then add 7 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      0,
+      1,
+      0,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply n by 9, then add 7, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      2,
+      2,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: take the incoming value times 9 and increase the result by 7; results wrap around at 17.",
+     "tokens": 26,
+     "combo": [
+      1,
+      3,
+      2,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 9, then add 7; results wrap around at 17.",
+     "tokens": 26,
+     "combo": [
+      4,
+      3,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 9 times the incoming value plus 7, staying on the 0-16 clock.",
+     "tokens": 26,
+     "combo": [
+      2,
+      3,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 9 times n plus 7, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      2,
+      2,
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the value you receive by 9, then add 7, all modulo 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      3,
+      1,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 9 times the incoming value plus 7, all modulo 17.",
+     "tokens": 21,
+     "combo": [
+      5,
+      3,
+      3,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 9 times the incoming value plus 7 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      4,
+      3,
+      3,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 7 after multiplying the incoming value by 9, all modulo 17. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      3,
+      3,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 9, then add 7, all modulo 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      3,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: add 7 after multiplying n by 9 in mod-17 arithmetic. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      5,
+      2,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Add 7 after multiplying the incoming value by 9, keeping only the remainder after dividing by 17.",
+     "tokens": 23,
+     "combo": [
+      0,
+      3,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 7 after multiplying n by 9, staying on the 0-16 clock.",
+     "tokens": 26,
+     "combo": [
+      3,
+      2,
+      1,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: compute 9 times the value you receive plus 7, staying on the 0-16 clock.",
+     "tokens": 28,
+     "combo": [
+      3,
+      1,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 7 after multiplying n by 9 in mod-17 arithmetic. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      3,
+      2,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 7 after multiplying the incoming value by 9, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      4,
+      3,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: add 7 after multiplying the incoming value by 9; results wrap around at 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      3,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 7 after multiplying n by 9 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      3,
+      2,
+      1,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply n by 9, then add 7, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      1,
+      2,
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the incoming value by 9, then add 7; results wrap around at 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      2,
+      3,
+      0,
+      2,
+      1
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "Your instruction is this: take the value you receive times 9 and increase the result by 7; results wrap around at 17. Do this exactly.",
+     "tokens": 33,
+     "combo": [
+      2,
+      1,
+      2,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Multiply the value you receive by 9, then add 7, all modulo 17. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      0,
+      1,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Compute 9 times n plus 7, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 23,
+     "combo": [
+      0,
+      2,
+      3,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 7 after multiplying n by 9, all modulo 17.",
+     "tokens": 21,
+     "combo": [
+      2,
+      2,
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "You must do the following: take the number times 9 and increase the result by 7, keeping only the remainder after dividing by 17.",
+     "tokens": 31,
+     "combo": [
+      3,
+      0,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 7 after multiplying the number by 9 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 25,
+     "combo": [
+      5,
+      0,
+      1,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: take n times 9 and increase the result by 7, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      1,
+      2,
+      2,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply n by 9, then add 7, staying on the 0-16 clock. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      2,
+      2,
+      0,
+      3,
+      2
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Apply this rule: add 7 after multiplying the value you receive by 9, all modulo 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      5,
+      1,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 7 after multiplying the number by 9, all modulo 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      2,
+      0,
+      1,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: compute 9 times the value you receive plus 7, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      1,
+      1,
+      3,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: take the incoming value times 9 and increase the result by 7 in mod-17 arithmetic.",
+     "tokens": 27,
+     "combo": [
+      3,
+      3,
+      2,
+      4,
+      0
+     ]
+    }
+   ]
+  },
+  "1": {
+   "train": [
+    {
+     "text": "Add 13 after multiplying the number by 13; results wrap around at 17. Do this exactly.",
+     "tokens": 25,
+     "combo": [
+      0,
+      0,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: add 13 after multiplying the incoming value by 13; results wrap around at 17. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      4,
+      3,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 13 times the value you receive plus 13 in mod-17 arithmetic. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      4,
+      1,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: add 13 after multiplying n by 13, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      1,
+      2,
+      1,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Add 13 after multiplying n by 13 in mod-17 arithmetic. Work carefully.",
+     "tokens": 21,
+     "combo": [
+      0,
+      2,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: take n times 13 and increase the result by 13; results wrap around at 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      5,
+      2,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: take the value you receive times 13 and increase the result by 13, all modulo 17.",
+     "tokens": 29,
+     "combo": [
+      4,
+      1,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 13 after multiplying the value you receive by 13, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 33,
+     "combo": [
+      5,
+      1,
+      1,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 13 after multiplying the number by 13, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 33,
+     "combo": [
+      4,
+      0,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 13 and increase the result by 13, all modulo 17.",
+     "tokens": 28,
+     "combo": [
+      2,
+      3,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 13, then add 13, all modulo 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      4,
+      3,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 13 times the value you receive plus 13, staying on the 0-16 clock. Work carefully.",
+     "tokens": 33,
+     "combo": [
+      3,
+      1,
+      3,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 13 times the number plus 13, all modulo 17.",
+     "tokens": 23,
+     "combo": [
+      4,
+      0,
+      3,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: compute 13 times the incoming value plus 13; results wrap around at 17.",
+     "tokens": 27,
+     "combo": [
+      3,
+      3,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 13 times the value you receive plus 13, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 33,
+     "combo": [
+      2,
+      1,
+      3,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 13 times the value you receive plus 13; results wrap around at 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      4,
+      1,
+      3,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Compute 13 times the number plus 13, all modulo 17. Do this exactly.",
+     "tokens": 22,
+     "combo": [
+      0,
+      0,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the value you receive by 13, then add 13, staying on the 0-16 clock.",
+     "tokens": 32,
+     "combo": [
+      3,
+      1,
+      0,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 13 times n plus 13, all modulo 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      4,
+      2,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: add 13 after multiplying n by 13, all modulo 17.",
+     "tokens": 21,
+     "combo": [
+      1,
+      2,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the incoming value by 13, then add 13, all modulo 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      5,
+      3,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: take the value you receive times 13 and increase the result by 13, all modulo 17.",
+     "tokens": 30,
+     "combo": [
+      3,
+      1,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: add 13 after multiplying the number by 13, staying on the 0-16 clock.",
+     "tokens": 28,
+     "combo": [
+      4,
+      0,
+      1,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Add 13 after multiplying n by 13, all modulo 17. Do this exactly.",
+     "tokens": 22,
+     "combo": [
+      0,
+      2,
+      1,
+      0,
+      1
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "Take the incoming value times 13 and increase the result by 13 in mod-17 arithmetic.",
+     "tokens": 23,
+     "combo": [
+      0,
+      3,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: add 13 after multiplying the number by 13; results wrap around at 17.",
+     "tokens": 26,
+     "combo": [
+      4,
+      0,
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Compute 13 times the number plus 13 in mod-17 arithmetic. Work carefully.",
+     "tokens": 21,
+     "combo": [
+      0,
+      0,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 13 times the incoming value plus 13; results wrap around at 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      3,
+      3,
+      3,
+      2,
+      2
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Take the value you receive times 13 and increase the result by 13, all modulo 17.",
+     "tokens": 24,
+     "combo": [
+      0,
+      1,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Add 13 after multiplying the number by 13; results wrap around at 17.",
+     "tokens": 21,
+     "combo": [
+      0,
+      0,
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: take the incoming value times 13 and increase the result by 13, staying on the 0-16 clock.",
+     "tokens": 31,
+     "combo": [
+      5,
+      3,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: compute 13 times the value you receive plus 13, all modulo 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      1,
+      3,
+      0,
+      1
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Apply this rule: take n times 13 and increase the result by 13, all modulo 17.",
+     "tokens": 25,
+     "combo": [
+      5,
+      2,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: take the incoming value times 13 and increase the result by 13 in mod-17 arithmetic.",
+     "tokens": 28,
+     "combo": [
+      4,
+      3,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: take n times 13 and increase the result by 13, all modulo 17.",
+     "tokens": 26,
+     "combo": [
+      4,
+      2,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the incoming value by 13, then add 13, staying on the 0-16 clock. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      5,
+      3,
+      0,
+      3,
+      2
+     ]
+    }
+   ]
+  },
+  "2": {
+   "train": [
+    {
+     "text": "Apply this rule: take the incoming value times 11 and increase the result by 4 in mod-17 arithmetic. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      5,
+      3,
+      2,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: add 4 after multiplying the value you receive by 11; results wrap around at 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      5,
+      1,
+      1,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the value you receive by 11, then add 4; results wrap around at 17.",
+     "tokens": 28,
+     "combo": [
+      2,
+      1,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: take the value you receive times 11 and increase the result by 4, all modulo 17.",
+     "tokens": 26,
+     "combo": [
+      1,
+      1,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the incoming value by 11, then add 4, all modulo 17.",
+     "tokens": 23,
+     "combo": [
+      1,
+      3,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 11 times the incoming value plus 4, all modulo 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      2,
+      3,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: compute 11 times the value you receive plus 4; results wrap around at 17.",
+     "tokens": 27,
+     "combo": [
+      3,
+      1,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the value you receive by 11, then add 4; results wrap around at 17. Do this exactly.",
+     "tokens": 33,
+     "combo": [
+      3,
+      1,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the number by 11, then add 4, staying on the 0-16 clock. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      5,
+      0,
+      0,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: take the number times 11 and increase the result by 4 in mod-17 arithmetic.",
+     "tokens": 24,
+     "combo": [
+      1,
+      0,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: add 4 after multiplying n by 11, staying on the 0-16 clock. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      1,
+      2,
+      1,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Compute 11 times n plus 4, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      0,
+      2,
+      3,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Multiply the incoming value by 11, then add 4; results wrap around at 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      0,
+      3,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply the value you receive by 11, then add 4 in mod-17 arithmetic.",
+     "tokens": 24,
+     "combo": [
+      1,
+      1,
+      0,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Multiply the value you receive by 11, then add 4; results wrap around at 17.",
+     "tokens": 23,
+     "combo": [
+      0,
+      1,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the incoming value by 11, then add 4, all modulo 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      3,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the number by 11, then add 4, keeping only the remainder after dividing by 17.",
+     "tokens": 29,
+     "combo": [
+      2,
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Take the value you receive times 11 and increase the result by 4, staying on the 0-16 clock.",
+     "tokens": 27,
+     "combo": [
+      0,
+      1,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the value you receive by 11, then add 4, staying on the 0-16 clock. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      5,
+      1,
+      0,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Multiply the incoming value by 11, then add 4, all modulo 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      0,
+      3,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 4 after multiplying the incoming value by 11, all modulo 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      3,
+      3,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the number by 11, then add 4, all modulo 17. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      2,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: take the value you receive times 11 and increase the result by 4 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      5,
+      1,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: compute 11 times the value you receive plus 4; results wrap around at 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      1,
+      1,
+      3,
+      2,
+      2
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "Apply this rule: take n times 11 and increase the result by 4 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      5,
+      2,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the number by 11, then add 4 in mod-17 arithmetic.",
+     "tokens": 24,
+     "combo": [
+      2,
+      0,
+      0,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: add 4 after multiplying the value you receive by 11 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      1,
+      1,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Multiply the number by 11, then add 4, all modulo 17.",
+     "tokens": 19,
+     "combo": [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Your rule: multiply n by 11, then add 4, all modulo 17. Do this exactly.",
+     "tokens": 25,
+     "combo": [
+      1,
+      2,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Take n times 11 and increase the result by 4; results wrap around at 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      0,
+      2,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: multiply the value you receive by 11, then add 4, keeping only the remainder after dividing by 17.",
+     "tokens": 29,
+     "combo": [
+      1,
+      1,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: take the number times 11 and increase the result by 4, staying on the 0-16 clock. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      5,
+      0,
+      2,
+      3,
+      2
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Apply this rule: add 4 after multiplying the number by 11, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      5,
+      0,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: take n times 11 and increase the result by 4 in mod-17 arithmetic. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      1,
+      2,
+      2,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the number by 11, then add 4, staying on the 0-16 clock. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      3,
+      0,
+      0,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 4 after multiplying n by 11 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      4,
+      2,
+      1,
+      4,
+      1
+     ]
+    }
+   ]
+  },
+  "3": {
+   "train": [
+    {
+     "text": "Your rule: multiply the incoming value by 2, then add 12 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      3,
+      0,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the number times 2 and increase the result by 12 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      2,
+      0,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 12 after multiplying the value you receive by 2 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      3,
+      1,
+      1,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Add 12 after multiplying the number by 2, all modulo 17.",
+     "tokens": 18,
+     "combo": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: take n times 2 and increase the result by 12, all modulo 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      4,
+      2,
+      2,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Multiply n by 2, then add 12; results wrap around at 17. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      0,
+      2,
+      0,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 2 times the value you receive plus 12, keeping only the remainder after dividing by 17.",
+     "tokens": 30,
+     "combo": [
+      3,
+      1,
+      3,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply n by 2, then add 12, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      1,
+      2,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 2 times the value you receive plus 12; results wrap around at 17.",
+     "tokens": 26,
+     "combo": [
+      4,
+      1,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 12 after multiplying n by 2, all modulo 17.",
+     "tokens": 21,
+     "combo": [
+      5,
+      2,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Compute 2 times the incoming value plus 12, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      0,
+      3,
+      3,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 2 times the number plus 12, keeping only the remainder after dividing by 17.",
+     "tokens": 26,
+     "combo": [
+      5,
+      0,
+      3,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Add 12 after multiplying n by 2, keeping only the remainder after dividing by 17.",
+     "tokens": 22,
+     "combo": [
+      0,
+      2,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 12 after multiplying n by 2 in mod-17 arithmetic. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      3,
+      2,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the number by 2, then add 12, all modulo 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      0,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 12 after multiplying the value you receive by 2; results wrap around at 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      4,
+      1,
+      1,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: multiply n by 2, then add 12, all modulo 17.",
+     "tokens": 24,
+     "combo": [
+      3,
+      2,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply n by 2, then add 12, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      3,
+      2,
+      0,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Add 12 after multiplying the number by 2 in mod-17 arithmetic.",
+     "tokens": 18,
+     "combo": [
+      0,
+      0,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply n by 2, then add 12, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      4,
+      2,
+      0,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: compute 2 times the number plus 12, staying on the 0-16 clock.",
+     "tokens": 24,
+     "combo": [
+      1,
+      0,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the number by 2, then add 12; results wrap around at 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      1,
+      0,
+      0,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply n by 2, then add 12, staying on the 0-16 clock. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      4,
+      2,
+      0,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 2 times the number plus 12; results wrap around at 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      3,
+      0,
+      3,
+      2,
+      2
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "The operation to perform: add 12 after multiplying n by 2, all modulo 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      4,
+      2,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: add 12 after multiplying the number by 2, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      5,
+      0,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 2 times the value you receive plus 12 in mod-17 arithmetic. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      2,
+      1,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: add 12 after multiplying the incoming value by 2; results wrap around at 17. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      1,
+      3,
+      1,
+      2,
+      1
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Your instruction is this: compute 2 times n plus 12, all modulo 17.",
+     "tokens": 21,
+     "combo": [
+      2,
+      2,
+      3,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the number by 2, then add 12; results wrap around at 17.",
+     "tokens": 24,
+     "combo": [
+      1,
+      0,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 2 times n plus 12, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      2,
+      2,
+      3,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 12 after multiplying the incoming value by 2, all modulo 17.",
+     "tokens": 24,
+     "combo": [
+      2,
+      3,
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Apply this rule: multiply the incoming value by 2, then add 12, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      5,
+      3,
+      0,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 12 after multiplying the incoming value by 2; results wrap around at 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      3,
+      3,
+      1,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 12 after multiplying the incoming value by 2 in mod-17 arithmetic. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      3,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 2, then add 12 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      4,
+      3,
+      0,
+      4,
+      1
+     ]
+    }
+   ]
+  },
+  "4": {
+   "train": [
+    {
+     "text": "The operation to perform: add 5 after multiplying the number by 8; results wrap around at 17.",
+     "tokens": 24,
+     "combo": [
+      4,
+      0,
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Compute 8 times the incoming value plus 5 in mod-17 arithmetic.",
+     "tokens": 17,
+     "combo": [
+      0,
+      3,
+      3,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the number by 8, then add 5, keeping only the remainder after dividing by 17.",
+     "tokens": 28,
+     "combo": [
+      2,
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 8 times n plus 5 in mod-17 arithmetic. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      2,
+      2,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: take the incoming value times 8 and increase the result by 5, staying on the 0-16 clock.",
+     "tokens": 30,
+     "combo": [
+      4,
+      3,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Take the number times 8 and increase the result by 5, all modulo 17. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      0,
+      0,
+      2,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the number times 8 and increase the result by 5; results wrap around at 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      2,
+      0,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 8, then add 5, all modulo 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      3,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 5 after multiplying the value you receive by 8, all modulo 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      1,
+      1,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: compute 8 times n plus 5, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      1,
+      2,
+      3,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: add 5 after multiplying the value you receive by 8, all modulo 17.",
+     "tokens": 25,
+     "combo": [
+      3,
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Compute 8 times n plus 5, all modulo 17. Work carefully.",
+     "tokens": 18,
+     "combo": [
+      0,
+      2,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the incoming value by 8, then add 5; results wrap around at 17.",
+     "tokens": 26,
+     "combo": [
+      2,
+      3,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 5 after multiplying the number by 8 in mod-17 arithmetic. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      3,
+      0,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Compute 8 times the number plus 5, all modulo 17. Do this exactly.",
+     "tokens": 20,
+     "combo": [
+      0,
+      0,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: take n times 8 and increase the result by 5 in mod-17 arithmetic.",
+     "tokens": 25,
+     "combo": [
+      3,
+      2,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 8 and increase the result by 5, staying on the 0-16 clock.",
+     "tokens": 30,
+     "combo": [
+      2,
+      3,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: take the number times 8 and increase the result by 5; results wrap around at 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      1,
+      0,
+      2,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Take n times 8 and increase the result by 5, staying on the 0-16 clock.",
+     "tokens": 23,
+     "combo": [
+      0,
+      2,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 5 after multiplying the number by 8 in mod-17 arithmetic. Work carefully.",
+     "tokens": 24,
+     "combo": [
+      5,
+      0,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the value you receive by 8, then add 5, all modulo 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      4,
+      1,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply n by 8, then add 5, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      2,
+      2,
+      0,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 8 and increase the result by 5; results wrap around at 17. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      2,
+      3,
+      2,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: multiply n by 8, then add 5; results wrap around at 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      3,
+      2,
+      0,
+      2,
+      2
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "The operation to perform: compute 8 times the incoming value plus 5, staying on the 0-16 clock. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      4,
+      3,
+      3,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Multiply the value you receive by 8, then add 5, all modulo 17.",
+     "tokens": 20,
+     "combo": [
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Take n times 8 and increase the result by 5 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 23,
+     "combo": [
+      0,
+      2,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply n by 8, then add 5, staying on the 0-16 clock.",
+     "tokens": 24,
+     "combo": [
+      1,
+      2,
+      0,
+      3,
+      0
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Your rule: compute 8 times the incoming value plus 5, all modulo 17. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      1,
+      3,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: take the value you receive times 8 and increase the result by 5, all modulo 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      4,
+      1,
+      2,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 5 after multiplying the number by 8 in mod-17 arithmetic. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      2,
+      0,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: compute 8 times n plus 5; results wrap around at 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      1,
+      2,
+      3,
+      2,
+      1
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "You must do the following: add 5 after multiplying the number by 8 in mod-17 arithmetic.",
+     "tokens": 23,
+     "combo": [
+      3,
+      0,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 8 times the number plus 5, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      5,
+      0,
+      3,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 8, then add 5, staying on the 0-16 clock. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      4,
+      3,
+      0,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 8 and increase the result by 5, keeping only the remainder after dividing by 17.",
+     "tokens": 31,
+     "combo": [
+      2,
+      3,
+      2,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "5": {
+   "train": [
+    {
+     "text": "Take n times 4 and increase the result by 15, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      0,
+      2,
+      2,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply the number by 4, then add 15 in mod-17 arithmetic.",
+     "tokens": 22,
+     "combo": [
+      1,
+      0,
+      0,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 15 after multiplying the value you receive by 4; results wrap around at 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      5,
+      1,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: add 15 after multiplying the value you receive by 4 in mod-17 arithmetic. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      1,
+      1,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 4 times the value you receive plus 15, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 33,
+     "combo": [
+      3,
+      1,
+      3,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 15 after multiplying the number by 4, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      2,
+      0,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: add 15 after multiplying the value you receive by 4, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 33,
+     "combo": [
+      4,
+      1,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: add 15 after multiplying n by 4 in mod-17 arithmetic.",
+     "tokens": 20,
+     "combo": [
+      1,
+      2,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Take the value you receive times 4 and increase the result by 15, keeping only the remainder after dividing by 17.",
+     "tokens": 28,
+     "combo": [
+      0,
+      1,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the incoming value by 4, then add 15 in mod-17 arithmetic. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      5,
+      3,
+      0,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Add 15 after multiplying the value you receive by 4; results wrap around at 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      0,
+      1,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: take the incoming value times 4 and increase the result by 15, keeping only the remainder after dividing by 17.",
+     "tokens": 31,
+     "combo": [
+      5,
+      3,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 4 times the incoming value plus 15; results wrap around at 17.",
+     "tokens": 24,
+     "combo": [
+      5,
+      3,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: compute 4 times the incoming value plus 15, staying on the 0-16 clock.",
+     "tokens": 25,
+     "combo": [
+      1,
+      3,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: take the incoming value times 4 and increase the result by 15, all modulo 17.",
+     "tokens": 27,
+     "combo": [
+      4,
+      3,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the incoming value by 4, then add 15, keeping only the remainder after dividing by 17.",
+     "tokens": 31,
+     "combo": [
+      3,
+      3,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Add 15 after multiplying the value you receive by 4, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      0,
+      1,
+      1,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Add 15 after multiplying n by 4, staying on the 0-16 clock.",
+     "tokens": 21,
+     "combo": [
+      0,
+      2,
+      1,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the number by 4, then add 15, all modulo 17.",
+     "tokens": 22,
+     "combo": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Multiply n by 4, then add 15 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 22,
+     "combo": [
+      0,
+      2,
+      0,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 4 and increase the result by 15; results wrap around at 17.",
+     "tokens": 29,
+     "combo": [
+      2,
+      3,
+      2,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the number by 4, then add 15, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 33,
+     "combo": [
+      4,
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 15 after multiplying n by 4, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      2,
+      2,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 15 after multiplying n by 4, staying on the 0-16 clock.",
+     "tokens": 26,
+     "combo": [
+      2,
+      2,
+      1,
+      3,
+      0
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "Your rule: add 15 after multiplying n by 4, all modulo 17.",
+     "tokens": 20,
+     "combo": [
+      1,
+      2,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the number by 4, then add 15; results wrap around at 17.",
+     "tokens": 27,
+     "combo": [
+      3,
+      0,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 4 and increase the result by 15 in mod-17 arithmetic.",
+     "tokens": 27,
+     "combo": [
+      2,
+      3,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: take the value you receive times 4 and increase the result by 15, all modulo 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      1,
+      1,
+      2,
+      0,
+      2
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "You must do the following: compute 4 times n plus 15, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      3,
+      2,
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the number by 4, then add 15; results wrap around at 17.",
+     "tokens": 25,
+     "combo": [
+      5,
+      0,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the value you receive by 4, then add 15 in mod-17 arithmetic. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      3,
+      1,
+      0,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the incoming value by 4, then add 15, all modulo 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      2,
+      3,
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Compute 4 times the incoming value plus 15, all modulo 17. Work carefully.",
+     "tokens": 21,
+     "combo": [
+      0,
+      3,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 4 times the incoming value plus 15; results wrap around at 17.",
+     "tokens": 26,
+     "combo": [
+      3,
+      3,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: compute 4 times the incoming value plus 15, keeping only the remainder after dividing by 17.",
+     "tokens": 26,
+     "combo": [
+      1,
+      3,
+      3,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Compute 4 times the value you receive plus 15 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 23,
+     "combo": [
+      0,
+      1,
+      3,
+      4,
+      1
+     ]
+    }
+   ]
+  },
+  "6": {
+   "train": [
+    {
+     "text": "Multiply n by 2, then add 9, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      0,
+      2,
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply n by 2, then add 9, staying on the 0-16 clock. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      2,
+      2,
+      0,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: take the value you receive times 2 and increase the result by 9 in mod-17 arithmetic. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      5,
+      1,
+      2,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Multiply the incoming value by 2, then add 9; results wrap around at 17.",
+     "tokens": 21,
+     "combo": [
+      0,
+      3,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 9 after multiplying the incoming value by 2, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      2,
+      3,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the number by 2, then add 9, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      4,
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 2, then add 9, all modulo 17. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      4,
+      3,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply the value you receive by 2, then add 9, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      1,
+      1,
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: multiply the value you receive by 2, then add 9 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      1,
+      0,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: compute 2 times the incoming value plus 9, staying on the 0-16 clock. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      1,
+      3,
+      3,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 9 after multiplying n by 2, all modulo 17. Do this exactly.",
+     "tokens": 25,
+     "combo": [
+      2,
+      2,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: add 9 after multiplying the number by 2; results wrap around at 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      1,
+      0,
+      1,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the value you receive by 2, then add 9, all modulo 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      5,
+      1,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 2 times the incoming value plus 9; results wrap around at 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      5,
+      3,
+      3,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: compute 2 times n plus 9; results wrap around at 17.",
+     "tokens": 20,
+     "combo": [
+      1,
+      2,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: compute 2 times n plus 9; results wrap around at 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      1,
+      2,
+      3,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: add 9 after multiplying the incoming value by 2, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      5,
+      3,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 9 after multiplying the number by 2; results wrap around at 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      5,
+      0,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 2 times the value you receive plus 9, staying on the 0-16 clock.",
+     "tokens": 26,
+     "combo": [
+      5,
+      1,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: add 9 after multiplying the number by 2 in mod-17 arithmetic.",
+     "tokens": 22,
+     "combo": [
+      4,
+      0,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the incoming value by 2, then add 9, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      1,
+      3,
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 2 times the number plus 9, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      3,
+      0,
+      3,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Multiply the number by 2, then add 9; results wrap around at 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      0,
+      0,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 2 and increase the result by 9 in mod-17 arithmetic.",
+     "tokens": 26,
+     "combo": [
+      2,
+      3,
+      2,
+      4,
+      0
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "You must do the following: take the number times 2 and increase the result by 9, staying on the 0-16 clock. Work carefully.",
+     "tokens": 33,
+     "combo": [
+      3,
+      0,
+      2,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: add 9 after multiplying the value you receive by 2 in mod-17 arithmetic.",
+     "tokens": 22,
+     "combo": [
+      1,
+      1,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the number by 2, then add 9, all modulo 17.",
+     "tokens": 24,
+     "combo": [
+      3,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: take n times 2 and increase the result by 9 in mod-17 arithmetic. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      3,
+      2,
+      2,
+      4,
+      2
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Your rule: compute 2 times the number plus 9; results wrap around at 17. Do this exactly.",
+     "tokens": 25,
+     "combo": [
+      1,
+      0,
+      3,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 2 times the number plus 9, all modulo 17. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      5,
+      0,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply n by 2, then add 9, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      2,
+      2,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 9 after multiplying the number by 2, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      3,
+      0,
+      1,
+      1,
+      2
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Apply this rule: add 9 after multiplying the incoming value by 2, all modulo 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      5,
+      3,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take n times 2 and increase the result by 9 in mod-17 arithmetic.",
+     "tokens": 24,
+     "combo": [
+      2,
+      2,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: take n times 2 and increase the result by 9; results wrap around at 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      2,
+      2,
+      2,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: compute 2 times the number plus 9, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      0,
+      3,
+      3,
+      1
+     ]
+    }
+   ]
+  },
+  "7": {
+   "train": [
+    {
+     "text": "Apply this rule: take the value you receive times 1 and increase the result by 5, keeping only the remainder after dividing by 17.",
+     "tokens": 31,
+     "combo": [
+      5,
+      1,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Take the value you receive times 1 and increase the result by 5, all modulo 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      0,
+      1,
+      2,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the number by 1, then add 5, staying on the 0-16 clock.",
+     "tokens": 27,
+     "combo": [
+      2,
+      0,
+      0,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 5 after multiplying the value you receive by 1; results wrap around at 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      5,
+      1,
+      1,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 1 times the incoming value plus 5, keeping only the remainder after dividing by 17.",
+     "tokens": 28,
+     "combo": [
+      3,
+      3,
+      3,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply n by 1, then add 5, all modulo 17. Work carefully.",
+     "tokens": 24,
+     "combo": [
+      5,
+      2,
+      0,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 5 after multiplying the incoming value by 1; results wrap around at 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      4,
+      3,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: add 5 after multiplying n by 1; results wrap around at 17.",
+     "tokens": 22,
+     "combo": [
+      5,
+      2,
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Take the number times 1 and increase the result by 5, all modulo 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      0,
+      0,
+      2,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Take the value you receive times 1 and increase the result by 5 in mod-17 arithmetic. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      0,
+      1,
+      2,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: multiply the number by 1, then add 5, staying on the 0-16 clock.",
+     "tokens": 25,
+     "combo": [
+      1,
+      0,
+      0,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 1 times the number plus 5 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      5,
+      0,
+      3,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply n by 1, then add 5, staying on the 0-16 clock.",
+     "tokens": 26,
+     "combo": [
+      2,
+      2,
+      0,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the value you receive by 1, then add 5, all modulo 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      3,
+      1,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 1 times the number plus 5 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 25,
+     "combo": [
+      2,
+      0,
+      3,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 1 and increase the result by 5 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      2,
+      3,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply the value you receive by 1, then add 5 in mod-17 arithmetic. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      1,
+      1,
+      0,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 1 times the incoming value plus 5, staying on the 0-16 clock.",
+     "tokens": 27,
+     "combo": [
+      3,
+      3,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Compute 1 times the incoming value plus 5 in mod-17 arithmetic.",
+     "tokens": 17,
+     "combo": [
+      0,
+      3,
+      3,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the value you receive by 1, then add 5, staying on the 0-16 clock.",
+     "tokens": 29,
+     "combo": [
+      4,
+      1,
+      0,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Compute 1 times n plus 5, all modulo 17. Do this exactly.",
+     "tokens": 19,
+     "combo": [
+      0,
+      2,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 1 times n plus 5, staying on the 0-16 clock. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      2,
+      3,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: take the incoming value times 1 and increase the result by 5 in mod-17 arithmetic.",
+     "tokens": 26,
+     "combo": [
+      4,
+      3,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 5 after multiplying the value you receive by 1, staying on the 0-16 clock. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      3,
+      1,
+      1,
+      3,
+      2
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "You must do the following: take the value you receive times 1 and increase the result by 5 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      3,
+      1,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the value you receive by 1, then add 5, keeping only the remainder after dividing by 17.",
+     "tokens": 30,
+     "combo": [
+      2,
+      1,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: add 5 after multiplying the number by 1 in mod-17 arithmetic. Work carefully.",
+     "tokens": 23,
+     "combo": [
+      1,
+      0,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 1 times the number plus 5, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      2,
+      0,
+      3,
+      3,
+      1
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "The operation to perform: add 5 after multiplying the number by 1 in mod-17 arithmetic. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      4,
+      0,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply n by 1, then add 5, all modulo 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      4,
+      2,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: compute 1 times the value you receive plus 5, staying on the 0-16 clock.",
+     "tokens": 25,
+     "combo": [
+      1,
+      1,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: add 5 after multiplying the number by 1 in mod-17 arithmetic.",
+     "tokens": 22,
+     "combo": [
+      4,
+      0,
+      1,
+      4,
+      0
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Your instruction is this: take the value you receive times 1 and increase the result by 5, keeping only the remainder after dividing by 17.",
+     "tokens": 32,
+     "combo": [
+      2,
+      1,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 1 and increase the result by 5, staying on the 0-16 clock.",
+     "tokens": 30,
+     "combo": [
+      2,
+      3,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the incoming value by 1, then add 5; results wrap around at 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      5,
+      3,
+      0,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: multiply the incoming value by 1, then add 5, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      1,
+      3,
+      0,
+      1,
+      0
+     ]
+    }
+   ]
+  },
+  "8": {
+   "train": [
+    {
+     "text": "Your instruction is this: add 8 after multiplying n by 13; results wrap around at 17. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      2,
+      2,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: add 8 after multiplying the value you receive by 13, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      5,
+      1,
+      1,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: take the value you receive times 13 and increase the result by 8, all modulo 17.",
+     "tokens": 28,
+     "combo": [
+      4,
+      1,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the incoming value by 13, then add 8, all modulo 17.",
+     "tokens": 23,
+     "combo": [
+      1,
+      3,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the value you receive by 13, then add 8 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      1,
+      1,
+      0,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply n by 13, then add 8, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      5,
+      2,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: multiply the value you receive by 13, then add 8, all modulo 17.",
+     "tokens": 24,
+     "combo": [
+      1,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the incoming value by 13, then add 8, keeping only the remainder after dividing by 17.",
+     "tokens": 31,
+     "combo": [
+      3,
+      3,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 8 after multiplying n by 13, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      2,
+      2,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Compute 13 times the value you receive plus 8 in mod-17 arithmetic.",
+     "tokens": 19,
+     "combo": [
+      0,
+      1,
+      3,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 8 after multiplying the value you receive by 13, all modulo 17.",
+     "tokens": 25,
+     "combo": [
+      2,
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 8 after multiplying the incoming value by 13, all modulo 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      2,
+      3,
+      1,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: take the value you receive times 13 and increase the result by 8; results wrap around at 17.",
+     "tokens": 31,
+     "combo": [
+      3,
+      1,
+      2,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply n by 13, then add 8, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      5,
+      2,
+      0,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the number times 13 and increase the result by 8, all modulo 17.",
+     "tokens": 26,
+     "combo": [
+      2,
+      0,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 8 after multiplying n by 13 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      3,
+      2,
+      1,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: take the number times 13 and increase the result by 8 in mod-17 arithmetic. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      1,
+      0,
+      2,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply n by 13, then add 8; results wrap around at 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      4,
+      2,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: add 8 after multiplying the incoming value by 13, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      1,
+      3,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the value you receive by 13, then add 8, all modulo 17.",
+     "tokens": 27,
+     "combo": [
+      3,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the incoming value by 13, then add 8; results wrap around at 17.",
+     "tokens": 27,
+     "combo": [
+      4,
+      3,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the number by 13, then add 8 in mod-17 arithmetic.",
+     "tokens": 23,
+     "combo": [
+      5,
+      0,
+      0,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the incoming value times 13 and increase the result by 8, all modulo 17.",
+     "tokens": 27,
+     "combo": [
+      2,
+      3,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: add 8 after multiplying n by 13, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      4,
+      2,
+      1,
+      1,
+      0
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "You must do the following: multiply the number by 13, then add 8; results wrap around at 17.",
+     "tokens": 27,
+     "combo": [
+      3,
+      0,
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 13 times the value you receive plus 8, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      5,
+      1,
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the number by 13, then add 8; results wrap around at 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      3,
+      0,
+      0,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: take n times 13 and increase the result by 8, keeping only the remainder after dividing by 17.",
+     "tokens": 31,
+     "combo": [
+      3,
+      2,
+      2,
+      1,
+      0
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Your rule: take the value you receive times 13 and increase the result by 8; results wrap around at 17.",
+     "tokens": 28,
+     "combo": [
+      1,
+      1,
+      2,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 13 times n plus 8 in mod-17 arithmetic. Work carefully.",
+     "tokens": 24,
+     "combo": [
+      2,
+      2,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Multiply n by 13, then add 8 in mod-17 arithmetic.",
+     "tokens": 18,
+     "combo": [
+      0,
+      2,
+      0,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 8 after multiplying the value you receive by 13, all modulo 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      3,
+      1,
+      1,
+      0,
+      2
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Apply this rule: multiply the number by 13, then add 8 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      5,
+      0,
+      0,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: take n times 13 and increase the result by 8, keeping only the remainder after dividing by 17.",
+     "tokens": 30,
+     "combo": [
+      4,
+      2,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: take the incoming value times 13 and increase the result by 8; results wrap around at 17.",
+     "tokens": 28,
+     "combo": [
+      5,
+      3,
+      2,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Take the value you receive times 13 and increase the result by 8, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      0,
+      1,
+      2,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  "9": {
+   "train": [
+    {
+     "text": "Apply this rule: multiply the incoming value by 7, then add 7, keeping only the remainder after dividing by 17.",
+     "tokens": 28,
+     "combo": [
+      5,
+      3,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the number by 7, then add 7, all modulo 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      2,
+      0,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 7 after multiplying the incoming value by 7; results wrap around at 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      3,
+      3,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: take n times 7 and increase the result by 7, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 30,
+     "combo": [
+      1,
+      2,
+      2,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Compute 7 times n plus 7 in mod-17 arithmetic.",
+     "tokens": 15,
+     "combo": [
+      0,
+      2,
+      3,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 7 after multiplying the incoming value by 7; results wrap around at 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      2,
+      3,
+      1,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the value you receive by 7, then add 7, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      5,
+      1,
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: take the value you receive times 7 and increase the result by 7; results wrap around at 17. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      4,
+      1,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the value you receive by 7, then add 7, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      5,
+      1,
+      0,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 7 times n plus 7, keeping only the remainder after dividing by 17.",
+     "tokens": 24,
+     "combo": [
+      5,
+      2,
+      3,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 7 after multiplying the value you receive by 7 in mod-17 arithmetic.",
+     "tokens": 24,
+     "combo": [
+      2,
+      1,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 7 times the incoming value plus 7, all modulo 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      2,
+      3,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: take the incoming value times 7 and increase the result by 7 in mod-17 arithmetic.",
+     "tokens": 27,
+     "combo": [
+      3,
+      3,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 7 times the incoming value plus 7; results wrap around at 17.",
+     "tokens": 24,
+     "combo": [
+      2,
+      3,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: compute 7 times the number plus 7, all modulo 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      3,
+      0,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 7 times n plus 7, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      3,
+      2,
+      3,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply n by 7, then add 7; results wrap around at 17. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      4,
+      2,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: multiply the number by 7, then add 7 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      5,
+      0,
+      0,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 7 times the value you receive plus 7 in mod-17 arithmetic.",
+     "tokens": 22,
+     "combo": [
+      5,
+      1,
+      3,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: take the value you receive times 7 and increase the result by 7; results wrap around at 17. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      2,
+      1,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: take the incoming value times 7 and increase the result by 7, keeping only the remainder after dividing by 17.",
+     "tokens": 30,
+     "combo": [
+      5,
+      3,
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 7 after multiplying the value you receive by 7 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      5,
+      1,
+      1,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: take the incoming value times 7 and increase the result by 7 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      1,
+      3,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply n by 7, then add 7, all modulo 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      1,
+      2,
+      0,
+      0,
+      1
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "Your rule: take the number times 7 and increase the result by 7, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      1,
+      0,
+      2,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 7 times the number plus 7, keeping only the remainder after dividing by 17.",
+     "tokens": 26,
+     "combo": [
+      2,
+      0,
+      3,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: compute 7 times the incoming value plus 7; results wrap around at 17.",
+     "tokens": 22,
+     "combo": [
+      1,
+      3,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Take the value you receive times 7 and increase the result by 7, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      0,
+      1,
+      2,
+      1,
+      0
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Apply this rule: add 7 after multiplying n by 7; results wrap around at 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      5,
+      2,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 7 times the value you receive plus 7, staying on the 0-16 clock. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      5,
+      1,
+      3,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: multiply the number by 7, then add 7; results wrap around at 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      3,
+      0,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: compute 7 times n plus 7, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      1,
+      2,
+      3,
+      1,
+      1
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "Your instruction is this: take n times 7 and increase the result by 7; results wrap around at 17. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      2,
+      2,
+      2,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: add 7 after multiplying the number by 7, staying on the 0-16 clock. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      4,
+      0,
+      1,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: compute 7 times the number plus 7; results wrap around at 17.",
+     "tokens": 21,
+     "combo": [
+      1,
+      0,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: add 7 after multiplying n by 7; results wrap around at 17.",
+     "tokens": 23,
+     "combo": [
+      2,
+      2,
+      1,
+      2,
+      0
+     ]
+    }
+   ]
+  },
+  "10": {
+   "train": [
+    {
+     "text": "Your instruction is this: add 7 after multiplying the incoming value by 12, keeping only the remainder after dividing by 17.",
+     "tokens": 29,
+     "combo": [
+      2,
+      3,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: add 7 after multiplying the number by 12, all modulo 17.",
+     "tokens": 23,
+     "combo": [
+      4,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 12 times n plus 7; results wrap around at 17. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      4,
+      2,
+      3,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: take the value you receive times 12 and increase the result by 7, staying on the 0-16 clock.",
+     "tokens": 33,
+     "combo": [
+      3,
+      1,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 12 times n plus 7, all modulo 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      5,
+      2,
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: add 7 after multiplying the value you receive by 12 in mod-17 arithmetic. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      4,
+      1,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: add 7 after multiplying the value you receive by 12, keeping only the remainder after dividing by 17.",
+     "tokens": 28,
+     "combo": [
+      1,
+      1,
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: take n times 12 and increase the result by 7 in mod-17 arithmetic.",
+     "tokens": 26,
+     "combo": [
+      3,
+      2,
+      2,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 12 times the incoming value plus 7, keeping only the remainder after dividing by 17.",
+     "tokens": 27,
+     "combo": [
+      5,
+      3,
+      3,
+      1,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 12 times the incoming value plus 7, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      2,
+      3,
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply n by 12, then add 7, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 32,
+     "combo": [
+      2,
+      2,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 7 after multiplying the incoming value by 12, staying on the 0-16 clock. Work carefully.",
+     "tokens": 32,
+     "combo": [
+      3,
+      3,
+      1,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Take the number times 12 and increase the result by 7, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      0,
+      0,
+      2,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Add 7 after multiplying n by 12, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      0,
+      2,
+      1,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 12 times the number plus 7 in mod-17 arithmetic.",
+     "tokens": 22,
+     "combo": [
+      2,
+      0,
+      3,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Add 7 after multiplying n by 12, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      0,
+      2,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Multiply the incoming value by 12, then add 7; results wrap around at 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      0,
+      3,
+      0,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: multiply the incoming value by 12, then add 7, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      1,
+      3,
+      0,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: add 7 after multiplying the value you receive by 12, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      1,
+      1,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: add 7 after multiplying the value you receive by 12, staying on the 0-16 clock. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      5,
+      1,
+      1,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: compute 12 times the incoming value plus 7 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 25,
+     "combo": [
+      1,
+      3,
+      3,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: take the number times 12 and increase the result by 7; results wrap around at 17. Work carefully.",
+     "tokens": 29,
+     "combo": [
+      1,
+      0,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Take the incoming value times 12 and increase the result by 7 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      0,
+      3,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 12 times the number plus 7, all modulo 17. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      2,
+      0,
+      3,
+      0,
+      2
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "Your rule: multiply n by 12, then add 7; results wrap around at 17. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      1,
+      2,
+      0,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: compute 12 times n plus 7, staying on the 0-16 clock. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      1,
+      2,
+      3,
+      3,
+      2
+     ]
+    },
+    {
+     "text": "Multiply the number by 12, then add 7, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      0,
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "text": "Compute 12 times the incoming value plus 7, all modulo 17. Work carefully.",
+     "tokens": 21,
+     "combo": [
+      0,
+      3,
+      3,
+      0,
+      2
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "You must do the following: take the incoming value times 12 and increase the result by 7, all modulo 17. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      3,
+      3,
+      2,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 12 times the number plus 7; results wrap around at 17.",
+     "tokens": 23,
+     "combo": [
+      5,
+      0,
+      3,
+      2,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: take the number times 12 and increase the result by 7, staying on the 0-16 clock.",
+     "tokens": 29,
+     "combo": [
+      5,
+      0,
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Add 7 after multiplying the incoming value by 12, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 27,
+     "combo": [
+      0,
+      3,
+      1,
+      3,
+      1
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "The operation to perform: compute 12 times the value you receive plus 7, staying on the 0-16 clock.",
+     "tokens": 28,
+     "combo": [
+      4,
+      1,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: compute 12 times the number plus 7, staying on the 0-16 clock.",
+     "tokens": 27,
+     "combo": [
+      3,
+      0,
+      3,
+      3,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: compute 12 times n plus 7, all modulo 17. Work carefully.",
+     "tokens": 22,
+     "combo": [
+      1,
+      2,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Multiply the value you receive by 12, then add 7, staying on the 0-16 clock.",
+     "tokens": 25,
+     "combo": [
+      0,
+      1,
+      0,
+      3,
+      0
+     ]
+    }
+   ]
+  },
+  "11": {
+   "train": [
+    {
+     "text": "Apply this rule: take the value you receive times 11 and increase the result by 3, all modulo 17. Do this exactly.",
+     "tokens": 31,
+     "combo": [
+      5,
+      1,
+      2,
+      0,
+      1
+     ]
+    },
+    {
+     "text": "Add 3 after multiplying the incoming value by 11 in mod-17 arithmetic.",
+     "tokens": 19,
+     "combo": [
+      0,
+      3,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Apply this rule: add 3 after multiplying the value you receive by 11 in mod-17 arithmetic. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      5,
+      1,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: multiply the value you receive by 11, then add 3; results wrap around at 17. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      4,
+      1,
+      0,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: add 3 after multiplying the value you receive by 11, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 31,
+     "combo": [
+      1,
+      1,
+      1,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: add 3 after multiplying the incoming value by 11 in mod-17 arithmetic. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      5,
+      3,
+      1,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Compute 11 times the number plus 3; results wrap around at 17. Do this exactly.",
+     "tokens": 23,
+     "combo": [
+      0,
+      0,
+      3,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "The operation to perform: add 3 after multiplying n by 11, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 30,
+     "combo": [
+      4,
+      2,
+      1,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "Apply this rule: take n times 11 and increase the result by 3, all modulo 17.",
+     "tokens": 24,
+     "combo": [
+      5,
+      2,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 11 times n plus 3 in mod-17 arithmetic. Work carefully.",
+     "tokens": 24,
+     "combo": [
+      4,
+      2,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "Your rule: take n times 11 and increase the result by 3; results wrap around at 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      1,
+      2,
+      2,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 11 times the number plus 3, all modulo 17. Work carefully.",
+     "tokens": 26,
+     "combo": [
+      3,
+      0,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 11 times the incoming value plus 3, all modulo 17.",
+     "tokens": 23,
+     "combo": [
+      4,
+      3,
+      3,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the value you receive by 11, then add 3, all modulo 17.",
+     "tokens": 26,
+     "combo": [
+      2,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: take the incoming value times 11 and increase the result by 3 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      1,
+      3,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 3 after multiplying the incoming value by 11 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      3,
+      3,
+      1,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Add 3 after multiplying the number by 11; results wrap around at 17. Do this exactly.",
+     "tokens": 24,
+     "combo": [
+      0,
+      0,
+      1,
+      2,
+      1
+     ]
+    },
+    {
+     "text": "Your rule: take the number times 11 and increase the result by 3 in mod-17 arithmetic. Do this exactly.",
+     "tokens": 28,
+     "combo": [
+      1,
+      0,
+      2,
+      4,
+      1
+     ]
+    },
+    {
+     "text": "Your instruction is this: multiply the incoming value by 11, then add 3, all modulo 17.",
+     "tokens": 25,
+     "combo": [
+      2,
+      3,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: add 3 after multiplying the number by 11, all modulo 17.",
+     "tokens": 21,
+     "combo": [
+      1,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "The operation to perform: add 3 after multiplying n by 11; results wrap around at 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      2,
+      1,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: take the incoming value times 11 and increase the result by 3, all modulo 17.",
+     "tokens": 28,
+     "combo": [
+      3,
+      3,
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 3 after multiplying the incoming value by 11 in mod-17 arithmetic.",
+     "tokens": 25,
+     "combo": [
+      3,
+      3,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Your rule: add 3 after multiplying the number by 11, keeping only the remainder after dividing by 17.",
+     "tokens": 26,
+     "combo": [
+      1,
+      0,
+      1,
+      1,
+      0
+     ]
+    }
+   ],
+   "dev": [
+    {
+     "text": "The operation to perform: take n times 11 and increase the result by 3, staying on the 0-16 clock. Do this exactly.",
+     "tokens": 33,
+     "combo": [
+      4,
+      2,
+      2,
+      3,
+      1
+     ]
+    },
+    {
+     "text": "You must do the following: add 3 after multiplying the incoming value by 11, keeping only the remainder after dividing by 17. Work carefully.",
+     "tokens": 33,
+     "combo": [
+      3,
+      3,
+      1,
+      1,
+      2
+     ]
+    },
+    {
+     "text": "Your instruction is this: compute 11 times the value you receive plus 3 in mod-17 arithmetic.",
+     "tokens": 24,
+     "combo": [
+      2,
+      1,
+      3,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "You must do the following: add 3 after multiplying the number by 11, staying on the 0-16 clock.",
+     "tokens": 28,
+     "combo": [
+      3,
+      0,
+      1,
+      3,
+      0
+     ]
+    }
+   ],
+   "qual": [
+    {
+     "text": "Apply this rule: compute 11 times the number plus 3 in mod-17 arithmetic. Work carefully.",
+     "tokens": 24,
+     "combo": [
+      5,
+      0,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 11 times n plus 3 in mod-17 arithmetic. Work carefully.",
+     "tokens": 25,
+     "combo": [
+      3,
+      2,
+      3,
+      4,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: add 3 after multiplying n by 11 in mod-17 arithmetic.",
+     "tokens": 22,
+     "combo": [
+      4,
+      2,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "text": "Multiply the incoming value by 11, then add 3, keeping only the remainder after dividing by 17. Do this exactly.",
+     "tokens": 29,
+     "combo": [
+      0,
+      3,
+      0,
+      1,
+      1
+     ]
+    }
+   ],
+   "sealed": [
+    {
+     "text": "You must do the following: compute 11 times the incoming value plus 3, all modulo 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      3,
+      3,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "The operation to perform: compute 11 times the number plus 3; results wrap around at 17. Work carefully.",
+     "tokens": 27,
+     "combo": [
+      4,
+      0,
+      3,
+      2,
+      2
+     ]
+    },
+    {
+     "text": "You must do the following: compute 11 times the value you receive plus 3, all modulo 17. Work carefully.",
+     "tokens": 28,
+     "combo": [
+      3,
+      1,
+      3,
+      0,
+      2
+     ]
+    },
+    {
+     "text": "Apply this rule: compute 11 times the incoming value plus 3, all modulo 17. Do this exactly.",
+     "tokens": 26,
+     "combo": [
+      5,
+      3,
+      3,
+      0,
+      1
+     ]
+    }
+   ]
+  }
+ },
+ "hash": "def14eb4182e2949"
+}

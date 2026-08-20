@@ -1,0 +1,27 @@
+{
+ "ckpt": "results/run3v_F_P_m201_o951_ckpt_final.pt",
+ "arm": "P",
+ "model_seed": 201,
+ "order_seed": 951,
+ "batch_stream_hash": "7c553a3a289ada0e65bb6d67a9350514633300b7eee77a8309294b913b796e3f",
+ "tokens_per_cell_call": 132,
+ "cell_calls_per_episode": 4,
+ "l0": 1.0,
+ "l1_qual": 0.9926,
+ "diag2": 0.9926,
+ "diag3": 0.9338,
+ "allcut_diag2": 0.0588,
+ "allcut_diag3": 0.0588,
+ "packet_shuffle3": 0.69,
+ "single_cell3": {
+  "0": 0.0686,
+  "1": 0.0588,
+  "2": 0.0588,
+  "3": 0.0588
+ },
+ "best_single_cell3": 0.0686,
+ "train2_exact": 1.0,
+ "train3_exact_sub150": 1.0,
+ "packets_finite": true,
+ "beta_buffer": 0.003000000026077032
+}

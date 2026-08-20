@@ -1,0 +1,27 @@
+{
+ "ckpt": "results/run3v_F_G_m200_o950_ckpt_final.pt",
+ "arm": "G",
+ "model_seed": 200,
+ "order_seed": 950,
+ "batch_stream_hash": "b5358418b1f8296ee0989cee42efc997e839b6dc2e155572dbded344064c03c8",
+ "tokens_per_cell_call": 132,
+ "cell_calls_per_episode": 4,
+ "l0": 1.0,
+ "l1_qual": 0.9816,
+ "diag2": 0.098,
+ "diag3": 0.0787,
+ "allcut_diag2": 0.0858,
+ "allcut_diag3": 0.0701,
+ "packet_shuffle3": 0.0735,
+ "single_cell3": {
+  "0": 0.0701,
+  "1": 0.0701,
+  "2": 0.0701,
+  "3": 0.0701
+ },
+ "best_single_cell3": 0.0701,
+ "train2_exact": 1.0,
+ "train3_exact_sub150": 0.7776,
+ "packets_finite": true,
+ "beta_buffer": 0.003000000026077032
+}

@@ -1,0 +1,14 @@
+{
+ "ckpt": "results/run3v_F_G_m201_o951_ckpt_final.pt",
+ "arm": "G",
+ "model_seed": 201,
+ "order_seed": 951,
+ "diag2_n_novel_seqs": 3,
+ "diag2_n_redundant_seqs": 9,
+ "diag2_map_novel": 0.1176,
+ "diag2_map_redundant": 0.067,
+ "diag3_n_novel_seqs": 13,
+ "diag3_n_redundant_seqs": 47,
+ "diag3_map_novel": 0.069,
+ "diag3_map_redundant": 0.0638
+}

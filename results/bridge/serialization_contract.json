@@ -1,0 +1,19 @@
+{
+ "T_QUESTION": 54,
+ "T_SPAN": 33,
+ "span_len_min": 11,
+ "n_span_texts": 186,
+ "padding_side": "right",
+ "pad_token_id": 151643,
+ "truncation": "forbidden-asserted",
+ "attn_implementation": "eager",
+ "add_special_tokens": false,
+ "chat_template": "none (raw)",
+ "versions": {
+  "torch": "2.13.0",
+  "transformers": "5.14.1",
+  "peft": "0.20.0",
+  "python": "3.12.13"
+ },
+ "tokenizer_revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+}

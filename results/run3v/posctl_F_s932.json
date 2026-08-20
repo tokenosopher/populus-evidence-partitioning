@@ -1,0 +1,212 @@
+{
+ "seed": 932,
+ "resumed_from": {
+  "ckpt": "results/posctl_F_s932_ckpt_10000.pt",
+  "step": 15000
+ },
+ "mixture": "L0:0.10/L1:0.25/L2:0.325/L3:0.325",
+ "trajectory": [
+  {
+   "step": 250,
+   "loss": 0.186,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0023,
+   "diag2": 0.0833,
+   "diag2_ce": 4.9985,
+   "diag3": 0.1019,
+   "diag3_ce": 4.5442
+  },
+  {
+   "step": 500,
+   "loss": 0.249,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0021,
+   "diag2": 0.0926,
+   "diag2_ce": 5.0849,
+   "diag3": 0.0944,
+   "diag3_ce": 4.5941
+  },
+  {
+   "step": 750,
+   "loss": 0.124,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.002,
+   "diag2": 0.0741,
+   "diag2_ce": 5.0709,
+   "diag3": 0.0852,
+   "diag3_ce": 4.6026
+  },
+  {
+   "step": 1000,
+   "loss": 0.08,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.002,
+   "diag2": 0.0833,
+   "diag2_ce": 5.0519,
+   "diag3": 0.1,
+   "diag3_ce": 4.6146
+  },
+  {
+   "step": 1250,
+   "loss": 0.242,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0019,
+   "diag2": 0.0926,
+   "diag2_ce": 5.1638,
+   "diag3": 0.0981,
+   "diag3_ce": 4.6088
+  },
+  {
+   "step": 1500,
+   "loss": 0.278,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0019,
+   "diag2": 0.0926,
+   "diag2_ce": 5.0916,
+   "diag3": 0.1093,
+   "diag3_ce": 4.6375
+  },
+  {
+   "step": 1750,
+   "loss": 0.145,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0018,
+   "diag2": 0.0833,
+   "diag2_ce": 5.0735,
+   "diag3": 0.1037,
+   "diag3_ce": 4.6171
+  },
+  {
+   "step": 2000,
+   "loss": 0.126,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0017,
+   "diag2": 0.0833,
+   "diag2_ce": 5.1098,
+   "diag3": 0.0963,
+   "diag3_ce": 4.7064
+  },
+  {
+   "step": 2250,
+   "loss": 0.12,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0016,
+   "diag2": 0.0926,
+   "diag2_ce": 5.1071,
+   "diag3": 0.0963,
+   "diag3_ce": 4.7608
+  },
+  {
+   "step": 2500,
+   "loss": 0.065,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0015,
+   "diag2": 0.0926,
+   "diag2_ce": 5.1747,
+   "diag3": 0.1093,
+   "diag3_ce": 4.7557
+  },
+  {
+   "step": 2750,
+   "loss": 0.061,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0015,
+   "diag2": 0.1019,
+   "diag2_ce": 5.1898,
+   "diag3": 0.1019,
+   "diag3_ce": 4.7961
+  },
+  {
+   "step": 3000,
+   "loss": 0.029,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0014,
+   "diag2": 0.0833,
+   "diag2_ce": 5.1754,
+   "diag3": 0.0981,
+   "diag3_ce": 4.8295
+  },
+  {
+   "step": 3250,
+   "loss": 0.201,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0014,
+   "diag2": 0.0926,
+   "diag2_ce": 5.1561,
+   "diag3": 0.1056,
+   "diag3_ce": 4.8255
+  },
+  {
+   "step": 3500,
+   "loss": 0.158,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0013,
+   "diag2": 0.1019,
+   "diag2_ce": 5.222,
+   "diag3": 0.1056,
+   "diag3_ce": 4.8494
+  },
+  {
+   "step": 3750,
+   "loss": 0.111,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0013,
+   "diag2": 0.0926,
+   "diag2_ce": 5.265,
+   "diag3": 0.1056,
+   "diag3_ce": 4.8819
+  },
+  {
+   "step": 4000,
+   "loss": 0.041,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0012,
+   "diag2": 0.1019,
+   "diag2_ce": 5.2361,
+   "diag3": 0.1056,
+   "diag3_ce": 4.8563
+  },
+  {
+   "step": 4250,
+   "loss": 0.069,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0012,
+   "diag2": 0.0926,
+   "diag2_ce": 5.3086,
+   "diag3": 0.1037,
+   "diag3_ce": 4.8873
+  },
+  {
+   "step": 4500,
+   "loss": 0.024,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0012,
+   "diag2": 0.0926,
+   "diag2_ce": 5.2907,
+   "diag3": 0.0981,
+   "diag3_ce": 4.9043
+  },
+  {
+   "step": 4750,
+   "loss": 0.035,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0011,
+   "diag2": 0.0926,
+   "diag2_ce": 5.3008,
+   "diag3": 0.0981,
+   "diag3_ce": 4.9358
+  },
+  {
+   "step": 5000,
+   "loss": 0.041,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0011,
+   "diag2": 0.0926,
+   "diag2_ce": 5.2818,
+   "diag3": 0.0981,
+   "diag3_ce": 4.9381
+  }
+ ],
+ "wall_s": 14458,
+ "gpu": "NVIDIA RTX A6000"
+}

@@ -1,0 +1,212 @@
+{
+ "seed": 933,
+ "resumed_from": {
+  "ckpt": "results/posctl_F_s933_ckpt_10000.pt",
+  "step": 15000
+ },
+ "mixture": "L0:0.10/L1:0.25/L2:0.325/L3:0.325",
+ "trajectory": [
+  {
+   "step": 250,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0003,
+   "diag2": 0.963,
+   "diag2_ce": 0.1112,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0386
+  },
+  {
+   "step": 500,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0003,
+   "diag2": 0.963,
+   "diag2_ce": 0.1121,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0378
+  },
+  {
+   "step": 750,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0003,
+   "diag2": 0.963,
+   "diag2_ce": 0.1153,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0373
+  },
+  {
+   "step": 1000,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.963,
+   "diag2_ce": 0.1155,
+   "diag3": 0.9889,
+   "diag3_ce": 0.037
+  },
+  {
+   "step": 1250,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.963,
+   "diag2_ce": 0.1172,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0368
+  },
+  {
+   "step": 1500,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.963,
+   "diag2_ce": 0.1184,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0368
+  },
+  {
+   "step": 1750,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.963,
+   "diag2_ce": 0.12,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0368
+  },
+  {
+   "step": 2000,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1212,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0373
+  },
+  {
+   "step": 2250,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1227,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0372
+  },
+  {
+   "step": 2500,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1226,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0366
+  },
+  {
+   "step": 2750,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1223,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0359
+  },
+  {
+   "step": 3000,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1238,
+   "diag3": 0.9889,
+   "diag3_ce": 0.0356
+  },
+  {
+   "step": 3250,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1238,
+   "diag3": 0.9889,
+   "diag3_ce": 0.035
+  },
+  {
+   "step": 3500,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1228,
+   "diag3": 0.9907,
+   "diag3_ce": 0.0343
+  },
+  {
+   "step": 3750,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1245,
+   "diag3": 0.9907,
+   "diag3_ce": 0.0343
+  },
+  {
+   "step": 4000,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0002,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1245,
+   "diag3": 0.9907,
+   "diag3_ce": 0.0334
+  },
+  {
+   "step": 4250,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0001,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1254,
+   "diag3": 0.9926,
+   "diag3_ce": 0.033
+  },
+  {
+   "step": 4500,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0001,
+   "diag2": 0.9722,
+   "diag2_ce": 0.1258,
+   "diag3": 0.9926,
+   "diag3_ce": 0.033
+  },
+  {
+   "step": 4750,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0001,
+   "diag2": 0.9815,
+   "diag2_ce": 0.1251,
+   "diag3": 0.9926,
+   "diag3_ce": 0.0331
+  },
+  {
+   "step": 5000,
+   "loss": 0.0,
+   "one_op_probe": 1.0,
+   "one_op_ce": 0.0001,
+   "diag2": 0.9815,
+   "diag2_ce": 0.1265,
+   "diag3": 0.9926,
+   "diag3_ce": 0.0333
+  }
+ ],
+ "wall_s": 14550,
+ "gpu": "NVIDIA RTX A6000"
+}
