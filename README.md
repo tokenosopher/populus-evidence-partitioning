@@ -4,7 +4,7 @@
 
 Artifact release for the paper (arXiv link to follow). Author: Narcis Marincat.
 
-Four-cell societies built from one frozen Qwen2.5-0.5B-Instruct backbone with a single shared rank-8 LoRA communicate through learned two-vector continuous packets in a fixed relay. Ten matched restricted/global twin pairs — identical initialization bytes, training order, token layout, parameters, and computation, differing **only** in an attention mask — test whether restricting each cell's evidence visibility causally changes what training learns. It does: 9/10 pairs show a ≥20-point restricted advantage at both composition depths (median paired advantages 0.7648 / 0.6050), every restricted society collapses to exact chance when communication is cut, and value-indexed packet transplants show the restricted societies learn an approximately interchangeable value code. The complete preregistered battery formally fails on one absolute floor (restricted median depth-three 0.6988 vs 0.70), reported as a binding outcome.
+Four-cell societies built from one frozen Qwen2.5-0.5B-Instruct backbone with a single shared rank-8 LoRA communicate through learned two-vector continuous packets in a fixed relay. Ten matched restricted/global twin pairs — identical initialization bytes, training order, token layout, parameters, and computation, differing **only** in an attention mask — test whether restricting each cell's evidence visibility causally changes what training learns. It does: 9/10 pairs show a ≥20-point restricted advantage at both composition depths (median paired advantages 0.7648 / 0.6050), every restricted society collapses to exact chance when communication is cut, and value-indexed packet transplants show the restricted societies learn an approximately interchangeable value code. The complete preregistered battery formally fails on one absolute floor (restricted median depth-three 0.6988 vs 0.70), reported as a formal preregistered outcome.
 
 ## Contents
 
@@ -17,7 +17,7 @@ Four-cell societies built from one frozen Qwen2.5-0.5B-Instruct backbone with a 
 
 ## Checkpoints
 
-All twenty society final checkpoints (~50 MB each: trainable adapter, projections, optimizer state for bit-exact resume) and three staged-comparator finals are hosted on Hugging Face: **https://huggingface.co/tokenosopher/populus-evidence-partitioning-checkpoints**. One restricted final (init 202, order 952) additionally remains marooned on an unreachable provider instance, disclosed in the paper; its evaluation JSONs are present here.
+Nineteen of the twenty society final checkpoints and all three staged-comparator finals (~50 MB each: trainable adapter, projections, optimizer state for bit-exact resume) are hosted in the linked Hugging Face repository: **https://huggingface.co/tokenosopher/populus-evidence-partitioning-checkpoints**. The remaining restricted final — initialization 202, order 952 — is unavailable because its provider instance could not be recovered; its evaluation records are included in this repository.
 
 ## Reproducing evaluations
 
