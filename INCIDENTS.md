@@ -25,5 +25,12 @@ golden-fingerprint reproduction (two gates per machine).
    Final checkpoints and all reported evaluations are unaffected; the
    trajectory figure in the paper states its coverage.
 
+5. **Staged-control resume lineage.** Secondary staged-control runs
+   experienced checkpoint-filename reuse across successive resumes; final
+   lineage was reconstructed from the checkpoint-internal step field, and
+   every reported final was verified at internal step 20,000.
+6. **Checksum-failed transfer.** One transferred checkpoint copy failed
+   checksum and was evaluated from the verified local copy.
+
 No checkpoint selection occurred at any point: all evaluations use final
 checkpoints only.

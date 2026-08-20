@@ -17,7 +17,7 @@ Four-cell societies built from one frozen Qwen2.5-0.5B-Instruct backbone with a 
 
 ## Checkpoints
 
-All twenty society final checkpoints (~50 MB each: trainable adapter, projections, optimizer state for bit-exact resume) and three staged-comparator finals are hosted on Hugging Face: **[link to follow]**. One restricted final (init 202, order 952) additionally remains marooned on an unreachable provider instance, disclosed in the paper; its evaluation JSONs are present here.
+All twenty society final checkpoints (~50 MB each: trainable adapter, projections, optimizer state for bit-exact resume) and three staged-comparator finals are hosted on Hugging Face: **https://huggingface.co/tokenosopher/populus-evidence-partitioning-checkpoints**. One restricted final (init 202, order 952) additionally remains marooned on an unreachable provider instance, disclosed in the paper; its evaluation JSONs are present here.
 
 ## Reproducing evaluations
 
