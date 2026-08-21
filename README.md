@@ -2,7 +2,7 @@
 
 **Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies**
 
-Artifact release for the paper (arXiv link to follow). Author: Narcis Marincat.
+Artifact release for the paper: **[arXiv:2608.20054](https://arxiv.org/abs/2608.20054)** (cs.AI; cross-listed cs.LG, cs.MA). Author: Narcis Marincat.
 
 Four-cell societies built from one frozen Qwen2.5-0.5B-Instruct backbone with a single shared rank-8 LoRA communicate through learned two-vector continuous packets in a fixed relay. Ten matched restricted/global twin pairs — identical initialization bytes, training order, token layout, parameters, and computation, differing **only** in an attention mask — test whether restricting each cell's evidence visibility causally changes what training learns. It does: 9/10 pairs show a ≥20-point restricted advantage at both composition depths (median paired advantages 0.7648 / 0.6050), every restricted society collapses to exact chance when communication is cut, and value-indexed packet transplants show the restricted societies learn an approximately interchangeable value code. The complete preregistered battery formally fails on one absolute floor (restricted median depth-three 0.6988 vs 0.70), reported as a formal preregistered outcome.
 
@@ -33,3 +33,16 @@ The task world regenerates from the seeds above; hashes must match `PREREGISTRAT
 ## License
 
 Code: MIT (see `LICENSE`). Result data and documents: CC BY 4.0.
+
+## Citation
+
+```bibtex
+@article{marincat2026restricted,
+  title={What You Can't See Is What You Learn: Restricted Evidence
+         Visibility Favors Compositional Generalization in
+         Shared-Genome Language-Model Societies},
+  author={Marincat, Narcis},
+  journal={arXiv preprint arXiv:2608.20054},
+  year={2026}
+}
+```
