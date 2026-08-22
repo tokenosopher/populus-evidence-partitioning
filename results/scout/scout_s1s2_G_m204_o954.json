@@ -1,0 +1,21 @@
+{
+ "ckpt": "ckpts/run3v_F_G_m204_o954_ckpt_final.pt",
+ "arm": "G",
+ "d_bank_hash": "2bd0b301a5b079b1",
+ "model_seed": 204,
+ "order_seed": 954,
+ "D_primitive_overlap_with_A": 0,
+ "A_train_map_count": 209,
+ "S1_diag2": 0.0882,
+ "S1_diag2_Amap_novel": 0.0765,
+ "S1_diag2_Amap_overlap": 0.0966,
+ "S2_diag2_allcut": 0.0662,
+ "diag2_n_novel": 5,
+ "diag2_n_overlap": 7,
+ "S1_diag3": 0.0549,
+ "S1_diag3_Amap_novel": 0.0543,
+ "S1_diag3_Amap_overlap": 0.0551,
+ "S2_diag3_allcut": 0.0559,
+ "diag3_n_novel": 13,
+ "diag3_n_overlap": 47
+}

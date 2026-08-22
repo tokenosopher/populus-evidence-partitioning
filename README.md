@@ -34,6 +34,17 @@ The task world regenerates from the seeds above; hashes must match `PREREGISTRAT
 
 Code: MIT (see `LICENSE`). Result data and documents: CC BY 4.0.
 
+
+## v2: Universality scout (Appendix F)
+
+Appendix F of v2 reports a prospectively frozen near-transfer scout on a
+sealed second task family (family D, `populus/bridge_tasks_d.py`, bank
+hash `2bd0b301a5b079b1`). `scout/` holds the frozen plan, launch
+manifest, and final report; `scripts/bridge_scout_*.py` are the exact
+evaluators and the transfer/learnability driver; `results/scout/`
+contains every evaluation JSON. Adaptation checkpoints are in the
+Hugging Face repository alongside the main release.
+
 ## Citation
 
 ```bibtex

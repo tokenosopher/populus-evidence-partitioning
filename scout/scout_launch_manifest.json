@@ -1,0 +1,42 @@
+{
+  "campaign": "universality_scout",
+  "frozen_plan": "PLAN_SCOUT_UNIVERSALITY.md (FROZEN AS AMENDED)",
+  "committed_utc": "2026-08-21",
+  "d_bank_hash": "2bd0b301a5b079b1",
+  "world_env": {
+    "RUN3V_WORLD": "F",
+    "BRIDGE_OP_SEED": "6011",
+    "BRIDGE_SPLIT_SEED": "2203",
+    "BRIDGE_GRAMMAR_SEED": "7717"
+  },
+  "learnability_seeds": {
+    "model_seed": 300,
+    "order_seed": 1300,
+    "data_seed": 642,
+    "note": "fresh restricted society on D; committed BEFORE launch; no seed retries"
+  },
+  "s7_data_seeds": {"m201_o951": 640, "m203_o953": 641},
+  "s1s6_checkpoints": [
+    "run3v_F_P_m200_o950_ckpt_final.pt",
+    "run3v_F_P_m201_o951_ckpt_final.pt",
+    "run3v_F_P_m203_o903_ckpt_final.pt",
+    "run3v_F_P_m203_o953_ckpt_final.pt",
+    "run3v_F_P_m204_o904_ckpt_final.pt",
+    "run3v_F_P_m204_o954_ckpt_final.pt",
+    "run3v_F_G_m204_o954_ckpt_final.pt"
+  ],
+  "s7_checkpoints": [
+    "run3v_F_P_m201_o951_ckpt_final.pt",
+    "run3v_F_P_m203_o953_ckpt_final.pt"
+  ],
+  "admission": {
+    "gate1": "bridge_golden_retrace.py --mode verify vs results/bridge/golden_trace.json (BRIDGE_SPLIT_SEED=1409), EXACT match",
+    "gate2_expected": {"P": "c7fcb21aad26951b", "G": "b7c6157b1b3b79af"},
+    "gate2_seed_candidates": [[200, 900], [999, 9990]],
+    "gate2_note": "reference invocation seeds were not recorded at fleet launch (2026-08-13); candidates tried in order; an exact 16-hex match on either candidate is conclusive admission; no match on both => machine rejected or procedure mismatch, escalate before any outcome-bearing run",
+    "gate2_resolved": "2026-08-21 on instance 48298197 (KR, 5090, driver 580.105.08): golden seeds (999, 9990) reproduce BOTH reference fingerprints exactly (P c7fcb21aad26951b, G b7c6157b1b3b79af); candidate (200, 900) gives P 7d9376101dc47699 (wrong-seed control, not a machine fault; gate 1 was already an exact MATCH)",
+    "preflight": "scout_family_d_preflight.py on box: overflow=[], checked=187, bank hash 2bd0b301a5b079b1"
+  },
+  "budget_ceiling_usd": 30,
+  "vast_credit_at_launch": 52.16
+}

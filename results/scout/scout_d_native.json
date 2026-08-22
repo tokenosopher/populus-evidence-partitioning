@@ -1,0 +1,10 @@
+{
+ "d_bank_hash": "2bd0b301a5b079b1",
+ "gpu": "NVIDIA GeForce RTX 5090",
+ "native_fullinfo_diag2_raw": 0.0588,
+ "native_fullinfo_diag2_chat": 0.0588,
+ "diag2_n_cases": 408,
+ "native_fullinfo_diag3_raw": 0.0588,
+ "native_fullinfo_diag3_chat": 0.0598,
+ "diag3_n_cases": 2040
+}

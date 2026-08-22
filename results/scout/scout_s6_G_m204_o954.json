@@ -1,0 +1,11 @@
+{
+ "ckpt": "ckpts/run3v_F_G_m204_o954_ckpt_final.pt",
+ "arm": "G",
+ "S6_program_heldout_acc": 0.04,
+ "chance": 0.058823529411764705,
+ "S6_permuted_baseline": 0.0333,
+ "S6_iface_0": 0.0,
+ "S6_iface_1": 0.07,
+ "S6_iface_2": 0.05,
+ "S6_norm_matched_random": 0.05
+}

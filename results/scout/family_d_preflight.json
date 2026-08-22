@@ -1,0 +1,17 @@
+{
+ "distinct_primitive_maps": true,
+ "all_bijections": true,
+ "chain_matches_comp_map_exhaustive": true,
+ "primitive_overlap_with_A": 0,
+ "forbidden_intersections_empty": true,
+ "termination_balance": true,
+ "bank_hash": "2bd0b301a5b079b1",
+ "bank_hash_expected": "2bd0b301a5b079b1",
+ "hash_match": true,
+ "t_span_fit": {
+  "checked": 187,
+  "max_tokens": 23,
+  "limit": 33,
+  "overflow": []
+ }
+}

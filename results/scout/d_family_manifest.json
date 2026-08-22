@@ -1,0 +1,55 @@
+{
+ "d_bank_hash": "2bd0b301a5b079b1",
+ "d_ops": [
+  [
+   "fwd",
+   7
+  ],
+  [
+   "fwd",
+   2
+  ],
+  [
+   "back",
+   4
+  ],
+  [
+   "stretch",
+   2
+  ],
+  [
+   "back",
+   1
+  ],
+  [
+   "fwd",
+   3
+  ],
+  [
+   "refl",
+   0
+  ],
+  [
+   "fwd",
+   8
+  ],
+  [
+   "refl",
+   8
+  ],
+  [
+   "refl",
+   3
+  ],
+  [
+   "stretch",
+   3
+  ],
+  [
+   "back",
+   6
+  ]
+ ],
+ "erratum": "reflection fixed to 2c-x pre-launch",
+ "diag3_overlap_Atrain": "47/60"
+}
