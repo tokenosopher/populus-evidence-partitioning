@@ -1,0 +1,382 @@
+{
+ "unclassifiable_recipients": [],
+ "caveat": "k=0 cells: effective n=1 donor per value (deterministic source packet)",
+ "pairs": {
+  "P_m200_o950->P_m201_o951": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m200_o950->P_m203_o903": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m200_o950->P_m203_o953": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m200_o950->P_m204_o904": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m200_o950->P_m204_o954": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m201_o951->P_m200_o950": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m201_o951->P_m203_o903": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m201_o951->P_m203_o953": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m201_o951->P_m204_o904": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m201_o951->P_m204_o954": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o903->P_m200_o950": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o903->P_m201_o951": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o903->P_m203_o953": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o903->P_m204_o904": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o903->P_m204_o954": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o953->P_m200_o950": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o953->P_m201_o951": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o953->P_m203_o903": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o953->P_m204_o904": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m203_o953->P_m204_o954": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o904->P_m200_o950": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o904->P_m201_o951": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o904->P_m203_o903": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o904->P_m203_o953": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o904->P_m204_o954": {
+   "A": {
+    "global_rung": "raw",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "raw",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o954->P_m200_o950": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o954->P_m201_o951": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o954->P_m203_o903": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o954->P_m203_o953": {
+   "A": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "no-low-complexity-alignment",
+    "position_specific_pass": []
+   }
+  },
+  "P_m204_o954->P_m204_o904": {
+   "A": {
+    "global_rung": "raw",
+    "position_specific_pass": []
+   },
+   "D": {
+    "global_rung": "raw",
+    "position_specific_pass": []
+   }
+  }
+ },
+ "components_raw_or_tighter": [
+  [
+   "P_m200_o950"
+  ],
+  [
+   "P_m201_o951"
+  ],
+  [
+   "P_m203_o903"
+  ],
+  [
+   "P_m203_o953"
+  ],
+  [
+   "P_m204_o904",
+   "P_m204_o954"
+  ]
+ ],
+ "components_orthogonal_or_tighter": [
+  [
+   "P_m200_o950"
+  ],
+  [
+   "P_m201_o951"
+  ],
+  [
+   "P_m203_o903"
+  ],
+  [
+   "P_m203_o953"
+  ],
+  [
+   "P_m204_o904",
+   "P_m204_o954"
+  ]
+ ],
+ "components_linear_or_tighter": [
+  [
+   "P_m200_o950"
+  ],
+  [
+   "P_m201_o951"
+  ],
+  [
+   "P_m203_o903"
+  ],
+  [
+   "P_m203_o953"
+  ],
+  [
+   "P_m204_o904",
+   "P_m204_o954"
+  ]
+ ],
+ "components_nonlinear_or_tighter": [
+  [
+   "P_m200_o950"
+  ],
+  [
+   "P_m201_o951"
+  ],
+  [
+   "P_m203_o903"
+  ],
+  [
+   "P_m203_o953"
+  ],
+  [
+   "P_m204_o904",
+   "P_m204_o954"
+  ]
+ ],
+ "all_30_pass_raw_or_tighter": false,
+ "all_30_pass_orthogonal_or_tighter": false,
+ "all_30_pass_linear_or_tighter": false,
+ "all_30_pass_nonlinear_or_tighter": false
+}

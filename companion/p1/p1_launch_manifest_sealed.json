@@ -1,0 +1,807 @@
+{
+ "plan": "PLAN_SCOUT_FOLLOWUPS.md FROZEN AS AMENDED",
+ "ruling": "reviews/REVIEW_followups_ratification.md",
+ "committed_before_harvest": true,
+ "seeds": {
+  "split": 7101,
+  "derange": 7102,
+  "prog_partition": 7103,
+  "pairing": 7104,
+  "mapper_seeds": [
+   7301,
+   7302,
+   7303
+  ]
+ },
+ "fit_values": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  8,
+  11,
+  12,
+  15
+ ],
+ "test_values": [
+  0,
+  5,
+  7,
+  9,
+  10,
+  13,
+  14,
+  16
+ ],
+ "pi_fit": {
+  "1": 8,
+  "2": 15,
+  "3": 4,
+  "4": 3,
+  "6": 12,
+  "8": 11,
+  "11": 2,
+  "12": 1,
+  "15": 6
+ },
+ "pi_test": {
+  "0": 14,
+  "5": 7,
+  "7": 16,
+  "9": 10,
+  "10": 13,
+  "13": 9,
+  "14": 0,
+  "16": 5
+ },
+ "fit_prog_indices": [
+  0,
+  1,
+  2,
+  5,
+  6,
+  7,
+  8,
+  10,
+  12,
+  14,
+  15,
+  19,
+  20,
+  25,
+  27,
+  31,
+  33,
+  34,
+  36,
+  38,
+  39,
+  41,
+  43,
+  45,
+  47,
+  49,
+  51,
+  52,
+  53,
+  56
+ ],
+ "test_prog_indices": [
+  3,
+  4,
+  9,
+  11,
+  13,
+  16,
+  17,
+  18,
+  21,
+  22,
+  23,
+  24,
+  26,
+  28,
+  29,
+  30,
+  32,
+  35,
+  37,
+  40,
+  42,
+  44,
+  46,
+  48,
+  50,
+  54,
+  55,
+  57,
+  58,
+  59
+ ],
+ "phrasing_rule": "fit episodes use A.TPL_DIAG[0] at every operator position; test episodes use A.TPL_DIAG[1] at every operator position; operator-span strings are disjoint across fit and test",
+ "positions": {
+  "fit": [
+   1,
+   2
+  ],
+  "test_position": [
+   0,
+   3
+  ],
+  "note": "k=3 is the mouth-facing terminal packet"
+ },
+ "strata": [
+  "semantic: test values at k in {1,2}",
+  "position: fit values at k in {0,3}",
+  "joint: test values at k in {0,3}"
+ ],
+ "floors": {
+  "rung_pass": 0.9,
+  "diagonal_control": 0.95,
+  "shuffle_control_max": 0.11,
+  "shuffle_alt_margin": 0.3
+ },
+ "shuffle_map_fit": {
+  "1": 4,
+  "2": 6,
+  "3": 8,
+  "4": 11,
+  "6": 12,
+  "8": 15,
+  "11": 1,
+  "12": 2,
+  "15": 3
+ },
+ "shuffle_map_test": {
+  "0": 9,
+  "5": 10,
+  "7": 13,
+  "9": 14,
+  "10": 16,
+  "13": 0,
+  "14": 5,
+  "16": 7
+ },
+ "mappers": {
+  "orthogonal": {
+   "form": "one 896x896 Procrustes rotation per ordered pair, shared across both packet vectors and both fitting positions; slot-specific fitting-set means removed/restored",
+   "loss": "SVD Procrustes on instance->recipient-class-centroid pairs"
+  },
+  "linear": {
+   "form": "affine ridge on flattened 1792-d packet",
+   "regularization": "lambda chosen on a fitting-set inner split (per-pair), then refit on all nine fitting values",
+   "lambda_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+   ]
+  },
+  "nonlinear": {
+   "form": "2-layer MLP width 64 on flattened 1792-d packet",
+   "optimizer": "Adam lr 1e-3",
+   "updates": 2000,
+   "batch": 64,
+   "seeds": [
+    7301,
+    7302,
+    7303
+   ],
+   "pass_rule": ">=2 of 3 mapper seeds cross every functional gate"
+  },
+  "position_specific_variants": "same three classes fitted per packet position (preregistered diagnostic, frozen alongside the global maps)",
+  "training_target": "reproduce the recipient model's natural packet state (instance -> recipient class centroid); no labels, task loss, mouth outputs, or gradients through the recipient model",
+  "post_map": "RMS renormalization per the packet convention; no test-dependent scaling"
+ },
+ "contexts": {
+  "primary": "family-A pure-carrier (A value span + A structural forwarders)",
+  "secondary": "family-D value/context layout with A structural forwarders (Appendix F S3 layout), no refitting"
+ },
+ "checkpoint_sha256": {
+  "run3v_F_G_m204_o954_ckpt_final.pt": "67b31c3aa1bda468cbb2ffde24db932db5b144b70095c8fd3b6189fca3d4760a",
+  "run3v_F_P_m200_o950_ckpt_final.pt": "c8a2bcfc691d1129540701441ce0e06f64a2cd3040bbc0f1c2fca56d1ac87580",
+  "run3v_F_P_m201_o951_ckpt_final.pt": "11cf7b5908403dbbdf39f30f92c14bde50a09ed088fb9c1baca0773a32a8075f",
+  "run3v_F_P_m203_o903_ckpt_final.pt": "c65f96308b9a126ea77c5a4be2370613c4d7c867f8cdd5ce2ea69c43f5d89378",
+  "run3v_F_P_m203_o953_ckpt_final.pt": "d57df3a335cef3779bb774a8975ba5587d6916fc21995afc7912de1712dd6980",
+  "run3v_F_P_m204_o904_ckpt_final.pt": "93500cd7a3a2ee53c31cf419eb95324c8621bb731847b0c589c5e831e2447468",
+  "run3v_F_P_m204_o954_ckpt_final.pt": "9f48f3489848f9da85013fd3c3650075e317df9c222b91e1588d7d25abc23cee"
+ },
+ "evaluation_bank_hashes": "APPENDED_BY_HARVEST_BEFORE_SCORING",
+ "per_society": {
+  "P_m200_o950": {
+   "bank_hash": "7f4d1ac37dadcd23",
+   "fit_bank_sha256": "c8f8ac2a8f94e1cc69c0144c6aeae1a8d3a2a61b30774d7e843b37e3ea54a795",
+   "test_bank_sha256": "efc943b0de20518a9555e05b2a6095964586abd9cc1be56cf010c13dc9e195b9",
+   "fit_coverage": {
+    "0": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 5,
+     "12": 8,
+     "15": 8
+    },
+    "1": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "2": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "3": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    }
+   },
+   "test_coverage": {
+    "0": {
+     "0": 8,
+     "5": 7,
+     "7": 8,
+     "9": 8,
+     "10": 8,
+     "13": 6,
+     "14": 8,
+     "16": 8
+    },
+    "1": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 7,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "2": {
+     "0": 6,
+     "5": 6,
+     "7": 8,
+     "9": 7,
+     "10": 8,
+     "13": 8,
+     "14": 5,
+     "16": 8
+    },
+    "3": {
+     "0": 8,
+     "5": 7,
+     "7": 8,
+     "9": 6,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    }
+   }
+  },
+  "P_m201_o951": {
+   "bank_hash": "4b63023d9a4f27be",
+   "fit_bank_sha256": "09e8d6e1a3ee5a45e7d8cfc672c6c8bfd9109bec9c4599ac9ba39d9a1b217b03",
+   "test_bank_sha256": "e90442dc840e92756c7a2a70246340c62f57312fb7b8cf5ed4a82952723d1211",
+   "fit_coverage": {
+    "0": {
+     "1": 7,
+     "2": 8,
+     "3": 6,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "1": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 5,
+     "8": 7,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "2": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 6
+    },
+    "3": {
+     "1": 8,
+     "2": 8,
+     "3": 5,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 6,
+     "12": 8,
+     "15": 8
+    }
+   },
+   "test_coverage": {
+    "0": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "1": {
+     "0": 7,
+     "5": 8,
+     "7": 5,
+     "9": 7,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 6
+    },
+    "2": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "3": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 6,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    }
+   }
+  },
+  "P_m203_o903": {
+   "bank_hash": "3c95431f8bcd7830",
+   "fit_bank_sha256": "2a894a0bac64cdce1bc60cba917f39636795ccd07330d5ff2b9eddaad3a51f92",
+   "test_bank_sha256": "8a9d83767bf97c9121ba873ea58e9a1f5a90d03a70ca24265702b64b6374f7d0",
+   "fit_coverage": {
+    "0": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 6,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "1": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 8,
+     "8": 6,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "2": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 7,
+     "8": 8,
+     "11": 6,
+     "12": 8,
+     "15": 8
+    },
+    "3": {
+     "1": 8,
+     "2": 7,
+     "3": 5,
+     "4": 8,
+     "6": 8,
+     "8": 6,
+     "11": 7,
+     "12": 7,
+     "15": 8
+    }
+   },
+   "test_coverage": {
+    "0": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "1": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 5,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "2": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 6,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "3": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 6,
+     "10": 8,
+     "13": 7,
+     "14": 8,
+     "16": 8
+    }
+   }
+  },
+  "P_m203_o953": {
+   "bank_hash": "e0550d5175593aa8",
+   "fit_bank_sha256": "9f3884674554d38883cfe01e88f93f436f26567f9b54f76676ca25e357e0d2e4",
+   "test_bank_sha256": "8458988d382a808286ebcaca3e0a8d31d2a02ff05b4b2a10753ac9bffc57adfb",
+   "fit_coverage": {
+    "0": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 6,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "1": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 8,
+     "8": 6,
+     "11": 8,
+     "12": 8,
+     "15": 8
+    },
+    "2": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 8,
+     "6": 7,
+     "8": 8,
+     "11": 6,
+     "12": 8,
+     "15": 8
+    },
+    "3": {
+     "1": 8,
+     "2": 7,
+     "3": 5,
+     "4": 8,
+     "6": 8,
+     "8": 6,
+     "11": 7,
+     "12": 7,
+     "15": 8
+    }
+   },
+   "test_coverage": {
+    "0": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "1": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 5,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "2": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 6,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 8
+    },
+    "3": {
+     "0": 8,
+     "5": 8,
+     "7": 8,
+     "9": 6,
+     "10": 8,
+     "13": 7,
+     "14": 8,
+     "16": 8
+    }
+   }
+  },
+  "P_m204_o904": {
+   "bank_hash": "5d35cc4fde55f03c",
+   "fit_bank_sha256": "f1529706a347857d8f275eb19926c6370fe6bd75f2635bde2d1233427f204569",
+   "test_bank_sha256": "0c5c09c0cca345db98cae07f602edee1808a83b7c5211fe2f853edcc6ddfb055",
+   "fit_coverage": {
+    "0": {
+     "1": 7,
+     "2": 7,
+     "3": 7,
+     "4": 7,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 7
+    },
+    "1": {
+     "1": 8,
+     "2": 8,
+     "3": 7,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 5,
+     "15": 8
+    },
+    "2": {
+     "1": 8,
+     "2": 7,
+     "3": 8,
+     "4": 7,
+     "6": 6,
+     "8": 5,
+     "11": 8,
+     "12": 6,
+     "15": 8
+    },
+    "3": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 5,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 6,
+     "15": 6
+    }
+   },
+   "test_coverage": {
+    "0": {
+     "0": 6,
+     "5": 8,
+     "7": 8,
+     "9": 5,
+     "10": 8,
+     "13": 8,
+     "14": 6,
+     "16": 8
+    },
+    "1": {
+     "0": 8,
+     "5": 6,
+     "7": 8,
+     "9": 8,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 7
+    },
+    "2": {
+     "0": 5,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 6,
+     "13": 8,
+     "14": 8,
+     "16": 7
+    },
+    "3": {
+     "0": 7,
+     "5": 8,
+     "7": 8,
+     "9": 5,
+     "10": 7,
+     "13": 6,
+     "14": 6,
+     "16": 8
+    }
+   }
+  },
+  "P_m204_o954": {
+   "bank_hash": "02b6f032ed751c92",
+   "fit_bank_sha256": "f5dd2c0d74844901cbf84fc97604a38114f7549a97a12a25c5a29ad95c6f3c3e",
+   "test_bank_sha256": "8ff50873611d7502d0134d0030740e12cb1cec26e2f7dd4010fcc02f4c662170",
+   "fit_coverage": {
+    "0": {
+     "1": 7,
+     "2": 7,
+     "3": 7,
+     "4": 7,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 8,
+     "15": 7
+    },
+    "1": {
+     "1": 8,
+     "2": 8,
+     "3": 7,
+     "4": 8,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 5,
+     "15": 8
+    },
+    "2": {
+     "1": 8,
+     "2": 7,
+     "3": 8,
+     "4": 7,
+     "6": 6,
+     "8": 5,
+     "11": 8,
+     "12": 6,
+     "15": 8
+    },
+    "3": {
+     "1": 8,
+     "2": 8,
+     "3": 8,
+     "4": 5,
+     "6": 8,
+     "8": 8,
+     "11": 8,
+     "12": 6,
+     "15": 6
+    }
+   },
+   "test_coverage": {
+    "0": {
+     "0": 6,
+     "5": 8,
+     "7": 8,
+     "9": 5,
+     "10": 8,
+     "13": 8,
+     "14": 6,
+     "16": 8
+    },
+    "1": {
+     "0": 8,
+     "5": 6,
+     "7": 8,
+     "9": 8,
+     "10": 8,
+     "13": 8,
+     "14": 8,
+     "16": 7
+    },
+    "2": {
+     "0": 5,
+     "5": 8,
+     "7": 8,
+     "9": 8,
+     "10": 6,
+     "13": 8,
+     "14": 8,
+     "16": 7
+    },
+    "3": {
+     "0": 7,
+     "5": 8,
+     "7": 8,
+     "9": 5,
+     "10": 7,
+     "13": 6,
+     "14": 6,
+     "16": 8
+    }
+   }
+  }
+ },
+ "maps_file_sha256": "e7b46fedd79d05a2871b6fa79e3dc10c0efa421ddedabb4948f5a677fbe366fb",
+ "per_pair_map_hashes": {
+  "P_m200_o950->P_m201_o951": "c564ec4518e24f71",
+  "P_m200_o950->P_m203_o903": "1ac8edc04cfb9ee9",
+  "P_m200_o950->P_m203_o953": "6a228afdebd640e1",
+  "P_m200_o950->P_m204_o904": "d9d1aa859ca13dce",
+  "P_m200_o950->P_m204_o954": "eb91ff09ac62ac2d",
+  "P_m201_o951->P_m200_o950": "3f230126dd3ee5b7",
+  "P_m201_o951->P_m203_o903": "6e042729eaa21318",
+  "P_m201_o951->P_m203_o953": "33551118fa6853d7",
+  "P_m201_o951->P_m204_o904": "fae9d8d0743a1db3",
+  "P_m201_o951->P_m204_o954": "ac901e3984aa03fe",
+  "P_m203_o903->P_m200_o950": "e6255cfc62fb62e2",
+  "P_m203_o903->P_m201_o951": "57b89692332fba6a",
+  "P_m203_o903->P_m203_o953": "a9e5c51c4603ee93",
+  "P_m203_o903->P_m204_o904": "4dc2128adae29fae",
+  "P_m203_o903->P_m204_o954": "8b05f61f019e52a9",
+  "P_m203_o953->P_m200_o950": "21a5c5c8a2a26342",
+  "P_m203_o953->P_m201_o951": "f9a0cc20003c51ea",
+  "P_m203_o953->P_m203_o903": "89144a1614608052",
+  "P_m203_o953->P_m204_o904": "204cf56192bb65c2",
+  "P_m203_o953->P_m204_o954": "06515f06b5ed1fe1",
+  "P_m204_o904->P_m200_o950": "b0298cda503e722d",
+  "P_m204_o904->P_m201_o951": "6ea29a66d57c9d36",
+  "P_m204_o904->P_m203_o903": "6e7c895224c64fee",
+  "P_m204_o904->P_m203_o953": "34d2af4f5c450250",
+  "P_m204_o904->P_m204_o954": "51f3d840c0d05792",
+  "P_m204_o954->P_m200_o950": "11ea5a545cfdd1c9",
+  "P_m204_o954->P_m201_o951": "de45c1166d7ac726",
+  "P_m204_o954->P_m203_o903": "a07cf80fc0e44c15",
+  "P_m204_o954->P_m203_o953": "a109432cf2f28949",
+  "P_m204_o954->P_m204_o904": "402e967eb5477d69"
+ },
+ "classification_script_sha256": "3d21a31e2196ae9031bb25814ebb23d9f2cff418d740cd4ca18ece7224052ff1",
+ "sealed_before_any_held_out_score": true
+}

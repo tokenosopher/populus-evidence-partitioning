@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  42%|████▏     | 123/290 [00:00<00:00, 1210.24it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1805.54it/s]
+[scout s7a_m204_o954_d643] trainable bridge params: ['aux_head.weight']
+[scout s7a_m204_o954_d643] step 0: probe {'l0': 0.0, 'l1': 0.1111, 'diag2': 0.0333, 'diag3': 0.0333}
+/workspace/populus/scripts/bridge_scout_s7.py:144: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:822.)
+  total += float(loss) * w
+[scout s7a_m204_o954_d643] step 250: loss 5.341 probe {'l0': 0.7778, 'l1': 0.0556, 'diag2': 0.1, 'diag3': 0.0333}
+[scout s7a_m204_o954_d643] step 500: loss 4.313 probe {'l0': 0.6667, 'l1': 0.2778, 'diag2': 0.0, 'diag3': 0.0333}
+[scout s7a_m204_o954_d643] step 750: loss 4.070 probe {'l0': 0.7778, 'l1': 0.1667, 'diag2': 0.05, 'diag3': 0.0833}
+[scout s7a_m204_o954_d643] step 1000: loss 3.950 probe {'l0': 1.0, 'l1': 0.0556, 'diag2': 0.0667, 'diag3': 0.1}
+[scout s7a_m204_o954_d643] step 1250: loss 4.130 probe {'l0': 1.0, 'l1': 0.0556, 'diag2': 0.1333, 'diag3': 0.05}
+[scout s7a_m204_o954_d643] step 1500: loss 3.626 probe {'l0': 1.0, 'l1': 0.0556, 'diag2': 0.1167, 'diag3': 0.0333}
+[scout s7a_m204_o954_d643] step 1750: loss 3.464 probe {'l0': 1.0, 'l1': 0.1111, 'diag2': 0.1, 'diag3': 0.0833}
+[scout s7a_m204_o954_d643] step 2000: loss 3.904 probe {'l0': 1.0, 'l1': 0.1667, 'diag2': 0.1333, 'diag3': 0.1167}
+[scout s7a_m204_o954_d643] step 2250: loss 4.045 probe {'l0': 1.0, 'l1': 0.1111, 'diag2': 0.1333, 'diag3': 0.1}
+[scout s7a_m204_o954_d643] step 2500: loss 3.869 probe {'l0': 1.0, 'l1': 0.1111, 'diag2': 0.0667, 'diag3': 0.0667}
+[scout s7a_m204_o954_d643] step 2750: loss 3.145 probe {'l0': 1.0, 'l1': 0.2222, 'diag2': 0.0833, 'diag3': 0.0667}
+[scout s7a_m204_o954_d643] step 3000: loss 3.409 probe {'l0': 1.0, 'l1': 0.1667, 'diag2': 0.0833, 'diag3': 0.0833}
+[scout s7a_m204_o954_d643] step 3250: loss 3.644 probe {'l0': 1.0, 'l1': 0.2778, 'diag2': 0.05, 'diag3': 0.1}
+[scout s7a_m204_o954_d643] step 3500: loss 3.717 probe {'l0': 1.0, 'l1': 0.1111, 'diag2': 0.05, 'diag3': 0.15}
+[scout s7a_m204_o954_d643] step 3750: loss 2.914 probe {'l0': 1.0, 'l1': 0.5, 'diag2': 0.1, 'diag3': 0.1167}
+[scout s7a_m204_o954_d643] step 4000: loss 2.784 probe {'l0': 1.0, 'l1': 0.4444, 'diag2': 0.0667, 'diag3': 0.05}
+[scout s7a_m204_o954_d643] step 4250: loss 3.054 probe {'l0': 1.0, 'l1': 0.6111, 'diag2': 0.1333, 'diag3': 0.1167}
+[scout s7a_m204_o954_d643] step 4500: loss 2.665 probe {'l0': 1.0, 'l1': 0.6667, 'diag2': 0.15, 'diag3': 0.05}
+[scout s7a_m204_o954_d643] step 4750: loss 2.452 probe {'l0': 1.0, 'l1': 0.6111, 'diag2': 0.1167, 'diag3': 0.05}
+[scout s7a_m204_o954_d643] step 5000: loss 1.755 probe {'l0': 1.0, 'l1': 0.7778, 'diag2': 0.1167, 'diag3': 0.05}
+S7_DONE s7a_m204_o954_d643 final {'l0': 1.0, 'l1': 0.732, 'diag2': 0.0833, 'diag3': 0.0647} cut {'l0': 0.0588, 'l1': 0.0588, 'diag2': 0.0588, 'diag3': 0.0588}

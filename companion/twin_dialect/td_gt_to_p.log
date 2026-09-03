@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 136/290 [00:00<00:00, 1324.82it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1457.01it/s]
+donor GT_m200_o950
+harvest done after 126 attempts
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  41%|████      | 119/290 [00:00<00:00, 1161.98it/s]Loading weights:  89%|████████▊ | 257/290 [00:00<00:00, 1259.32it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1323.18it/s]
+recipient P_m200_o950
+iface 0: same 11/120 shuf 2/120
+iface 1: same 6/120 shuf 14/120
+iface 2: same 79/120 shuf 6/120
+TWIN_DIALECT_DONE results/run3v/twin_dialect_GT_m200_o950_to_P_m200_o950.json {"iface0": {"same": 0.0917, "shuffle": 0.0167}, "iface1": {"same": 0.05, "shuffle": 0.1167}, "iface2": {"same": 0.6583, "shuffle": 0.05}}

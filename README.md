@@ -14,10 +14,15 @@ Four-cell societies built from one frozen Qwen2.5-0.5B-Instruct backbone with a 
 - `results/bridge/` — serialization contract and tokenizer-verified label mapping the scripts consume.
 - `PREREGISTRATION.md` — the anonymized preregistration: sealed-instance seeds and hashes, frozen gates, design, and protocol history.
 - `INCIDENTS.md` — incident and compute-lineage ledger (bit-exact resume protocol; disclosed losses).
+- `companion/` — artifacts for the companion study *Portable Semantics, Private Dialects* (P1–P4 + Appendix A):
+  - `companion/p1/` — sealed cross-model transplant audit: launch/sealed manifests, fit/test packet banks per checkpoint, per-direction evaluation JSONs, frozen classification output, lane logs. The fitted alignment maps (`p1_maps.pt`, ~4.4 GB, float64) are hosted in the Hugging Face repository.
+  - `companion/p34/` — P3 interface-adaptation factorial and P4 second-stream replication: configurations, learning-curve records, final evaluations, logs (adapted-run checkpoints on Hugging Face).
+  - `companion/twin_dialect/` — Appendix A: `twin_dialect.py` and `twin_dialect_matrix.py` (RNG seeds 8300 harvest / 8400 recipient), directional probe JSONs, the full 2×2 matrix JSON with per-case predictions, donor episode metadata, and the donor–recipient exact-overlap audit.
+  - `companion/tag_pilot/` — the three-run role-marked pilot behind Appendix A: tagged trainer/evaluator/stratifier scripts, evaluation and map-novel stratification JSONs (GT checkpoint on Hugging Face).
 
 ## Checkpoints
 
-Nineteen of the twenty society final checkpoints and all three staged-comparator finals (~50 MB each: trainable adapter, projections, optimizer state for bit-exact resume) are hosted in the linked Hugging Face repository: **https://huggingface.co/tokenosopher/populus-evidence-partitioning-checkpoints**. The remaining restricted final — initialization 202, order 952 — is unavailable because its provider instance could not be recovered; its evaluation records are included in this repository.
+All twenty society final checkpoints and all three staged-comparator finals (~50 MB each: trainable adapter, projections, optimizer state for bit-exact resume) are hosted in the linked Hugging Face repository: **https://huggingface.co/tokenosopher/populus-evidence-partitioning-checkpoints**. The restricted final for initialization 202, order 952 was recovered from its provider instance on 2026-08-31 (SHA-256 `88bc8a1654828ecd70b28e5c812e193fb3ac2f72d3f8be2ea1a13269685305a8`) and uploaded; its training-result record (`results/run3v/run3v_F_P_m202_o952.json`) is now also included here, completing the run3v record set.
 
 ## Reproducing evaluations
 

@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 136/290 [00:00<00:00, 1344.82it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1494.56it/s]
+harvest donor P_m200_o950
+harvest P_m200_o950 done after 128 attempts
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  35%|███▍      | 101/290 [00:00<00:00, 1005.62it/s]Loading weights:  86%|████████▌ | 249/290 [00:00<00:00, 1276.72it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1294.69it/s]
+harvest donor GT_m200_o950
+harvest GT_m200_o950 done after 144 attempts
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 124/290 [00:00<00:00, 1231.71it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1496.43it/s]
+recipient P_m200_o950
+iface 0: P_same=120/120 P_cf_follow=120/120 P_shift_retain=0/120 P_deranged=0/120 GT_same=8/120 GT_cf_follow=12/120 GT_shift_retain=7/120 GT_deranged=4/120 deletion=6/120
+iface 1: P_same=120/120 P_cf_follow=120/120 P_shift_retain=0/120 P_deranged=0/120 GT_same=6/120 GT_cf_follow=11/120 GT_shift_retain=2/120 GT_deranged=7/120 deletion=6/120
+iface 2: P_same=120/120 P_cf_follow=120/120 P_shift_retain=0/120 P_deranged=0/120 GT_same=68/120 GT_cf_follow=78/120 GT_shift_retain=1/120 GT_deranged=7/120 deletion=8/120
+MATRIX_RECIPIENT_DONE P {"iface0": {"P_same": 1.0, "P_cf_follow": 1.0, "P_shift_retain": 0.0, "P_deranged": 0.0, "GT_same": 0.0667, "GT_cf_follow": 0.1, "GT_shift_retain": 0.0583, "GT_deranged": 0.0333, "deletion": 0.05}, "iface1": {"P_same": 1.0, "P_cf_follow": 1.0, "P_shift_retain": 0.0, "P_deranged": 0.0, "GT_same": 0.05, "GT_cf_follow": 0.0917, "GT_shift_retain": 0.0167, "GT_deranged": 0.0583, "deletion": 0.05}, "iface2": {"P_same": 1.0, "P_cf_follow": 1.0, "P_shift_retain": 0.0, "P_deranged": 0.0, "GT_same": 0.5667, "GT_cf_follow": 0.65, "GT_shift_retain": 0.0083, "GT_deranged": 0.0583, "deletion": 0.0667}}
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  38%|███▊      | 110/290 [00:00<00:00, 1099.63it/s]Loading weights:  92%|█████████▏| 267/290 [00:00<00:00, 1370.28it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1374.33it/s]
+recipient GT_m200_o950
+iface 0: P_same=5/120 P_cf_follow=6/120 P_shift_retain=5/120 P_deranged=8/120 GT_same=16/120 GT_cf_follow=8/120 GT_shift_retain=11/120 GT_deranged=11/120 deletion=10/120
+iface 1: P_same=9/120 P_cf_follow=7/120 P_shift_retain=10/120 P_deranged=8/120 GT_same=22/120 GT_cf_follow=22/120 GT_shift_retain=9/120 GT_deranged=9/120 deletion=4/120
+iface 2: P_same=37/120 P_cf_follow=33/120 P_shift_retain=7/120 P_deranged=5/120 GT_same=59/120 GT_cf_follow=51/120 GT_shift_retain=5/120 GT_deranged=4/120 deletion=6/120
+MATRIX_RECIPIENT_DONE GT {"iface0": {"P_same": 0.0417, "P_cf_follow": 0.05, "P_shift_retain": 0.0417, "P_deranged": 0.0667, "GT_same": 0.1333, "GT_cf_follow": 0.0667, "GT_shift_retain": 0.0917, "GT_deranged": 0.0917, "deletion": 0.0833}, "iface1": {"P_same": 0.075, "P_cf_follow": 0.0583, "P_shift_retain": 0.0833, "P_deranged": 0.0667, "GT_same": 0.1833, "GT_cf_follow": 0.1833, "GT_shift_retain": 0.075, "GT_deranged": 0.075, "deletion": 0.0333}, "iface2": {"P_same": 0.3083, "P_cf_follow": 0.275, "P_shift_retain": 0.0583, "P_deranged": 0.0417, "GT_same": 0.4917, "GT_cf_follow": 0.425, "GT_shift_retain": 0.0417, "GT_deranged": 0.0333, "deletion": 0.05}}
+TWIN_DIALECT_MATRIX_DONE results/run3v/twin_dialect_matrix_P_m200_o950_x_GT_m200_o950.json

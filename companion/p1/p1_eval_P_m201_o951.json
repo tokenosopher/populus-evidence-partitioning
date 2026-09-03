@@ -1,0 +1,4315 @@
+{
+ "recipient": "P_m201_o951",
+ "n_per_class": 5,
+ "shuffle_maps": {
+  "fit": {
+   "1": 4,
+   "2": 6,
+   "3": 8,
+   "4": 11,
+   "6": 12,
+   "8": 15,
+   "11": 1,
+   "12": 2,
+   "15": 3
+  },
+  "test": {
+   "0": 9,
+   "5": 10,
+   "7": 13,
+   "9": 14,
+   "10": 16,
+   "13": 0,
+   "14": 5,
+   "16": 7
+  }
+ },
+ "pairs": {
+  "P_m200_o950": {
+   "A": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.2222,
+       "cf": 0.2222,
+       "shuffle": 0.2222
+      },
+      "k3": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.1111
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.25
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.45,
+       "cf": 0.45,
+       "shuffle": 0.075
+      },
+      "k2": {
+       "same": 0.475,
+       "cf": 0.475,
+       "shuffle": 0.125
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.1,
+       "cf": 0.1,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.175,
+       "cf": 0.175,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.175
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.45,
+       "cf": 0.45,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   },
+   "D": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.2222,
+       "cf": 0.2222,
+       "shuffle": 0.2222
+      },
+      "k3": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.1111
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.25
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.45,
+       "cf": 0.45,
+       "shuffle": 0.075
+      },
+      "k2": {
+       "same": 0.475,
+       "cf": 0.475,
+       "shuffle": 0.125
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.1,
+       "cf": 0.1,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.175,
+       "cf": 0.175,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.175
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.45,
+       "cf": 0.45,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   }
+  },
+  "P_m203_o903": {
+   "A": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.15
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.25
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.2222
+      },
+      "k3": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.45,
+       "cf": 0.45,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.05,
+       "cf": 0.05,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.625,
+       "cf": 0.625,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.1,
+       "cf": 0.1,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.125
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   },
+   "D": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.15
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.25
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.2222
+      },
+      "k3": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.45,
+       "cf": 0.45,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.05,
+       "cf": 0.05,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.625,
+       "cf": 0.625,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.1,
+       "cf": 0.1,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.125
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   }
+  },
+  "P_m203_o953": {
+   "A": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.025
+      },
+      "k2": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.9778,
+       "cf": 0.9778,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.2,
+       "cf": 0.2,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.25
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.275,
+       "cf": 0.275,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.05
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.025
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   },
+   "D": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.025
+      },
+      "k2": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.9778,
+       "cf": 0.9778,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.2,
+       "cf": 0.2,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.25
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.275,
+       "cf": 0.275,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.35,
+       "cf": 0.35,
+       "shuffle": 0.05
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.025
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   }
+  },
+  "P_m204_o904": {
+   "A": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.25
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.15
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.55,
+       "cf": 0.55,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.7,
+       "cf": 0.7,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.625,
+       "cf": 0.625,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.625,
+       "cf": 0.625,
+       "shuffle": 0.1
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.275,
+       "cf": 0.275,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.1
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.175,
+       "cf": 0.175,
+       "shuffle": 0.025
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.05
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.25
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.025
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   },
+   "D": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.25
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.15
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.1111,
+       "cf": 0.1111,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.55,
+       "cf": 0.55,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.7,
+       "cf": 0.7,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.625,
+       "cf": 0.625,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.625,
+       "cf": 0.625,
+       "shuffle": 0.1
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.275,
+       "cf": 0.275,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.1
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.175,
+       "cf": 0.175,
+       "shuffle": 0.025
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.125
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.05
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.5,
+       "cf": 0.5,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.25
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.125
+      },
+      "k3": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.325,
+       "cf": 0.325,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.025
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   }
+  },
+  "P_m204_o954": {
+   "A": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.1
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.2222,
+       "cf": 0.2222,
+       "shuffle": 0.2222
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.05,
+       "cf": 0.05,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.2,
+       "cf": 0.2,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.05,
+       "cf": 0.05,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.1,
+       "cf": 0.1,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.175,
+       "cf": 0.175,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.025
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.075
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.075,
+       "cf": 0.075,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   },
+   "D": {
+    "global_raw": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.1
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 0.2222,
+       "cf": 0.2222,
+       "shuffle": 0.2222
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.125
+      }
+     }
+    },
+    "global_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.05,
+       "cf": 0.05,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.2,
+       "cf": 0.2,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.225,
+       "cf": 0.225,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.25,
+       "cf": 0.25,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "global_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.05,
+       "cf": 0.05,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.1,
+       "cf": 0.1,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_orthogonal": {
+     "semantic": {
+      "k1": {
+       "same": 0.175,
+       "cf": 0.175,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.15,
+       "cf": 0.15,
+       "shuffle": 0.025
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.375,
+       "cf": 0.375,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_linear": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7301": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.075
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7302": {
+     "semantic": {
+      "k1": {
+       "same": 0.075,
+       "cf": 0.075,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    },
+    "pos_nonlinear_s7303": {
+     "semantic": {
+      "k1": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      },
+      "k2": {
+       "same": 0.025,
+       "cf": 0.025,
+       "shuffle": 0.0
+      }
+     },
+     "position": {
+      "k0": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 1.0,
+       "cf": 1.0,
+       "shuffle": 0.0
+      }
+     },
+     "joint": {
+      "k0": {
+       "same": 0.125,
+       "cf": 0.125,
+       "shuffle": 0.0
+      },
+      "k3": {
+       "same": 0.0,
+       "cf": 0.0,
+       "shuffle": 0.0
+      }
+     }
+    }
+   }
+  }
+ },
+ "diagonal_A": {
+  "semantic": {
+   "k1": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   },
+   "k2": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   }
+  },
+  "position": {
+   "k0": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   },
+   "k3": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   }
+  },
+  "joint": {
+   "k0": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   },
+   "k3": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   }
+  }
+ },
+ "diagonal_D": {
+  "semantic": {
+   "k1": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   },
+   "k2": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   }
+  },
+  "position": {
+   "k0": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   },
+   "k3": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   }
+  },
+  "joint": {
+   "k0": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   },
+   "k3": {
+    "same": 1.0,
+    "cf": 1.0,
+    "shuffle": 0.0
+   }
+  }
+ }
+}

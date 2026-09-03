@@ -1,0 +1,29 @@
+{
+ "donor": "GT_m200_o950",
+ "recipient": "P_m200_o950",
+ "n_per_iface": 120,
+ "values": [
+  0,
+  5,
+  7,
+  9,
+  10,
+  13,
+  14,
+  16
+ ],
+ "results": {
+  "iface0": {
+   "same": 0.0917,
+   "shuffle": 0.0167
+  },
+  "iface1": {
+   "same": 0.05,
+   "shuffle": 0.1167
+  },
+  "iface2": {
+   "same": 0.6583,
+   "shuffle": 0.05
+  }
+ }
+}

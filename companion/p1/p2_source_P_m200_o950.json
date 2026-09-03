@@ -1,0 +1,9 @@
+{
+ "tag": "P_m200_o950",
+ "ckpt": "ckpts/run3v_F_P_m200_o950_ckpt_final.pt",
+ "d_value_span": "Your private note: the pointer starts at slot {x}.",
+ "n_donors": 1,
+ "d_source": 1.0,
+ "a_control": 1.0,
+ "sub_control": 1.0
+}

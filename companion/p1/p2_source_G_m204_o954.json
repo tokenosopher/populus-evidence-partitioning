@@ -1,0 +1,10 @@
+{
+ "tag": "G_m204_o954",
+ "ckpt": "ckpts/run3v_F_G_m204_o954_ckpt_final.pt",
+ "d_value_span": "Your private note: the pointer starts at slot {x}.",
+ "n_donors": 1,
+ "note": "G comparator: every cell sees the source span directly; d_source is globally contextualized",
+ "d_source": 1.0,
+ "a_control": 1.0,
+ "sub_control": 1.0
+}
