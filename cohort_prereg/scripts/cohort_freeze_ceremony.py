@@ -43,6 +43,7 @@ FROZEN = [
     "scripts/cohort_tag_audit.py",
     "scripts/cohort_admission_fixture.py",
     "scripts/cohort_stream_hashes.py",
+    "scripts/cohort_seedgen.py",
     "scripts/cohort_mechanism_audit.py",
     "scripts/cohort_dialect_matrix.py",
     "scripts/cohort_dialect_aggregate.py",

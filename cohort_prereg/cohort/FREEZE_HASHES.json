@@ -33,13 +33,14 @@
   "scripts/cohort_eval.py": "ab9643ce81096553f087a5c2f90a506c1cfc6b863249ae9d5d615e57d747ba0b",
   "scripts/cohort_mask_admission.py": "827a52561f316c8afb82d413363d73d6afad22542bfb9fc9cb0e6e097ba5d728",
   "scripts/cohort_mechanism_audit.py": "24f28a94a79fc3d9feed2d607558b548f35e552eef1ba241dcfb421e0a119b14",
+  "scripts/cohort_seedgen.py": "7fdc67c2659109c81235cc767510ef93f645facee155baa536cfd95b1073286a",
   "scripts/cohort_society.py": "0e78d7585036e7e525270f9fb4df03511bbfc3fff3443b1c305e88da22b764ca",
   "scripts/cohort_stream_hashes.py": "2568d23a46f06b11f27fa74373a661ed84b5e53b3541db5d6069a842f8a274a4",
   "scripts/cohort_tag_audit.py": "a1dcfbb7dd8727f926ed245c79a4fb7dc04459df746ed800ad56d14d4e0b4331",
   "scripts/cohort_verdict_lock.py": "22dca36e9e5235c0b08daa6b4b68783f354cb52a03d250e71bd45ca30cefa5d5"
  },
- "generated_utc": "2026-09-11T15:49:43.664574+00:00",
- "head_at_inventory": "ec863ce5129e2bb430ac445730d4885d0072af69",
- "inventory_sha256": "25b89497474fdc49e8682e5cbc345a58ea2437fc8f7ac0e330d66d3c23b632d3",
+ "generated_utc": "2026-09-11T15:50:18.979646+00:00",
+ "head_at_inventory": "cbbd2009f493f8616ef7cee1af22efbf8f87cf8a",
+ "inventory_sha256": "7e7af4b88ee97723b0072f7d81dc1fc81894708ffe392c2bbb1d93373d4e9ca6",
  "worktree_dirty_at_inventory": false
 }
