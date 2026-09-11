@@ -1,0 +1,310 @@
+{
+ "description": "Every development invocation of the cohort world/grammar/filler machinery before freeze. The frozen candidate generator must reject any candidate whose seed value appears in the corresponding exposed component set. Maintained by machine; cohort/world.py derives its denylist from THIS file (single source of truth).",
+ "recorded_utc": "2026-09-11",
+ "entries": [
+  {
+   "purpose": "first structural fixture world (grammar build, world checks, filler width tests)",
+   "operator_seeds": [
+    424242
+   ],
+   "split_seeds": [
+    515151
+   ],
+   "grammar_seeds": [
+    636363,
+    636364
+   ],
+   "filler_seeds": [
+    424242
+   ],
+   "order_seeds": [
+    950
+   ],
+   "initialization_seeds": []
+  },
+  {
+   "purpose": "collision-free pool measurement + stale-module-bug diagnosis (NOTE: pre-fix, seeds 700001-700011 silently evaluated the 700000 world)",
+   "operator_seeds": [
+    700000,
+    700001,
+    700002,
+    700003,
+    700004,
+    700005,
+    700006,
+    700007,
+    700008,
+    700009,
+    700010,
+    700011,
+    700012,
+    700013,
+    700014,
+    700015,
+    700016,
+    700017,
+    700018,
+    700019,
+    700020,
+    700021,
+    700022,
+    700023,
+    700024,
+    700025,
+    700026,
+    700027,
+    700028,
+    700029
+   ],
+   "split_seeds": [
+    800000,
+    800001,
+    800002,
+    800003,
+    800004,
+    800005,
+    800006,
+    800007,
+    800008,
+    800009,
+    800010,
+    800011,
+    800012,
+    800013,
+    800014,
+    800015,
+    800016,
+    800017,
+    800018,
+    800019,
+    800020,
+    800021,
+    800022,
+    800023,
+    800024,
+    800025,
+    800026,
+    800027,
+    800028,
+    800029
+   ],
+   "grammar_seeds": [
+    636363
+   ],
+   "filler_seeds": [
+    424242
+   ],
+   "order_seeds": [
+    950
+   ],
+   "initialization_seeds": [
+    0
+   ]
+  },
+  {
+   "purpose": "post-amendment validity remeasure + FIXTURE2 three-legged cross-check world",
+   "operator_seeds": [
+    910000,
+    910001,
+    910002,
+    910003,
+    910004,
+    910005,
+    910006,
+    910007,
+    910008,
+    910009,
+    910010,
+    910011
+   ],
+   "split_seeds": [
+    920000,
+    920001,
+    920002,
+    920003,
+    920004,
+    920005,
+    920006,
+    920007,
+    920008,
+    920009,
+    920010,
+    920011
+   ],
+   "grammar_seeds": [
+    636363
+   ],
+   "filler_seeds": [
+    424242
+   ],
+   "order_seeds": [
+    950
+   ],
+   "initialization_seeds": [
+    0
+   ]
+  },
+  {
+   "purpose": "PRF unit probes (synthetic world-id strings, no world built)",
+   "operator_seeds": [],
+   "split_seeds": [],
+   "grammar_seeds": [],
+   "filler_seeds": [
+    444,
+    445
+   ],
+   "order_seeds": [],
+   "initialization_seeds": [],
+   "synthetic_world_ids": [
+    "op1_split2",
+    "w",
+    "opX_splitY",
+    "op111_split222",
+    "opX",
+    "op1"
+   ]
+  },
+  {
+   "purpose": "post-round-3 full-criterion validity remeasure (operator-support + tag-viability components)",
+   "operator_seeds": [
+    930000,
+    930001,
+    930002,
+    930003,
+    930004,
+    930005
+   ],
+   "split_seeds": [
+    940000,
+    940001,
+    940002,
+    940003,
+    940004,
+    940005
+   ],
+   "grammar_seeds": [],
+   "filler_seeds": [],
+   "order_seeds": [],
+   "initialization_seeds": []
+  }
+ ],
+ "aggregate": {
+  "exposed_operator_seeds": [
+   424242,
+   700000,
+   700001,
+   700002,
+   700003,
+   700004,
+   700005,
+   700006,
+   700007,
+   700008,
+   700009,
+   700010,
+   700011,
+   700012,
+   700013,
+   700014,
+   700015,
+   700016,
+   700017,
+   700018,
+   700019,
+   700020,
+   700021,
+   700022,
+   700023,
+   700024,
+   700025,
+   700026,
+   700027,
+   700028,
+   700029,
+   910000,
+   910001,
+   910002,
+   910003,
+   910004,
+   910005,
+   910006,
+   910007,
+   910008,
+   910009,
+   910010,
+   910011,
+   930000,
+   930001,
+   930002,
+   930003,
+   930004,
+   930005
+  ],
+  "exposed_split_seeds": [
+   515151,
+   800000,
+   800001,
+   800002,
+   800003,
+   800004,
+   800005,
+   800006,
+   800007,
+   800008,
+   800009,
+   800010,
+   800011,
+   800012,
+   800013,
+   800014,
+   800015,
+   800016,
+   800017,
+   800018,
+   800019,
+   800020,
+   800021,
+   800022,
+   800023,
+   800024,
+   800025,
+   800026,
+   800027,
+   800028,
+   800029,
+   920000,
+   920001,
+   920002,
+   920003,
+   920004,
+   920005,
+   920006,
+   920007,
+   920008,
+   920009,
+   920010,
+   920011,
+   940000,
+   940001,
+   940002,
+   940003,
+   940004,
+   940005
+  ],
+  "exposed_grammar_seeds": [
+   636363,
+   636364
+  ],
+  "exposed_filler_seeds": [
+   444,
+   445,
+   424242
+  ],
+  "exposed_order_seeds": [
+   950
+  ],
+  "exposed_initialization_seeds": [
+   0
+  ]
+ }
+}

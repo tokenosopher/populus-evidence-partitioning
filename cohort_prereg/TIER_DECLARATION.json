@@ -1,0 +1,11 @@
+{
+  "study": "Role-Marked Cohort (PREREG_ROLE_MARKED_COHORT.md)",
+  "committed_tier": "GOLD-6",
+  "specification": "5 conditions x 6 initializations x 2 data orders = 60 societies; n=12 matched trajectories per comparison; 6 initialization clusters; all six contrasts C1-C6 preregistered",
+  "declared_by": "Narcis Marincat",
+  "declared_on": "2026-09-12",
+  "declaration_context": "Committed before any fresh-world, initialization, or data-order seed generation, per prereg section 7. To be included in the pre-seed scientific-content deposit and confirmed in the populated pre-run manifest.",
+  "no_downgrade_rule": "No tier downgrade, arm removal, initialization removal, or conversion to the minimum design after seed generation, training, monitoring, or evaluation begins.",
+  "amended_on": "2026-09-12",
+  "amendment_note": "Pre-freeze amendment per referee recommendation (sixth family adds an independent replication cluster; sign-flip floor 2/64=0.03125). Made before any seed generation."
+}

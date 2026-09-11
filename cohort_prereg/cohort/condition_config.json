@@ -1,0 +1,52 @@
+{
+  "conditions": [
+    "R-",
+    "R+",
+    "G-",
+    "G+",
+    "N+"
+  ],
+  "config_id": "role-marked-cohort-condition-config-v1",
+  "filler": {
+    "bank_size": 36,
+    "constructor": "cohort/filler_constructor.py",
+    "properties": [
+      "exact-width",
+      "leak-free per deny-list",
+      "deterministic",
+      "all-distinct"
+    ],
+    "width": "T_SPAN (33)"
+  },
+  "header_token_blocks": {
+    "mine": [
+      10485,
+      25
+    ],
+    "other": [
+      1008,
+      25
+    ],
+    "padding": "none-required (equal widths confirmed by local preflight 2026-09-11)",
+    "slot": [
+      9446,
+      25
+    ],
+    "surface_forms": {
+      "mine": " mine:",
+      "other": " other:",
+      "slot": " slot:"
+    },
+    "width": 2
+  },
+  "layout_module": "cohort/condition_layout.py",
+  "span_widths": {
+    "T_QUESTION": 54,
+    "T_SPAN": 33,
+    "source": "results/bridge/serialization_contract.json"
+  },
+  "tokenizer": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "tokenizer_json_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  }
+}

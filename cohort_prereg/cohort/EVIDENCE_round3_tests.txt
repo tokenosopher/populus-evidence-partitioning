@@ -1,0 +1,37 @@
+=== test_verdict.py ===
+PASS: MINIMUM C1 only
+PASS: MINIMUM no C3
+
+ALL HARDENED VERDICT TESTS PASS
+=== test_world_regression.py ===
+WORLD REGRESSION TESTS: ALL PASS
+=== condition_layout self-tests ===
+CONDITION LAYOUT TESTS: ALL PASS
+=== trainer parity battery (N+) ===
+parity N+: OK (n=6, Ts=33, W=2)
+parity battery: ALL PASS (incl. N+/G+ mask identity)
+=== stats_engine fixture ===
+  File "/Users/ekho/code/AI consciousness implementation/cohort/stats_engine.py", line 96, in <module>
+    data = json.load(open(sys.argv[1]))  # {contrast: {depth: {init: [d1, d2]}}}
+IndexError: list index out of range
+=== phenotype_classifier fixture ===
+  File "/Users/ekho/code/AI consciousness implementation/cohort/phenotype_classifier.py", line 84, in <module>
+    rows = json.load(open(sys.argv[1]))
+IndexError: list index out of range
+=== stats_engine fixture battery ===
+sign-flip 6 clusters all-positive p: 0.03125 (floor 2/64 = 0.03125)
+Traceback (most recent call last):
+  File "<stdin>", line 10, in <module>
+TypeError: cluster_bootstrap() got an unexpected keyword argument 'n_draws'
+=== stats_engine fixture battery (RERUN, correct signatures) ===
+sign-flip 6 clusters all-positive p: 0.03125 (floor 2/64 = 0.03125)
+bootstrap keys: ['cluster_bootstrap_2p5', 'cluster_bootstrap_97p5', 'draws', 'mean_paired_difference', 'n_clusters', 'percentile_method', 'seed']
+reject OK [single-order cluster]: init i0 has 1 orders, expected 2
+reject OK [5 clusters at GOLD]: 5 clusters, expected 6
+reject OK [NaN]: non-finite difference in i0: nan
+=== phenotype_classifier fixture battery ===
+pilot GT m200 (A2=.1593, A3=.7914): deep_only_generalization_inversion
+parent outlier (A2=.5674, A3=.8431): intermediate_mixed
+reject OK [NaN A2]: non-finite/out-of-range A2=nan
+cohort-level entry points: []
+ALL STATS+CLASSIFIER FIXTURE TESTS PASS

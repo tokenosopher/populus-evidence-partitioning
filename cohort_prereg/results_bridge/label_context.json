@@ -1,0 +1,97 @@
+{
+ "question": "Private notes were distributed to the cells. After every instruction has been applied in cell order, what is the final number? Answer with a single capital letter using the code A=0, B=1, C=2, ... Q=16.",
+ "answer_prefix": "\nThe answer is",
+ "prompt_sha256": "a84376487a465324cbb0d9312f31f5ba7484b3aac411d0e76ce7ec49ce4eba64",
+ "context_token_count": 54,
+ "labels": [
+  {
+   "label": "A",
+   "token_id": 32,
+   "decoded": "A"
+  },
+  {
+   "label": "B",
+   "token_id": 33,
+   "decoded": "B"
+  },
+  {
+   "label": "C",
+   "token_id": 34,
+   "decoded": "C"
+  },
+  {
+   "label": "D",
+   "token_id": 35,
+   "decoded": "D"
+  },
+  {
+   "label": "E",
+   "token_id": 36,
+   "decoded": "E"
+  },
+  {
+   "label": "F",
+   "token_id": 37,
+   "decoded": "F"
+  },
+  {
+   "label": "G",
+   "token_id": 38,
+   "decoded": "G"
+  },
+  {
+   "label": "H",
+   "token_id": 39,
+   "decoded": "H"
+  },
+  {
+   "label": "I",
+   "token_id": 40,
+   "decoded": "I"
+  },
+  {
+   "label": "J",
+   "token_id": 41,
+   "decoded": "J"
+  },
+  {
+   "label": "K",
+   "token_id": 42,
+   "decoded": "K"
+  },
+  {
+   "label": "L",
+   "token_id": 43,
+   "decoded": "L"
+  },
+  {
+   "label": "M",
+   "token_id": 44,
+   "decoded": "M"
+  },
+  {
+   "label": "N",
+   "token_id": 45,
+   "decoded": "N"
+  },
+  {
+   "label": "O",
+   "token_id": 46,
+   "decoded": "O"
+  },
+  {
+   "label": "P",
+   "token_id": 47,
+   "decoded": "P"
+  },
+  {
+   "label": "Q",
+   "token_id": 48,
+   "decoded": "Q"
+  }
+ ],
+ "tokenizer": {
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+ }
+}
