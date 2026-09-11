@@ -1,0 +1,32 @@
+{
+ "order_seed": 3590022298,
+ "n_steps": 3,
+ "batch": 32,
+ "op_seed": "3843534058",
+ "split_seed": "476315301",
+ "filler_seed": 3198514699,
+ "grammar_sha": "e5250ad21152dc7eeb348cf15f2c63870d9feb2d5fe76534cf4ca31e24027422",
+ "tokenizer_sha": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+ "fingerprints": {
+  "R-": {
+   "sem": "e2f67a26dd595d1118763bd8b320249f4a7320ace6be26fa11c635ce0ed71f4b",
+   "ser": "d551f3773d0c8ed55fe2c02055d616e49318d434cf21ccbf4cbfd35db48521f5"
+  },
+  "R+": {
+   "sem": "e2f67a26dd595d1118763bd8b320249f4a7320ace6be26fa11c635ce0ed71f4b",
+   "ser": "ffc992094bf9d46c29ec5e8244df40c37390c6d3424558d6ae3a61f2f102e903"
+  },
+  "G-": {
+   "sem": "e2f67a26dd595d1118763bd8b320249f4a7320ace6be26fa11c635ce0ed71f4b",
+   "ser": "047b4665a0848e5c6297e1a0c27473077966c546bebbfb102f73f98bb96ba3b3"
+  },
+  "G+": {
+   "sem": "e2f67a26dd595d1118763bd8b320249f4a7320ace6be26fa11c635ce0ed71f4b",
+   "ser": "fe783b08d097280762ef46fd0a3d77fa8743a94670414c997fae47f1a7500c7a"
+  },
+  "N+": {
+   "sem": "e2f67a26dd595d1118763bd8b320249f4a7320ace6be26fa11c635ce0ed71f4b",
+   "ser": "90a77a1ca821897cac924b1b7c989564e14ffebfe5431cca19b1b6cd46b70cba"
+  }
+ }
+}

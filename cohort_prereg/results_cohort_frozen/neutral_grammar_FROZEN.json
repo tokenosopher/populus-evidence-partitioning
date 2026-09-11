@@ -1,0 +1,3221 @@
+{
+ "meta": {
+  "counts": {
+   "dev": 4,
+   "qual": 4,
+   "sealed": 4,
+   "train": 24
+  },
+  "forward_span": "This slot holds no operation. The received number is passed onward unchanged.",
+  "grammar_seed": 3800305311,
+  "n_ops": 12,
+  "t_span": 33,
+  "value_span": "The private note for this slot: the starting number is {x}."
+ },
+ "ops": {
+  "0": {
+   "a": 5,
+   "b": 6,
+   "dev": [
+    "This slot's operation is to multiply the incoming value by 5 and then add 6, wrapping around at 17.",
+    "The assigned instruction at this position is to add 6 to 5 times the incoming value, all modulo 17.",
+    "At this slot, the specified rule is to add 6 to 5 times the incoming value, wrapping around at 17.",
+    "The operation specified for this slot is to compute 5 times the input plus 6, all modulo 17."
+   ],
+   "keys": [
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     3,
+     2,
+     2
+    ],
+    [
+     2,
+     3,
+     0,
+     3
+    ],
+    [
+     5,
+     3,
+     1,
+     3
+    ],
+    [
+     2,
+     2,
+     3,
+     0
+    ],
+    [
+     2,
+     3,
+     3,
+     3
+    ],
+    [
+     5,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     2,
+     1,
+     2
+    ],
+    [
+     5,
+     0,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     1,
+     3
+    ],
+    [
+     1,
+     1,
+     2,
+     1
+    ],
+    [
+     4,
+     0,
+     1,
+     3
+    ],
+    [
+     1,
+     3,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     3
+    ],
+    [
+     4,
+     3,
+     3,
+     2
+    ],
+    [
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     0,
+     0,
+     3,
+     2
+    ],
+    [
+     3,
+     2,
+     3,
+     3
+    ],
+    [
+     5,
+     3,
+     3,
+     3
+    ],
+    [
+     1,
+     0,
+     0,
+     3
+    ],
+    [
+     2,
+     3,
+     1,
+     0
+    ],
+    [
+     3,
+     0,
+     3,
+     2
+    ],
+    [
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     2,
+     1,
+     0,
+     2
+    ],
+    [
+     4,
+     1,
+     1,
+     0
+    ],
+    [
+     5,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     3,
+     0
+    ],
+    [
+     0,
+     2,
+     3,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     2
+    ],
+    [
+     2,
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ],
+    [
+     0,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     3,
+     2
+    ],
+    [
+     5,
+     3,
+     2,
+     3
+    ]
+   ],
+   "n_candidates_fit": 376,
+   "qual": [
+    "The operation specified for this slot is to compute 5 times the received number plus 6, all modulo 17.",
+    "The operation specified for this slot is to add 6 to 5 times the number, wrapping around at 17.",
+    "This slot's operation is to compute 5 times the incoming value plus 6, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to multiply the incoming value by 5 and then add 6, on the 0 to 16 clock."
+   ],
+   "sealed": [
+    "The operation specified for this slot is to add 6 to 5 times the incoming value, keeping the remainder after division by 17.",
+    "The rule for this slot is to multiply the received number by 5 and then add 6, on the 0 to 16 clock.",
+    "The operation specified for this slot is to compute 5 times the input plus 6, wrapping around at 17.",
+    "At this slot, the specified rule is to take the input times 5, then increase it by 6, on the 0 to 16 clock."
+   ],
+   "train": [
+    "The operation specified for this slot is to multiply the number by 5 and then add 6, keeping the remainder after division by 17.",
+    "The rule for this slot is to take the input times 5, then increase it by 6, wrapping around at 17.",
+    "This slot's operation is to multiply the input by 5 and then add 6, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to add 6 to 5 times the input, on the 0 to 16 clock.",
+    "This slot's operation is to compute 5 times the received number plus 6, all modulo 17.",
+    "This slot's operation is to compute 5 times the input plus 6, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to multiply the number by 5 and then add 6, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to add 6 to 5 times the incoming value, wrapping around at 17.",
+    "The operation specified for this slot is to add 6 to 5 times the received number, wrapping around at 17.",
+    "At this slot, the specified rule is to multiply the number by 5 and then add 6, wrapping around at 17.",
+    "The operation specified for this slot is to add 6 to 5 times the number, on the 0 to 16 clock.",
+    "The rule for this slot is to take the incoming value times 5, then increase it by 6, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to add 6 to 5 times the number, on the 0 to 16 clock.",
+    "The rule for this slot is to add 6 to 5 times the input, all modulo 17.",
+    "The operation specified for this slot is to take the number times 5, then increase it by 6, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to compute 5 times the input plus 6, wrapping around at 17.",
+    "The rule for this slot is to add 6 to 5 times the received number, wrapping around at 17.",
+    "The operation specified for this slot is to compute 5 times the number plus 6, wrapping around at 17.",
+    "For this position, the assigned transformation is to compute 5 times the received number plus 6, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to compute 5 times the input plus 6, on the 0 to 16 clock.",
+    "The rule for this slot is to multiply the number by 5 and then add 6, on the 0 to 16 clock.",
+    "This slot's operation is to add 6 to 5 times the input, all modulo 17.",
+    "For this position, the assigned transformation is to compute 5 times the number plus 6, wrapping around at 17.",
+    "This slot's operation is to take the input times 5, then increase it by 6, wrapping around at 17."
+   ]
+  },
+  "1": {
+   "a": 3,
+   "b": 12,
+   "dev": [
+    "This slot's operation is to add 12 to 3 times the incoming value, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to multiply the incoming value by 3 and then add 12, wrapping around at 17.",
+    "The rule for this slot is to take the received number times 3, then increase it by 12, on the 0 to 16 clock.",
+    "This slot's operation is to multiply the number by 3 and then add 12, all modulo 17."
+   ],
+   "keys": [
+    [
+     4,
+     1,
+     2,
+     2
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ],
+    [
+     5,
+     3,
+     0,
+     3
+    ],
+    [
+     0,
+     0,
+     3,
+     0
+    ],
+    [
+     5,
+     3,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     3,
+     1
+    ],
+    [
+     5,
+     1,
+     3,
+     0
+    ],
+    [
+     5,
+     3,
+     1,
+     2
+    ],
+    [
+     1,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     2,
+     0
+    ],
+    [
+     3,
+     2,
+     1,
+     3
+    ],
+    [
+     3,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     0,
+     1,
+     3
+    ],
+    [
+     5,
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     1,
+     2,
+     1
+    ],
+    [
+     3,
+     0,
+     1,
+     3
+    ],
+    [
+     3,
+     3,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     2,
+     2
+    ],
+    [
+     2,
+     3,
+     3,
+     0
+    ],
+    [
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     2,
+     2,
+     3
+    ],
+    [
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     1,
+     0,
+     1
+    ],
+    [
+     3,
+     1,
+     3,
+     2
+    ],
+    [
+     5,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     2
+    ],
+    [
+     5,
+     0,
+     3,
+     1
+    ],
+    [
+     1,
+     3,
+     0,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     1
+    ]
+   ],
+   "n_candidates_fit": 360,
+   "qual": [
+    "The assigned instruction at this position is to add 12 to 3 times the incoming value, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to multiply the incoming value by 3 and then add 12, keeping the remainder after division by 17.",
+    "For this position, the assigned transformation is to compute 3 times the incoming value plus 12, wrapping around at 17.",
+    "At this slot, the specified rule is to add 12 to 3 times the number, keeping the remainder after division by 17."
+   ],
+   "sealed": [
+    "The operation specified for this slot is to multiply the number by 3 and then add 12, wrapping around at 17.",
+    "At this slot, the specified rule is to compute 3 times the number plus 12, keeping the remainder after division by 17.",
+    "The rule for this slot is to multiply the input by 3 and then add 12, wrapping around at 17.",
+    "The rule for this slot is to add 12 to 3 times the incoming value, keeping the remainder after division by 17."
+   ],
+   "train": [
+    "The assigned instruction at this position is to take the incoming value times 3, then increase it by 12, wrapping around at 17.",
+    "The operation specified for this slot is to multiply the incoming value by 3 and then add 12, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to multiply the input by 3 and then add 12, on the 0 to 16 clock.",
+    "The operation specified for this slot is to compute 3 times the number plus 12, all modulo 17.",
+    "At this slot, the specified rule is to multiply the input by 3 and then add 12, all modulo 17.",
+    "The rule for this slot is to compute 3 times the incoming value plus 12, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to compute 3 times the incoming value plus 12, all modulo 17.",
+    "At this slot, the specified rule is to add 12 to 3 times the input, wrapping around at 17.",
+    "The rule for this slot is to multiply the input by 3 and then add 12, all modulo 17.",
+    "The operation specified for this slot is to multiply the number by 3 and then add 12, on the 0 to 16 clock.",
+    "The operation specified for this slot is to take the input times 3, then increase it by 12, all modulo 17.",
+    "For this position, the assigned transformation is to add 12 to 3 times the received number, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to add 12 to 3 times the incoming value, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to add 12 to 3 times the number, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to multiply the number by 3 and then add 12, keeping the remainder after division by 17.",
+    "The rule for this slot is to take the incoming value times 3, then increase it by 12, keeping the remainder after division by 17.",
+    "For this position, the assigned transformation is to add 12 to 3 times the number, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to multiply the input by 3 and then add 12, wrapping around at 17.",
+    "The rule for this slot is to take the number times 3, then increase it by 12, wrapping around at 17.",
+    "This slot's operation is to compute 3 times the input plus 12, all modulo 17.",
+    "The rule for this slot is to take the received number times 3, then increase it by 12, wrapping around at 17.",
+    "The rule for this slot is to take the incoming value times 3, then increase it by 12, all modulo 17.",
+    "The operation specified for this slot is to add 12 to 3 times the number, keeping the remainder after division by 17.",
+    "The rule for this slot is to take the received number times 3, then increase it by 12, keeping the remainder after division by 17."
+   ]
+  },
+  "10": {
+   "a": 12,
+   "b": 7,
+   "dev": [
+    "For this position, the assigned transformation is to add 7 to 12 times the incoming value, wrapping around at 17.",
+    "The operation specified for this slot is to add 7 to 12 times the number, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to add 7 to 12 times the input, on the 0 to 16 clock.",
+    "This slot's operation is to multiply the incoming value by 12 and then add 7, all modulo 17."
+   ],
+   "keys": [
+    [
+     3,
+     1,
+     3,
+     2
+    ],
+    [
+     2,
+     2,
+     3,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     1
+    ],
+    [
+     4,
+     3,
+     3,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ],
+    [
+     5,
+     0,
+     3,
+     0
+    ],
+    [
+     0,
+     1,
+     2,
+     2
+    ],
+    [
+     2,
+     0,
+     2,
+     3
+    ],
+    [
+     5,
+     1,
+     1,
+     3
+    ],
+    [
+     3,
+     0,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     3,
+     3
+    ],
+    [
+     5,
+     3,
+     2,
+     2
+    ],
+    [
+     5,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     1,
+     0,
+     2
+    ],
+    [
+     0,
+     3,
+     2,
+     2
+    ],
+    [
+     2,
+     3,
+     1,
+     2
+    ],
+    [
+     5,
+     3,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     1,
+     3
+    ],
+    [
+     0,
+     0,
+     2,
+     0
+    ],
+    [
+     2,
+     2,
+     1,
+     2
+    ],
+    [
+     3,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     0,
+     2,
+     2
+    ],
+    [
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     3,
+     1,
+     1,
+     2
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     4,
+     3,
+     1,
+     3
+    ],
+    [
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     3,
+     0,
+     1
+    ],
+    [
+     4,
+     2,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     2,
+     3
+    ],
+    [
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     1,
+     2,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     0,
+     2
+    ],
+    [
+     5,
+     1,
+     0,
+     2
+    ]
+   ],
+   "n_candidates_fit": 360,
+   "qual": [
+    "The rule for this slot is to multiply the input by 12 and then add 7, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to add 7 to 12 times the received number, wrapping around at 17.",
+    "The operation specified for this slot is to take the input times 12, then increase it by 7, on the 0 to 16 clock.",
+    "The rule for this slot is to add 7 to 12 times the incoming value, keeping the remainder after division by 17."
+   ],
+   "sealed": [
+    "This slot's operation is to take the incoming value times 12, then increase it by 7, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to multiply the number by 12 and then add 7, all modulo 17.",
+    "The assigned instruction at this position is to multiply the number by 12 and then add 7, wrapping around at 17.",
+    "At this slot, the specified rule is to multiply the incoming value by 12 and then add 7, wrapping around at 17."
+   ],
+   "train": [
+    "For this position, the assigned transformation is to compute 12 times the incoming value plus 7, wrapping around at 17.",
+    "This slot's operation is to compute 12 times the received number plus 7, wrapping around at 17.",
+    "The rule for this slot is to take the incoming value times 12, then increase it by 7, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to compute 12 times the input plus 7, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to multiply the incoming value by 12 and then add 7, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to compute 12 times the number plus 7, all modulo 17.",
+    "The operation specified for this slot is to take the incoming value times 12, then increase it by 7, wrapping around at 17.",
+    "This slot's operation is to take the number times 12, then increase it by 7, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to add 7 to 12 times the incoming value, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to add 7 to 12 times the number, all modulo 17.",
+    "This slot's operation is to compute 12 times the incoming value plus 7, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to take the input times 12, then increase it by 7, wrapping around at 17.",
+    "At this slot, the specified rule is to add 7 to 12 times the incoming value, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to multiply the incoming value by 12 and then add 7, wrapping around at 17.",
+    "The operation specified for this slot is to take the input times 12, then increase it by 7, wrapping around at 17.",
+    "This slot's operation is to add 7 to 12 times the input, wrapping around at 17.",
+    "At this slot, the specified rule is to add 7 to 12 times the input, wrapping around at 17.",
+    "The rule for this slot is to multiply the incoming value by 12 and then add 7, wrapping around at 17.",
+    "The operation specified for this slot is to add 7 to 12 times the received number, on the 0 to 16 clock.",
+    "The operation specified for this slot is to take the number times 12, then increase it by 7, all modulo 17.",
+    "This slot's operation is to add 7 to 12 times the received number, wrapping around at 17.",
+    "For this position, the assigned transformation is to add 7 to 12 times the input, keeping the remainder after division by 17.",
+    "The rule for this slot is to take the number times 12, then increase it by 7, wrapping around at 17.",
+    "This slot's operation is to take the input times 12, then increase it by 7, wrapping around at 17."
+   ]
+  },
+  "11": {
+   "a": 1,
+   "b": 3,
+   "dev": [
+    "At this slot, the specified rule is to take the number times 1, then increase it by 3, all modulo 17.",
+    "For this position, the assigned transformation is to multiply the incoming value by 1 and then add 3, wrapping around at 17.",
+    "The operation specified for this slot is to take the received number times 1, then increase it by 3, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to multiply the received number by 1 and then add 3, keeping the remainder after division by 17."
+   ],
+   "keys": [
+    [
+     5,
+     1,
+     1,
+     2
+    ],
+    [
+     3,
+     0,
+     1,
+     2
+    ],
+    [
+     0,
+     0,
+     3,
+     0
+    ],
+    [
+     3,
+     1,
+     3,
+     3
+    ],
+    [
+     1,
+     2,
+     1,
+     0
+    ],
+    [
+     2,
+     1,
+     0,
+     1
+    ],
+    [
+     3,
+     0,
+     1,
+     3
+    ],
+    [
+     1,
+     3,
+     0,
+     3
+    ],
+    [
+     1,
+     3,
+     3,
+     3
+    ],
+    [
+     2,
+     0,
+     2,
+     3
+    ],
+    [
+     3,
+     2,
+     2,
+     0
+    ],
+    [
+     2,
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     1,
+     2,
+     0
+    ],
+    [
+     4,
+     2,
+     0,
+     0
+    ],
+    [
+     4,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     0,
+     0,
+     2
+    ],
+    [
+     2,
+     2,
+     0,
+     1
+    ],
+    [
+     2,
+     2,
+     3,
+     3
+    ],
+    [
+     1,
+     0,
+     3,
+     2
+    ],
+    [
+     1,
+     0,
+     0,
+     3
+    ],
+    [
+     4,
+     1,
+     3,
+     2
+    ],
+    [
+     5,
+     2,
+     1,
+     1
+    ],
+    [
+     0,
+     3,
+     2,
+     2
+    ],
+    [
+     5,
+     0,
+     2,
+     0
+    ],
+    [
+     3,
+     1,
+     0,
+     2
+    ],
+    [
+     0,
+     2,
+     2,
+     1
+    ],
+    [
+     4,
+     2,
+     0,
+     1
+    ],
+    [
+     2,
+     0,
+     3,
+     3
+    ],
+    [
+     5,
+     2,
+     1,
+     0
+    ],
+    [
+     3,
+     3,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     2,
+     2
+    ],
+    [
+     4,
+     3,
+     3,
+     2
+    ],
+    [
+     4,
+     0,
+     1,
+     3
+    ],
+    [
+     1,
+     3,
+     2,
+     3
+    ],
+    [
+     0,
+     2,
+     0,
+     2
+    ]
+   ],
+   "n_candidates_fit": 376,
+   "qual": [
+    "This slot's operation is to compute 1 times the number plus 3, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to add 3 to 1 times the received number, all modulo 17.",
+    "For this position, the assigned transformation is to multiply the input by 1 and then add 3, all modulo 17.",
+    "The rule for this slot is to take the number times 1, then increase it by 3, wrapping around at 17."
+   ],
+   "sealed": [
+    "The assigned instruction at this position is to compute 1 times the input plus 3, wrapping around at 17.",
+    "The assigned instruction at this position is to add 3 to 1 times the number, on the 0 to 16 clock.",
+    "The rule for this slot is to take the input times 1, then increase it by 3, on the 0 to 16 clock.",
+    "The operation specified for this slot is to multiply the received number by 1 and then add 3, wrapping around at 17."
+   ],
+   "train": [
+    "At this slot, the specified rule is to add 3 to 1 times the incoming value, wrapping around at 17.",
+    "For this position, the assigned transformation is to add 3 to 1 times the number, wrapping around at 17.",
+    "The operation specified for this slot is to compute 1 times the number plus 3, all modulo 17.",
+    "For this position, the assigned transformation is to compute 1 times the incoming value plus 3, on the 0 to 16 clock.",
+    "The rule for this slot is to add 3 to 1 times the received number, all modulo 17.",
+    "This slot's operation is to multiply the incoming value by 1 and then add 3, keeping the remainder after division by 17.",
+    "For this position, the assigned transformation is to add 3 to 1 times the number, on the 0 to 16 clock.",
+    "The rule for this slot is to multiply the input by 1 and then add 3, on the 0 to 16 clock.",
+    "The rule for this slot is to compute 1 times the input plus 3, on the 0 to 16 clock.",
+    "This slot's operation is to take the number times 1, then increase it by 3, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to take the received number times 1, then increase it by 3, all modulo 17.",
+    "This slot's operation is to compute 1 times the incoming value plus 3, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to compute 1 times the incoming value plus 3, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the incoming value times 1, then increase it by 3, all modulo 17.",
+    "The assigned instruction at this position is to multiply the received number by 1 and then add 3, all modulo 17.",
+    "The assigned instruction at this position is to add 3 to 1 times the input, wrapping around at 17.",
+    "The operation specified for this slot is to multiply the number by 1 and then add 3, wrapping around at 17.",
+    "This slot's operation is to multiply the received number by 1 and then add 3, keeping the remainder after division by 17.",
+    "This slot's operation is to compute 1 times the received number plus 3, on the 0 to 16 clock.",
+    "The rule for this slot is to compute 1 times the number plus 3, wrapping around at 17.",
+    "The rule for this slot is to multiply the number by 1 and then add 3, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to compute 1 times the incoming value plus 3, wrapping around at 17.",
+    "At this slot, the specified rule is to add 3 to 1 times the received number, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the input times 1, then increase it by 3, wrapping around at 17."
+   ]
+  },
+  "2": {
+   "a": 2,
+   "b": 7,
+   "dev": [
+    "This slot's operation is to take the incoming value times 2, then increase it by 7, on the 0 to 16 clock.",
+    "The rule for this slot is to take the number times 2, then increase it by 7, wrapping around at 17.",
+    "The operation specified for this slot is to compute 2 times the incoming value plus 7, all modulo 17.",
+    "For this position, the assigned transformation is to compute 2 times the incoming value plus 7, keeping the remainder after division by 17."
+   ],
+   "keys": [
+    [
+     5,
+     3,
+     1,
+     3
+    ],
+    [
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     3,
+     2,
+     0
+    ],
+    [
+     0,
+     3,
+     3,
+     3
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     1,
+     2,
+     2
+    ],
+    [
+     4,
+     0,
+     3,
+     2
+    ],
+    [
+     5,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     3,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     3
+    ],
+    [
+     4,
+     1,
+     2,
+     2
+    ],
+    [
+     0,
+     3,
+     2,
+     3
+    ],
+    [
+     1,
+     1,
+     2,
+     0
+    ],
+    [
+     3,
+     3,
+     2,
+     0
+    ],
+    [
+     4,
+     0,
+     3,
+     3
+    ],
+    [
+     2,
+     2,
+     1,
+     3
+    ],
+    [
+     1,
+     0,
+     2,
+     1
+    ],
+    [
+     3,
+     0,
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     1,
+     2
+    ],
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     5,
+     0,
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     1,
+     0
+    ],
+    [
+     2,
+     3,
+     3,
+     2
+    ],
+    [
+     4,
+     1,
+     3,
+     3
+    ],
+    [
+     2,
+     1,
+     2,
+     3
+    ],
+    [
+     1,
+     0,
+     2,
+     2
+    ],
+    [
+     0,
+     1,
+     3,
+     0
+    ],
+    [
+     3,
+     1,
+     3,
+     1
+    ],
+    [
+     2,
+     1,
+     0,
+     3
+    ],
+    [
+     1,
+     3,
+     3,
+     2
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     3,
+     0,
+     3,
+     1
+    ],
+    [
+     1,
+     2,
+     1,
+     0
+    ],
+    [
+     1,
+     3,
+     3,
+     0
+    ],
+    [
+     2,
+     1,
+     1,
+     2
+    ]
+   ],
+   "n_candidates_fit": 376,
+   "qual": [
+    "This slot's operation is to multiply the incoming value by 2 and then add 7, on the 0 to 16 clock.",
+    "The rule for this slot is to compute 2 times the input plus 7, wrapping around at 17.",
+    "The operation specified for this slot is to multiply the incoming value by 2 and then add 7, on the 0 to 16 clock.",
+    "The operation specified for this slot is to multiply the number by 2 and then add 7, keeping the remainder after division by 17."
+   ],
+   "sealed": [
+    "For this position, the assigned transformation is to compute 2 times the number plus 7, keeping the remainder after division by 17.",
+    "The rule for this slot is to add 7 to 2 times the received number, all modulo 17.",
+    "The rule for this slot is to compute 2 times the input plus 7, all modulo 17.",
+    "This slot's operation is to add 7 to 2 times the incoming value, wrapping around at 17."
+   ],
+   "train": [
+    "At this slot, the specified rule is to add 7 to 2 times the input, on the 0 to 16 clock.",
+    "This slot's operation is to multiply the number by 2 and then add 7, all modulo 17.",
+    "This slot's operation is to take the input times 2, then increase it by 7, all modulo 17.",
+    "The operation specified for this slot is to compute 2 times the input plus 7, on the 0 to 16 clock.",
+    "The operation specified for this slot is to multiply the incoming value by 2 and then add 7, all modulo 17.",
+    "For this position, the assigned transformation is to take the incoming value times 2, then increase it by 7, wrapping around at 17.",
+    "The assigned instruction at this position is to compute 2 times the number plus 7, wrapping around at 17.",
+    "At this slot, the specified rule is to add 7 to 2 times the incoming value, keeping the remainder after division by 17.",
+    "This slot's operation is to multiply the input by 2 and then add 7, all modulo 17.",
+    "For this position, the assigned transformation is to multiply the number by 2 and then add 7, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to take the incoming value times 2, then increase it by 7, wrapping around at 17.",
+    "The operation specified for this slot is to take the input times 2, then increase it by 7, on the 0 to 16 clock.",
+    "The rule for this slot is to take the incoming value times 2, then increase it by 7, all modulo 17.",
+    "For this position, the assigned transformation is to take the input times 2, then increase it by 7, all modulo 17.",
+    "The assigned instruction at this position is to compute 2 times the number plus 7, on the 0 to 16 clock.",
+    "This slot's operation is to add 7 to 2 times the received number, on the 0 to 16 clock.",
+    "The rule for this slot is to take the number times 2, then increase it by 7, keeping the remainder after division by 17.",
+    "For this position, the assigned transformation is to multiply the number by 2 and then add 7, keeping the remainder after division by 17.",
+    "This slot's operation is to add 7 to 2 times the input, wrapping around at 17.",
+    "The operation specified for this slot is to take the number times 2, then increase it by 7, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to multiply the number by 2 and then add 7, on the 0 to 16 clock.",
+    "The operation specified for this slot is to add 7 to 2 times the input, all modulo 17.",
+    "This slot's operation is to compute 2 times the input plus 7, wrapping around at 17.",
+    "The assigned instruction at this position is to compute 2 times the incoming value plus 7, on the 0 to 16 clock."
+   ]
+  },
+  "3": {
+   "a": 12,
+   "b": 4,
+   "dev": [
+    "The rule for this slot is to compute 12 times the input plus 4, keeping the remainder after division by 17.",
+    "This slot's operation is to compute 12 times the input plus 4, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to take the incoming value times 12, then increase it by 4, wrapping around at 17.",
+    "This slot's operation is to multiply the number by 12 and then add 4, on the 0 to 16 clock."
+   ],
+   "keys": [
+    [
+     4,
+     0,
+     3,
+     3
+    ],
+    [
+     4,
+     2,
+     3,
+     1
+    ],
+    [
+     0,
+     3,
+     0,
+     1
+    ],
+    [
+     4,
+     3,
+     2,
+     1
+    ],
+    [
+     4,
+     3,
+     0,
+     2
+    ],
+    [
+     2,
+     0,
+     2,
+     2
+    ],
+    [
+     3,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     2,
+     2
+    ],
+    [
+     0,
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     3,
+     0
+    ],
+    [
+     2,
+     3,
+     3,
+     0
+    ],
+    [
+     0,
+     3,
+     2,
+     1
+    ],
+    [
+     4,
+     1,
+     2,
+     0
+    ],
+    [
+     5,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     3,
+     3
+    ],
+    [
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     2,
+     2,
+     2,
+     1
+    ],
+    [
+     4,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     3
+    ],
+    [
+     2,
+     3,
+     3,
+     2
+    ],
+    [
+     5,
+     1,
+     1,
+     0
+    ],
+    [
+     3,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     2,
+     0,
+     2
+    ],
+    [
+     2,
+     2,
+     2,
+     3
+    ],
+    [
+     1,
+     3,
+     3,
+     1
+    ],
+    [
+     2,
+     3,
+     3,
+     3
+    ],
+    [
+     3,
+     1,
+     2,
+     2
+    ],
+    [
+     2,
+     0,
+     0,
+     3
+    ],
+    [
+     3,
+     1,
+     0,
+     3
+    ],
+    [
+     1,
+     3,
+     0,
+     0
+    ],
+    [
+     5,
+     1,
+     3,
+     2
+    ],
+    [
+     5,
+     0,
+     0,
+     1
+    ],
+    [
+     3,
+     1,
+     1,
+     2
+    ],
+    [
+     5,
+     1,
+     3,
+     1
+    ],
+    [
+     5,
+     1,
+     0,
+     0
+    ],
+    [
+     2,
+     3,
+     0,
+     0
+    ]
+   ],
+   "n_candidates_fit": 360,
+   "qual": [
+    "For this position, the assigned transformation is to multiply the incoming value by 12 and then add 4, on the 0 to 16 clock.",
+    "The rule for this slot is to multiply the input by 12 and then add 4, all modulo 17.",
+    "At this slot, the specified rule is to compute 12 times the incoming value plus 4, wrapping around at 17.",
+    "At this slot, the specified rule is to multiply the number by 12 and then add 4, keeping the remainder after division by 17."
+   ],
+   "sealed": [
+    "For this position, the assigned transformation is to add 4 to 12 times the incoming value, wrapping around at 17.",
+    "At this slot, the specified rule is to compute 12 times the incoming value plus 4, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to multiply the incoming value by 12 and then add 4, all modulo 17.",
+    "This slot's operation is to multiply the input by 12 and then add 4, all modulo 17."
+   ],
+   "train": [
+    "The assigned instruction at this position is to compute 12 times the number plus 4, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to compute 12 times the received number plus 4, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to multiply the input by 12 and then add 4, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to take the input times 12, then increase it by 4, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to multiply the input by 12 and then add 4, wrapping around at 17.",
+    "This slot's operation is to take the number times 12, then increase it by 4, wrapping around at 17.",
+    "For this position, the assigned transformation is to add 4 to 12 times the number, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the number times 12, then increase it by 4, wrapping around at 17.",
+    "The operation specified for this slot is to multiply the incoming value by 12 and then add 4, wrapping around at 17.",
+    "The rule for this slot is to compute 12 times the number plus 4, all modulo 17.",
+    "This slot's operation is to compute 12 times the input plus 4, all modulo 17.",
+    "The operation specified for this slot is to take the input times 12, then increase it by 4, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to take the incoming value times 12, then increase it by 4, all modulo 17.",
+    "At this slot, the specified rule is to multiply the number by 12 and then add 4, all modulo 17.",
+    "The operation specified for this slot is to compute 12 times the received number plus 4, on the 0 to 16 clock.",
+    "The operation specified for this slot is to add 4 to 12 times the incoming value, wrapping around at 17.",
+    "This slot's operation is to take the received number times 12, then increase it by 4, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to add 4 to 12 times the number, all modulo 17.",
+    "The assigned instruction at this position is to add 4 to 12 times the number, on the 0 to 16 clock.",
+    "This slot's operation is to compute 12 times the input plus 4, wrapping around at 17.",
+    "At this slot, the specified rule is to add 4 to 12 times the incoming value, all modulo 17.",
+    "For this position, the assigned transformation is to multiply the incoming value by 12 and then add 4, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to multiply the received number by 12 and then add 4, wrapping around at 17.",
+    "This slot's operation is to take the received number times 12, then increase it by 4, on the 0 to 16 clock."
+   ]
+  },
+  "4": {
+   "a": 11,
+   "b": 5,
+   "dev": [
+    "This slot's operation is to multiply the incoming value by 11 and then add 5, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to add 5 to 11 times the input, keeping the remainder after division by 17.",
+    "The rule for this slot is to compute 11 times the input plus 5, keeping the remainder after division by 17.",
+    "The rule for this slot is to multiply the input by 11 and then add 5, all modulo 17."
+   ],
+   "keys": [
+    [
+     0,
+     2,
+     3,
+     0
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     5,
+     3,
+     3,
+     1
+    ],
+    [
+     2,
+     3,
+     2,
+     1
+    ],
+    [
+     1,
+     0,
+     3,
+     2
+    ],
+    [
+     4,
+     2,
+     3,
+     0
+    ],
+    [
+     4,
+     3,
+     0,
+     0
+    ],
+    [
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     5,
+     3,
+     2,
+     2
+    ],
+    [
+     3,
+     0,
+     2,
+     2
+    ],
+    [
+     5,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     3,
+     1
+    ],
+    [
+     5,
+     2,
+     1,
+     3
+    ],
+    [
+     4,
+     0,
+     2,
+     3
+    ],
+    [
+     3,
+     2,
+     0,
+     2
+    ],
+    [
+     4,
+     0,
+     2,
+     2
+    ],
+    [
+     4,
+     3,
+     3,
+     1
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     3
+    ],
+    [
+     2,
+     0,
+     0,
+     3
+    ],
+    [
+     4,
+     2,
+     2,
+     2
+    ],
+    [
+     4,
+     3,
+     1,
+     0
+    ],
+    [
+     4,
+     3,
+     2,
+     1
+    ],
+    [
+     5,
+     0,
+     1,
+     3
+    ],
+    [
+     2,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     3,
+     3,
+     1
+    ],
+    [
+     1,
+     3,
+     0,
+     0
+    ],
+    [
+     5,
+     3,
+     3,
+     0
+    ],
+    [
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     2,
+     2,
+     0
+    ],
+    [
+     4,
+     3,
+     1,
+     1
+    ],
+    [
+     0,
+     0,
+     3,
+     1
+    ],
+    [
+     3,
+     2,
+     1,
+     2
+    ],
+    [
+     5,
+     2,
+     3,
+     3
+    ],
+    [
+     5,
+     1,
+     1,
+     0
+    ]
+   ],
+   "n_candidates_fit": 360,
+   "qual": [
+    "At this slot, the specified rule is to compute 11 times the input plus 5, all modulo 17.",
+    "The assigned instruction at this position is to multiply the incoming value by 11 and then add 5, all modulo 17.",
+    "The rule for this slot is to take the received number times 11, then increase it by 5, all modulo 17.",
+    "The assigned instruction at this position is to add 5 to 11 times the input, keeping the remainder after division by 17."
+   ],
+   "sealed": [
+    "The operation specified for this slot is to compute 11 times the number plus 5, keeping the remainder after division by 17.",
+    "For this position, the assigned transformation is to add 5 to 11 times the received number, wrapping around at 17.",
+    "At this slot, the specified rule is to compute 11 times the received number plus 5, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to add 5 to 11 times the incoming value, all modulo 17."
+   ],
+   "train": [
+    "The operation specified for this slot is to compute 11 times the received number plus 5, all modulo 17.",
+    "The operation specified for this slot is to compute 11 times the incoming value plus 5, wrapping around at 17.",
+    "At this slot, the specified rule is to compute 11 times the input plus 5, keeping the remainder after division by 17.",
+    "This slot's operation is to take the input times 11, then increase it by 5, keeping the remainder after division by 17.",
+    "The rule for this slot is to compute 11 times the number plus 5, wrapping around at 17.",
+    "The assigned instruction at this position is to compute 11 times the received number plus 5, all modulo 17.",
+    "The assigned instruction at this position is to multiply the input by 11 and then add 5, all modulo 17.",
+    "This slot's operation is to take the received number times 11, then increase it by 5, wrapping around at 17.",
+    "At this slot, the specified rule is to take the input times 11, then increase it by 5, wrapping around at 17.",
+    "For this position, the assigned transformation is to take the number times 11, then increase it by 5, wrapping around at 17.",
+    "At this slot, the specified rule is to multiply the number by 11 and then add 5, all modulo 17.",
+    "This slot's operation is to compute 11 times the number plus 5, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to add 5 to 11 times the received number, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to take the number times 11, then increase it by 5, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to multiply the received number by 11 and then add 5, wrapping around at 17.",
+    "The assigned instruction at this position is to take the number times 11, then increase it by 5, wrapping around at 17.",
+    "The assigned instruction at this position is to compute 11 times the input plus 5, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to multiply the incoming value by 11 and then add 5, all modulo 17.",
+    "For this position, the assigned transformation is to multiply the number by 11 and then add 5, on the 0 to 16 clock.",
+    "This slot's operation is to multiply the number by 11 and then add 5, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to take the received number times 11, then increase it by 5, wrapping around at 17.",
+    "The assigned instruction at this position is to add 5 to 11 times the input, all modulo 17.",
+    "The assigned instruction at this position is to take the input times 11, then increase it by 5, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to add 5 to 11 times the number, on the 0 to 16 clock."
+   ]
+  },
+  "5": {
+   "a": 5,
+   "b": 12,
+   "dev": [
+    "This slot's operation is to take the number times 5, then increase it by 12, all modulo 17.",
+    "At this slot, the specified rule is to take the input times 5, then increase it by 12, wrapping around at 17.",
+    "For this position, the assigned transformation is to multiply the input by 5 and then add 12, wrapping around at 17.",
+    "This slot's operation is to multiply the input by 5 and then add 12, all modulo 17."
+   ],
+   "keys": [
+    [
+     5,
+     3,
+     3,
+     1
+    ],
+    [
+     5,
+     2,
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     2,
+     1
+    ],
+    [
+     2,
+     3,
+     0,
+     3
+    ],
+    [
+     1,
+     3,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     3,
+     1
+    ],
+    [
+     4,
+     3,
+     0,
+     1
+    ],
+    [
+     0,
+     2,
+     1,
+     2
+    ],
+    [
+     1,
+     1,
+     3,
+     0
+    ],
+    [
+     2,
+     0,
+     2,
+     3
+    ],
+    [
+     4,
+     1,
+     0,
+     3
+    ],
+    [
+     2,
+     0,
+     3,
+     1
+    ],
+    [
+     4,
+     2,
+     3,
+     3
+    ],
+    [
+     5,
+     0,
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     3,
+     3
+    ],
+    [
+     4,
+     3,
+     3,
+     3
+    ],
+    [
+     4,
+     2,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     2,
+     0
+    ],
+    [
+     2,
+     0,
+     3,
+     2
+    ],
+    [
+     2,
+     1,
+     2,
+     3
+    ],
+    [
+     3,
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     3,
+     1,
+     0
+    ],
+    [
+     0,
+     3,
+     0,
+     3
+    ],
+    [
+     2,
+     0,
+     2,
+     0
+    ],
+    [
+     5,
+     3,
+     2,
+     2
+    ],
+    [
+     3,
+     3,
+     0,
+     2
+    ],
+    [
+     2,
+     3,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     3,
+     1
+    ],
+    [
+     0,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     0,
+     0,
+     3
+    ],
+    [
+     5,
+     1,
+     1,
+     3
+    ],
+    [
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     3
+    ]
+   ],
+   "n_candidates_fit": 360,
+   "qual": [
+    "The operation specified for this slot is to compute 5 times the received number plus 12, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the received number times 5, then increase it by 12, wrapping around at 17.",
+    "The rule for this slot is to multiply the number by 5 and then add 12, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to add 12 to 5 times the incoming value, on the 0 to 16 clock."
+   ],
+   "sealed": [
+    "The operation specified for this slot is to add 12 to 5 times the number, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to compute 5 times the incoming value plus 12, wrapping around at 17.",
+    "The operation specified for this slot is to multiply the incoming value by 5 and then add 12, all modulo 17.",
+    "The assigned instruction at this position is to add 12 to 5 times the number, on the 0 to 16 clock."
+   ],
+   "train": [
+    "At this slot, the specified rule is to compute 5 times the input plus 12, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to multiply the received number by 5 and then add 12, on the 0 to 16 clock.",
+    "The operation specified for this slot is to take the input times 5, then increase it by 12, keeping the remainder after division by 17.",
+    "This slot's operation is to multiply the input by 5 and then add 12, on the 0 to 16 clock.",
+    "The rule for this slot is to multiply the input by 5 and then add 12, keeping the remainder after division by 17.",
+    "The rule for this slot is to add 12 to 5 times the number, all modulo 17.",
+    "The operation specified for this slot is to compute 5 times the number plus 12, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to multiply the input by 5 and then add 12, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to add 12 to 5 times the received number, wrapping around at 17.",
+    "The rule for this slot is to compute 5 times the incoming value plus 12, all modulo 17.",
+    "This slot's operation is to take the number times 5, then increase it by 12, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to multiply the incoming value by 5 and then add 12, on the 0 to 16 clock.",
+    "This slot's operation is to compute 5 times the number plus 12, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to compute 5 times the received number plus 12, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to multiply the number by 5 and then add 12, on the 0 to 16 clock.",
+    "The operation specified for this slot is to compute 5 times the input plus 12, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to compute 5 times the input plus 12, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to take the received number times 5, then increase it by 12, all modulo 17.",
+    "The rule for this slot is to take the received number times 5, then increase it by 12, all modulo 17.",
+    "This slot's operation is to compute 5 times the number plus 12, wrapping around at 17.",
+    "This slot's operation is to take the incoming value times 5, then increase it by 12, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to compute 5 times the incoming value plus 12, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to add 12 to 5 times the input, all modulo 17.",
+    "The operation specified for this slot is to multiply the input by 5 and then add 12, on the 0 to 16 clock."
+   ]
+  },
+  "6": {
+   "a": 3,
+   "b": 9,
+   "dev": [
+    "The assigned instruction at this position is to multiply the input by 3 and then add 9, on the 0 to 16 clock.",
+    "The operation specified for this slot is to take the received number times 3, then increase it by 9, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the number times 3, then increase it by 9, keeping the remainder after division by 17.",
+    "This slot's operation is to take the incoming value times 3, then increase it by 9, on the 0 to 16 clock."
+   ],
+   "keys": [
+    [
+     3,
+     2,
+     3,
+     2
+    ],
+    [
+     1,
+     3,
+     1,
+     1
+    ],
+    [
+     2,
+     2,
+     2,
+     3
+    ],
+    [
+     0,
+     3,
+     3,
+     0
+    ],
+    [
+     0,
+     1,
+     3,
+     0
+    ],
+    [
+     5,
+     2,
+     1,
+     3
+    ],
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     5,
+     2,
+     1,
+     2
+    ],
+    [
+     3,
+     0,
+     0,
+     2
+    ],
+    [
+     3,
+     0,
+     3,
+     1
+    ],
+    [
+     2,
+     3,
+     3,
+     2
+    ],
+    [
+     4,
+     1,
+     1,
+     1
+    ],
+    [
+     2,
+     0,
+     1,
+     0
+    ],
+    [
+     3,
+     2,
+     0,
+     2
+    ],
+    [
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     2,
+     2,
+     3,
+     0
+    ],
+    [
+     1,
+     3,
+     2,
+     3
+    ],
+    [
+     1,
+     3,
+     1,
+     3
+    ],
+    [
+     4,
+     1,
+     3,
+     1
+    ],
+    [
+     3,
+     1,
+     0,
+     2
+    ],
+    [
+     5,
+     3,
+     0,
+     3
+    ],
+    [
+     1,
+     3,
+     0,
+     0
+    ],
+    [
+     4,
+     2,
+     3,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     0
+    ],
+    [
+     4,
+     3,
+     0,
+     3
+    ],
+    [
+     0,
+     2,
+     2,
+     1
+    ],
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     2,
+     3
+    ],
+    [
+     5,
+     1,
+     0,
+     3
+    ],
+    [
+     4,
+     3,
+     1,
+     3
+    ],
+    [
+     5,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     3,
+     1,
+     2
+    ],
+    [
+     1,
+     3,
+     2,
+     1
+    ],
+    [
+     5,
+     3,
+     3,
+     2
+    ],
+    [
+     4,
+     3,
+     0,
+     1
+    ],
+    [
+     4,
+     2,
+     2,
+     2
+    ]
+   ],
+   "n_candidates_fit": 376,
+   "qual": [
+    "At this slot, the specified rule is to multiply the incoming value by 3 and then add 9, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to add 9 to 3 times the input, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to take the received number times 3, then increase it by 9, wrapping around at 17.",
+    "The rule for this slot is to add 9 to 3 times the input, wrapping around at 17."
+   ],
+   "sealed": [
+    "The rule for this slot is to take the input times 3, then increase it by 9, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to compute 3 times the input plus 9, wrapping around at 17.",
+    "The assigned instruction at this position is to multiply the input by 3 and then add 9, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to take the received number times 3, then increase it by 9, wrapping around at 17."
+   ],
+   "train": [
+    "For this position, the assigned transformation is to compute 3 times the received number plus 9, wrapping around at 17.",
+    "The rule for this slot is to add 9 to 3 times the input, keeping the remainder after division by 17.",
+    "This slot's operation is to take the received number times 3, then increase it by 9, on the 0 to 16 clock.",
+    "The operation specified for this slot is to compute 3 times the input plus 9, all modulo 17.",
+    "The operation specified for this slot is to compute 3 times the incoming value plus 9, all modulo 17.",
+    "At this slot, the specified rule is to add 9 to 3 times the received number, on the 0 to 16 clock.",
+    "The rule for this slot is to take the number times 3, then increase it by 9, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to add 9 to 3 times the received number, wrapping around at 17.",
+    "For this position, the assigned transformation is to multiply the number by 3 and then add 9, wrapping around at 17.",
+    "For this position, the assigned transformation is to compute 3 times the number plus 9, keeping the remainder after division by 17.",
+    "This slot's operation is to compute 3 times the input plus 9, wrapping around at 17.",
+    "The assigned instruction at this position is to add 9 to 3 times the incoming value, keeping the remainder after division by 17.",
+    "This slot's operation is to add 9 to 3 times the number, all modulo 17.",
+    "For this position, the assigned transformation is to multiply the received number by 3 and then add 9, wrapping around at 17.",
+    "The operation specified for this slot is to multiply the input by 3 and then add 9, all modulo 17.",
+    "This slot's operation is to compute 3 times the received number plus 9, all modulo 17.",
+    "The rule for this slot is to take the input times 3, then increase it by 9, on the 0 to 16 clock.",
+    "The rule for this slot is to add 9 to 3 times the input, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to compute 3 times the incoming value plus 9, keeping the remainder after division by 17.",
+    "For this position, the assigned transformation is to multiply the incoming value by 3 and then add 9, wrapping around at 17.",
+    "At this slot, the specified rule is to multiply the input by 3 and then add 9, on the 0 to 16 clock.",
+    "The rule for this slot is to multiply the input by 3 and then add 9, all modulo 17.",
+    "The assigned instruction at this position is to compute 3 times the received number plus 9, keeping the remainder after division by 17.",
+    "This slot's operation is to add 9 to 3 times the incoming value, all modulo 17."
+   ]
+  },
+  "7": {
+   "a": 11,
+   "b": 4,
+   "dev": [
+    "For this position, the assigned transformation is to multiply the number by 11 and then add 4, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to take the input times 11, then increase it by 4, wrapping around at 17.",
+    "The operation specified for this slot is to take the input times 11, then increase it by 4, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to take the number times 11, then increase it by 4, on the 0 to 16 clock."
+   ],
+   "keys": [
+    [
+     5,
+     0,
+     3,
+     3
+    ],
+    [
+     0,
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     2,
+     1,
+     3
+    ],
+    [
+     1,
+     1,
+     0,
+     3
+    ],
+    [
+     3,
+     0,
+     2,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     1
+    ],
+    [
+     4,
+     3,
+     3,
+     3
+    ],
+    [
+     3,
+     2,
+     1,
+     2
+    ],
+    [
+     0,
+     3,
+     2,
+     3
+    ],
+    [
+     4,
+     2,
+     3,
+     3
+    ],
+    [
+     1,
+     3,
+     3,
+     2
+    ],
+    [
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     3,
+     3,
+     1
+    ],
+    [
+     2,
+     2,
+     2,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     1,
+     3,
+     0
+    ],
+    [
+     0,
+     3,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     3,
+     2
+    ],
+    [
+     1,
+     1,
+     3,
+     0
+    ],
+    [
+     5,
+     0,
+     3,
+     2
+    ],
+    [
+     2,
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     0,
+     3,
+     1
+    ],
+    [
+     5,
+     1,
+     0,
+     0
+    ],
+    [
+     3,
+     3,
+     1,
+     3
+    ],
+    [
+     3,
+     0,
+     0,
+     1
+    ],
+    [
+     5,
+     3,
+     2,
+     2
+    ],
+    [
+     0,
+     3,
+     2,
+     1
+    ],
+    [
+     4,
+     0,
+     2,
+     3
+    ],
+    [
+     5,
+     2,
+     3,
+     1
+    ],
+    [
+     2,
+     1,
+     1,
+     3
+    ],
+    [
+     0,
+     2,
+     0,
+     3
+    ],
+    [
+     1,
+     1,
+     2,
+     2
+    ],
+    [
+     5,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     3
+    ],
+    [
+     2,
+     3,
+     2,
+     3
+    ],
+    [
+     1,
+     3,
+     3,
+     1
+    ]
+   ],
+   "n_candidates_fit": 360,
+   "qual": [
+    "At this slot, the specified rule is to compute 11 times the received number plus 4, keeping the remainder after division by 17.",
+    "This slot's operation is to add 4 to 11 times the incoming value, on the 0 to 16 clock.",
+    "The operation specified for this slot is to multiply the received number by 11 and then add 4, on the 0 to 16 clock.",
+    "The rule for this slot is to take the incoming value times 11, then increase it by 4, wrapping around at 17."
+   ],
+   "sealed": [
+    "At this slot, the specified rule is to add 4 to 11 times the number, all modulo 17.",
+    "The assigned instruction at this position is to add 4 to 11 times the number, on the 0 to 16 clock.",
+    "This slot's operation is to take the input times 11, then increase it by 4, on the 0 to 16 clock.",
+    "The rule for this slot is to compute 11 times the input plus 4, keeping the remainder after division by 17."
+   ],
+   "train": [
+    "At this slot, the specified rule is to compute 11 times the number plus 4, on the 0 to 16 clock.",
+    "The operation specified for this slot is to multiply the incoming value by 11 and then add 4, wrapping around at 17.",
+    "The rule for this slot is to add 4 to 11 times the received number, on the 0 to 16 clock.",
+    "The rule for this slot is to multiply the incoming value by 11 and then add 4, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to take the number times 11, then increase it by 4, all modulo 17.",
+    "The assigned instruction at this position is to add 4 to 11 times the number, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to compute 11 times the input plus 4, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to add 4 to 11 times the received number, wrapping around at 17.",
+    "The operation specified for this slot is to take the input times 11, then increase it by 4, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to compute 11 times the received number plus 4, on the 0 to 16 clock.",
+    "The rule for this slot is to compute 11 times the input plus 4, wrapping around at 17.",
+    "At this slot, the specified rule is to add 4 to 11 times the number, wrapping around at 17.",
+    "The assigned instruction at this position is to compute 11 times the input plus 4, keeping the remainder after division by 17.",
+    "This slot's operation is to take the received number times 11, then increase it by 4, all modulo 17.",
+    "The operation specified for this slot is to add 4 to 11 times the number, wrapping around at 17.",
+    "For this position, the assigned transformation is to compute 11 times the incoming value plus 4, all modulo 17.",
+    "The operation specified for this slot is to add 4 to 11 times the input, all modulo 17.",
+    "The operation specified for this slot is to compute 11 times the received number plus 4, wrapping around at 17.",
+    "The rule for this slot is to compute 11 times the incoming value plus 4, all modulo 17.",
+    "At this slot, the specified rule is to compute 11 times the number plus 4, wrapping around at 17.",
+    "This slot's operation is to take the incoming value times 11, then increase it by 4, keeping the remainder after division by 17.",
+    "This slot's operation is to compute 11 times the number plus 4, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to multiply the incoming value by 11 and then add 4, all modulo 17.",
+    "For this position, the assigned transformation is to add 4 to 11 times the input, on the 0 to 16 clock."
+   ]
+  },
+  "8": {
+   "a": 2,
+   "b": 6,
+   "dev": [
+    "This slot's operation is to add 6 to 2 times the received number, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to add 6 to 2 times the incoming value, all modulo 17.",
+    "The operation specified for this slot is to take the number times 2, then increase it by 6, wrapping around at 17.",
+    "The operation specified for this slot is to take the received number times 2, then increase it by 6, wrapping around at 17."
+   ],
+   "keys": [
+    [
+     5,
+     3,
+     2,
+     1
+    ],
+    [
+     2,
+     2,
+     3,
+     1
+    ],
+    [
+     3,
+     2,
+     1,
+     2
+    ],
+    [
+     3,
+     3,
+     1,
+     1
+    ],
+    [
+     1,
+     3,
+     2,
+     3
+    ],
+    [
+     4,
+     1,
+     3,
+     2
+    ],
+    [
+     1,
+     0,
+     2,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     2
+    ],
+    [
+     2,
+     2,
+     1,
+     2
+    ],
+    [
+     5,
+     1,
+     0,
+     3
+    ],
+    [
+     3,
+     2,
+     3,
+     0
+    ],
+    [
+     4,
+     2,
+     1,
+     2
+    ],
+    [
+     3,
+     3,
+     3,
+     2
+    ],
+    [
+     3,
+     3,
+     0,
+     2
+    ],
+    [
+     5,
+     3,
+     2,
+     2
+    ],
+    [
+     0,
+     2,
+     3,
+     0
+    ],
+    [
+     2,
+     3,
+     2,
+     2
+    ],
+    [
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     3,
+     2,
+     1,
+     3
+    ],
+    [
+     0,
+     2,
+     2,
+     0
+    ],
+    [
+     3,
+     3,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0,
+     3
+    ],
+    [
+     0,
+     2,
+     1,
+     3
+    ],
+    [
+     3,
+     2,
+     2,
+     2
+    ],
+    [
+     2,
+     2,
+     1,
+     3
+    ],
+    [
+     4,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     2,
+     2
+    ],
+    [
+     0,
+     2,
+     2,
+     2
+    ],
+    [
+     0,
+     0,
+     2,
+     1
+    ],
+    [
+     1,
+     2,
+     2,
+     3
+    ],
+    [
+     5,
+     3,
+     0,
+     1
+    ],
+    [
+     5,
+     1,
+     3,
+     2
+    ],
+    [
+     0,
+     3,
+     3,
+     1
+    ],
+    [
+     0,
+     2,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     1,
+     1
+    ],
+    [
+     1,
+     1,
+     3,
+     1
+    ]
+   ],
+   "n_candidates_fit": 376,
+   "qual": [
+    "The operation specified for this slot is to take the number times 2, then increase it by 6, keeping the remainder after division by 17.",
+    "The rule for this slot is to take the received number times 2, then increase it by 6, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to multiply the input by 2 and then add 6, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to compute 2 times the incoming value plus 6, wrapping around at 17."
+   ],
+   "sealed": [
+    "The operation specified for this slot is to compute 2 times the input plus 6, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the received number times 2, then increase it by 6, on the 0 to 16 clock.",
+    "The operation specified for this slot is to add 6 to 2 times the incoming value, keeping the remainder after division by 17.",
+    "The rule for this slot is to compute 2 times the incoming value plus 6, keeping the remainder after division by 17."
+   ],
+   "train": [
+    "At this slot, the specified rule is to take the input times 2, then increase it by 6, keeping the remainder after division by 17.",
+    "This slot's operation is to compute 2 times the received number plus 6, keeping the remainder after division by 17.",
+    "For this position, the assigned transformation is to add 6 to 2 times the received number, wrapping around at 17.",
+    "For this position, the assigned transformation is to add 6 to 2 times the input, keeping the remainder after division by 17.",
+    "The rule for this slot is to take the input times 2, then increase it by 6, on the 0 to 16 clock.",
+    "The assigned instruction at this position is to compute 2 times the incoming value plus 6, wrapping around at 17.",
+    "The rule for this slot is to take the number times 2, then increase it by 6, all modulo 17.",
+    "For this position, the assigned transformation is to multiply the number by 2 and then add 6, wrapping around at 17.",
+    "This slot's operation is to add 6 to 2 times the received number, wrapping around at 17.",
+    "At this slot, the specified rule is to multiply the incoming value by 2 and then add 6, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to compute 2 times the received number plus 6, all modulo 17.",
+    "The assigned instruction at this position is to add 6 to 2 times the received number, wrapping around at 17.",
+    "For this position, the assigned transformation is to compute 2 times the input plus 6, wrapping around at 17.",
+    "For this position, the assigned transformation is to multiply the input by 2 and then add 6, wrapping around at 17.",
+    "At this slot, the specified rule is to take the input times 2, then increase it by 6, wrapping around at 17.",
+    "The operation specified for this slot is to compute 2 times the received number plus 6, all modulo 17.",
+    "This slot's operation is to take the input times 2, then increase it by 6, wrapping around at 17.",
+    "The rule for this slot is to add 6 to 2 times the incoming value, all modulo 17.",
+    "For this position, the assigned transformation is to add 6 to 2 times the received number, on the 0 to 16 clock.",
+    "The operation specified for this slot is to take the received number times 2, then increase it by 6, all modulo 17.",
+    "For this position, the assigned transformation is to take the input times 2, then increase it by 6, all modulo 17.",
+    "The operation specified for this slot is to multiply the received number by 2 and then add 6, on the 0 to 16 clock.",
+    "The operation specified for this slot is to add 6 to 2 times the received number, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to take the received number times 2, then increase it by 6, wrapping around at 17."
+   ]
+  },
+  "9": {
+   "a": 1,
+   "b": 11,
+   "dev": [
+    "The assigned instruction at this position is to compute 1 times the input plus 11, wrapping around at 17.",
+    "The rule for this slot is to take the received number times 1, then increase it by 11, on the 0 to 16 clock.",
+    "For this position, the assigned transformation is to multiply the input by 1 and then add 11, wrapping around at 17.",
+    "The assigned instruction at this position is to add 11 to 1 times the incoming value, wrapping around at 17."
+   ],
+   "keys": [
+    [
+     5,
+     0,
+     1,
+     2
+    ],
+    [
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     1,
+     0
+    ],
+    [
+     4,
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     2,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     3,
+     2,
+     0
+    ],
+    [
+     1,
+     3,
+     3,
+     3
+    ],
+    [
+     5,
+     1,
+     0,
+     1
+    ],
+    [
+     4,
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     1,
+     0,
+     1
+    ],
+    [
+     0,
+     3,
+     2,
+     1
+    ],
+    [
+     5,
+     2,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     1,
+     2
+    ],
+    [
+     2,
+     2,
+     0,
+     0
+    ],
+    [
+     3,
+     3,
+     1,
+     2
+    ],
+    [
+     4,
+     2,
+     0,
+     2
+    ],
+    [
+     3,
+     2,
+     0,
+     1
+    ],
+    [
+     0,
+     3,
+     1,
+     2
+    ],
+    [
+     1,
+     3,
+     0,
+     2
+    ],
+    [
+     4,
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     3,
+     3,
+     0
+    ],
+    [
+     1,
+     3,
+     0,
+     3
+    ],
+    [
+     5,
+     2,
+     3,
+     1
+    ],
+    [
+     4,
+     3,
+     3,
+     2
+    ],
+    [
+     1,
+     2,
+     2,
+     3
+    ],
+    [
+     3,
+     3,
+     0,
+     2
+    ],
+    [
+     4,
+     1,
+     1,
+     2
+    ],
+    [
+     5,
+     2,
+     0,
+     3
+    ],
+    [
+     2,
+     3,
+     2,
+     1
+    ],
+    [
+     0,
+     2,
+     1,
+     3
+    ],
+    [
+     1,
+     0,
+     2,
+     2
+    ],
+    [
+     1,
+     3,
+     0,
+     1
+    ],
+    [
+     2,
+     3,
+     2,
+     3
+    ],
+    [
+     0,
+     0,
+     3,
+     0
+    ],
+    [
+     4,
+     3,
+     2,
+     1
+    ]
+   ],
+   "n_candidates_fit": 360,
+   "qual": [
+    "At this slot, the specified rule is to multiply the received number by 1 and then add 11, on the 0 to 16 clock.",
+    "This slot's operation is to take the input times 1, then increase it by 11, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to add 11 to 1 times the received number, on the 0 to 16 clock.",
+    "The rule for this slot is to take the number times 1, then increase it by 11, wrapping around at 17."
+   ],
+   "sealed": [
+    "The rule for this slot is to multiply the input by 1 and then add 11, keeping the remainder after division by 17.",
+    "This slot's operation is to take the input times 1, then increase it by 11, on the 0 to 16 clock.",
+    "The operation specified for this slot is to compute 1 times the number plus 11, all modulo 17.",
+    "The assigned instruction at this position is to take the input times 1, then increase it by 11, keeping the remainder after division by 17."
+   ],
+   "train": [
+    "At this slot, the specified rule is to add 11 to 1 times the number, wrapping around at 17.",
+    "The rule for this slot is to multiply the number by 1 and then add 11, all modulo 17.",
+    "This slot's operation is to add 11 to 1 times the number, all modulo 17.",
+    "The assigned instruction at this position is to compute 1 times the incoming value plus 11, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the received number times 1, then increase it by 11, all modulo 17.",
+    "The operation specified for this slot is to take the received number times 1, then increase it by 11, wrapping around at 17.",
+    "The rule for this slot is to take the input times 1, then increase it by 11, all modulo 17.",
+    "The rule for this slot is to compute 1 times the input plus 11, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to multiply the incoming value by 1 and then add 11, keeping the remainder after division by 17.",
+    "The assigned instruction at this position is to take the number times 1, then increase it by 11, all modulo 17.",
+    "The rule for this slot is to multiply the incoming value by 1 and then add 11, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to take the input times 1, then increase it by 11, keeping the remainder after division by 17.",
+    "At this slot, the specified rule is to add 11 to 1 times the received number, all modulo 17.",
+    "The rule for this slot is to add 11 to 1 times the received number, wrapping around at 17.",
+    "This slot's operation is to multiply the received number by 1 and then add 11, all modulo 17.",
+    "For this position, the assigned transformation is to add 11 to 1 times the input, wrapping around at 17.",
+    "The assigned instruction at this position is to multiply the received number by 1 and then add 11, wrapping around at 17.",
+    "For this position, the assigned transformation is to multiply the received number by 1 and then add 11, keeping the remainder after division by 17.",
+    "The operation specified for this slot is to add 11 to 1 times the input, wrapping around at 17.",
+    "The rule for this slot is to multiply the input by 1 and then add 11, wrapping around at 17.",
+    "The assigned instruction at this position is to multiply the incoming value by 1 and then add 11, wrapping around at 17.",
+    "The rule for this slot is to compute 1 times the input plus 11, all modulo 17.",
+    "The rule for this slot is to multiply the input by 1 and then add 11, on the 0 to 16 clock.",
+    "At this slot, the specified rule is to compute 1 times the received number plus 11, keeping the remainder after division by 17."
+   ]
+  }
+ }
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "candidate_index": 0,
+  "op_seed": 3843534058,
+  "checks": {
+   "no_duplicate_primitive_maps": true,
+   "no_identity_primitive": true,
+   "collision_free_d3": 231,
+   "collision_free_d2": 18,
+   "enough_collision_free_d3": true,
+   "enough_collision_free_d2": true,
+   "banks_disjoint": true,
+   "primary_vs_train_disjoint": true,
+   "primary_vs_diag_disjoint": true,
+   "all_primary_ops_singleton_trained": true,
+   "tag_audit_all_permutations_nonzero": true,
+   "tag_audit_per_perm_discriminating": {
+    "(0, 2, 1)": 357,
+    "(1, 0, 2)": 340,
+    "(1, 2, 0)": 408,
+    "(2, 0, 1)": 391,
+    "(2, 1, 0)": 340
+   },
+   "VALID": true
+  }
+ }
+]

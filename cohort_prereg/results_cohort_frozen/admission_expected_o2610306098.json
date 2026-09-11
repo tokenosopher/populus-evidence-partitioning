@@ -1,0 +1,32 @@
+{
+ "order_seed": 2610306098,
+ "n_steps": 3,
+ "batch": 32,
+ "op_seed": "3843534058",
+ "split_seed": "476315301",
+ "filler_seed": 3198514699,
+ "grammar_sha": "e5250ad21152dc7eeb348cf15f2c63870d9feb2d5fe76534cf4ca31e24027422",
+ "tokenizer_sha": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+ "fingerprints": {
+  "R-": {
+   "sem": "2c14ccc62a4006c1ee89a1ad9027c458c2bb6262aee338c90f467e96f33d1a38",
+   "ser": "8d65b9539923022e9f499b8a1e4ad88f59542dc75147adb4a6a9e9949043957c"
+  },
+  "R+": {
+   "sem": "2c14ccc62a4006c1ee89a1ad9027c458c2bb6262aee338c90f467e96f33d1a38",
+   "ser": "eea520690e2f44e9f1978c95373155c1b79ab497e54cbf63ae4ea6752b1ea29d"
+  },
+  "G-": {
+   "sem": "2c14ccc62a4006c1ee89a1ad9027c458c2bb6262aee338c90f467e96f33d1a38",
+   "ser": "1841571e9d97896c5e43d64457a9c4e7f8fe06a7ce5684b5e4cf97807d085e4c"
+  },
+  "G+": {
+   "sem": "2c14ccc62a4006c1ee89a1ad9027c458c2bb6262aee338c90f467e96f33d1a38",
+   "ser": "f0610c72529f5814a2094d8b6dcdd87ca41b7d19fdfbbfaf9866cb4f9b7c6746"
+  },
+  "N+": {
+   "sem": "2c14ccc62a4006c1ee89a1ad9027c458c2bb6262aee338c90f467e96f33d1a38",
+   "ser": "5a671f3038c3ef2e2c95b20f2d7a83c963d85dceb9dc140622ddbefe81c6a162"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "order_seed": 1618591058,
+ "n_steps": 3,
+ "batch": 32,
+ "op_seed": "3843534058",
+ "split_seed": "476315301",
+ "filler_seed": 3198514699,
+ "grammar_sha": "e5250ad21152dc7eeb348cf15f2c63870d9feb2d5fe76534cf4ca31e24027422",
+ "tokenizer_sha": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+ "fingerprints": {
+  "R-": {
+   "sem": "efc44c0f6593f4b3d4985019aea649f7f091c7ddaf7596515d46f2602bee6a62",
+   "ser": "79aa0392df14ac8deddeb80fe45d2b81d3e4371db134c9c37d0724c2108f0cc7"
+  },
+  "R+": {
+   "sem": "efc44c0f6593f4b3d4985019aea649f7f091c7ddaf7596515d46f2602bee6a62",
+   "ser": "35cc6753015bc4f8c0be35cd2a9beae53276c4a7a1e01590896b92d421b40e51"
+  },
+  "G-": {
+   "sem": "efc44c0f6593f4b3d4985019aea649f7f091c7ddaf7596515d46f2602bee6a62",
+   "ser": "b58aeb828e18795cd3cf6d691246a47feef9d2d49731e88f409dd3c057754f66"
+  },
+  "G+": {
+   "sem": "efc44c0f6593f4b3d4985019aea649f7f091c7ddaf7596515d46f2602bee6a62",
+   "ser": "1936525356b19422ab8ac92d1af94cef2da26ad9493643b835e363214f43237f"
+  },
+  "N+": {
+   "sem": "efc44c0f6593f4b3d4985019aea649f7f091c7ddaf7596515d46f2602bee6a62",
+   "ser": "d9b813b4084994284d46baa27d8d2d705d103909aed3b618ff958edb5ff69861"
+  }
+ }
+}
