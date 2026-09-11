@@ -7,5 +7,12 @@
  "swh_visit_date": "2026-09-11T15:50:29.194000+00:00",
  "swh_save_request_id": 2471537,
  "swh_main_branch_target_verified": "3fb463c9878c3534ce5c7ec076922613328512be",
- "seed_generation_after_this_timestamp": true
+ "seed_generation_after_this_timestamp": true,
+ "manifest_deposit": {
+  "commit": "2e182bde6e2ce0766e865934eac89d4b271f8319",
+  "manifest_sha256": "c734b6a9f891421c4d359125fea72edb7160424508183878a968228225cdd6ec",
+  "swh_snapshot": "swh:1:snp:169891a9e52e540eab85eea2a6649f4eb1923ab6",
+  "swh_save_request_id": 2471540,
+  "training_permitted_after_this": true
+ }
 }
