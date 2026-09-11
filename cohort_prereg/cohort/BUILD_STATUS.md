@@ -91,3 +91,6 @@ Archived reviews/REVIEW_cohort_build_round3.md. §2.1-2.7, 2.9, 3.1, 3.4-3.6 clo
 3. Mask admission extended to downstream reader path (cells 1-3, incoming packet held by substitution, packet-path liveness, direct own-slot-only mask assertion) — LOCAL PASS on real model, all 8 fields true.
 Clarifications: operator-support + tag-viability in VALID (5/6 fresh seeds pass full criterion); PRF stream_id namespace (three-legged check REGENERATED: FIXTURE3 ALL MATCH); prefix-fingerprint boundary + §6.2 thresholds + common-case rule now literal in prereg §9.
 ROUND 4 sent (ratification of new thresholds + GO/NO-GO). Awaiting verdict.
+
+## 2026-09-11 — PRE-OUTCOME AMENDMENT 1 (before any seed generation)
+scripts/cohort_seedgen.py: two-phase orchestration flow (world/grammar/banks -> stream hashes -> manifest). Operational fix only — the one-shot flow could not run because stream hashes require the world that seedgen itself discovers. No scientific content, seed rule, threshold, or gate changed. Amended freeze inventory + deposit follow; classified pre-outcome amendment per PREREG deposit-and-timing clause. No seed value has been generated at the time of this amendment.

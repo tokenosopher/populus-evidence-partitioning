@@ -33,9 +33,13 @@ P.add_argument("--freeze-commit", required=True)
 P.add_argument("--deposit-timestamp", required=True,
                help="immutable archive timestamp of the phase-A deposit")
 P.add_argument("--tokenizer-json", required=True)
-P.add_argument("--stream-hashes", required=True,
+P.add_argument("--stream-hashes", default=None,
                help="output of cohort_stream_hashes.py for all 12 order "
-                    "seeds at 20000 steps")
+                    "seeds at 20000 steps; if omitted, the script stops "
+                    "after world/grammar/bank generation and prints the "
+                    "exact stream-hash command to run next (the world "
+                    "search is deterministic, so rerunning with "
+                    "--stream-hashes reproduces the identical world)")
 P.add_argument("--out-dir", default="results/cohort_frozen")
 A = P.parse_args()
 
@@ -139,6 +143,18 @@ bank_sizes = {"primary_d2": len(p2), "primary_d3": len(p3),
 print(f"banks: {bank_sizes}")
 
 # --- stream hashes (precomputed) ---
+if A.stream_hashes is None:
+    flat = ",".join(str(o) for p in order_seeds for o in p)
+    print("\nPHASE B PART 1 COMPLETE (world, grammar, banks, ledger).")
+    print("Run the stream hasher, then rerun this script with "
+          "--stream-hashes:")
+    print(f"BRIDGE_OP_SEED={op_seed} BRIDGE_SPLIT_SEED={split_seed} "
+          f"COHORT_GRAMMAR_PATH={gpath} "
+          f"COHORT_FILLER_SEED={seeds['filler']} "
+          f"python3 scripts/cohort_stream_hashes.py "
+          f"--tokenizer-json <PINNED> --order-seeds {flat} "
+          f"--steps 20000 --out {OUT}/stream_hashes_FULL.json")
+    sys.exit(0)
 sh = json.load(open(A.stream_hashes))
 assert sh["steps"] == 20000 and int(sh["op_seed"]) == op_seed \
     and int(sh["split_seed"]) == split_seed \
