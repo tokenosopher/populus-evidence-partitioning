@@ -1,0 +1,11 @@
+{
+ "description": "Metadata-only pointer (PREREG deposit-and-timing clause). Records the immutable archive of the scientific-content freeze deposit. Does not amend frozen content.",
+ "evidence_repo": "https://github.com/tokenosopher/populus-evidence-partitioning",
+ "deposit_commit": "3fb463c9878c3534ce5c7ec076922613328512be",
+ "freeze_commit_working_repo": "afee9d37e5f462dd1dfb23496c2ca093cd914a53",
+ "swh_snapshot": "swh:1:snp:b3fd6afb0b1825d59518944935e8c8b3ddbf38a8",
+ "swh_visit_date": "2026-09-11T15:50:29.194000+00:00",
+ "swh_save_request_id": 2471537,
+ "swh_main_branch_target_verified": "3fb463c9878c3534ce5c7ec076922613328512be",
+ "seed_generation_after_this_timestamp": true
+}
