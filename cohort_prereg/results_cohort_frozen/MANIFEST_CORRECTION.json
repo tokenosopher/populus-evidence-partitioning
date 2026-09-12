@@ -1,0 +1,42 @@
+{
+ "classification": "post-evaluation, pre-verdict administrative correction to derived manifest metadata",
+ "ruling": "reviews/REVIEW_manifest_correction_ruling.md (chain-3, 2026-09-12; RATIFIED)",
+ "original": {
+  "path": "results/cohort_frozen/PRE_RUN_MANIFEST_ORIGINAL.json",
+  "sha256": "c734b6a9f891421c4d359125fea72edb7160424508183878a968228225cdd6ec",
+  "deposited_commit": "2e182bde6e2ce0766e865934eac89d4b271f8319",
+  "swh_snapshot": "swh:1:snp:169891a9e52e540eab85eea2a6649f4eb1923ab6"
+ },
+ "corrected": {
+  "path": "results/cohort_frozen/PRE_RUN_MANIFEST_CORRECTED.json",
+  "sha256": "7632aa7606b9e49b049184b6cea7989a68cd80cfe218022cc5e3b1d0e365b6cb"
+ },
+ "changes": [
+  {
+   "field": "bank_sizes.S1",
+   "from": 1224,
+   "to": 2448
+  },
+  {
+   "field": "expected_denominators.S1",
+   "from": 1224,
+   "to": 2448
+  }
+ ],
+ "structural_diff_check": "machine-verified: exactly these two leaf fields differ; all other fields byte-identical",
+ "controlling_specification": "PREREG v0.5 (round-2 D4-A ruling): four sealed rotations for S1; frozen evaluator scripts/cohort_eval.py bank_S1() iterates rot in (0,1,2,3): 12 ops x 3 positions x 17 values x 4 rotations = 2448; evaluator sha matches manifest evaluator_hashes.cohort_eval",
+ "defective_expression": "scripts/cohort_seedgen.py manifest population: 'S1': len(T.OPS) * 3 * 17 * 2 (stale two-rotation formula)",
+ "dataflow_check": "expected_denominators/bank_sizes are consumed ONLY by cohort/result_compiler.py (integrity gate) and cohort/manifest_validator.py (pre-run validation); scripts/cohort_society.py, cohort_eval.py, cohort_tag_audit.py contain zero references to the manifest \u2014 banks are constructed directly from the frozen specification. The stale value therefore could not determine training, truncate or select evaluation cases, or normalize stored S1 scores; all 60 stored S1 records were computed over the frozen four-rotation bank (uniform den=2448, corroborating).",
+ "chronology": [
+  "2026-09-12 ~19:2x BST: society 60/60 evaluation completed and synced",
+  "2026-09-12 19:3x BST: FIRST result-compiler invocation aborted at its first integrity gate (denominator mismatch S1 2448 != 1224); no verdict, contrast decision, or phenotype classification was computed or emitted (fail-closed CompileError before any rate computation for the failing record; aborted traceback retained in session log)",
+  "2026-09-12 19:4x BST: uniformity check (all 60 evals S1 den=2448); ratification request sent to standing referee (chain-3)",
+  "2026-09-12 20:0x BST: RULING RATIFIED; this correction deposited; compiler re-invoked against corrected manifest + unchanged bundle"
+ ],
+ "performance_information_disclosed_pre_verdict": "interim descriptive monitoring tabulations of per-society A2/A3/allcut medians and marker-audit rates were inspected during collection (registered monitoring \u00a76.3); the verdict computation itself had not run",
+ "input_inventory": {
+  "raw_results_bundle_sha256": "b8d06cd664e1d0b8534edce96cb731712048fb25e7506233aaa4264118402f4b",
+  "compiler_sha256": "25c10ad4d01da6c3c2129081c4d5accf500376f9b73355cf0ab91ca6e4c4fa1e",
+  "verdict_sha256": "017434a59d8c1a0d3c5a47d7b189f891b0180c69ea64b3a990106b9bd1316bd8"
+ }
+}
