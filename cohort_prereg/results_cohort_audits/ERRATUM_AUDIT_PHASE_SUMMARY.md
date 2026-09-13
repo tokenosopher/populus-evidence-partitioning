@@ -22,3 +22,21 @@ value-level intervention fidelity in the six audited N+ trajectories.
 
 The corrected interpretations are those in the submitted manuscript and in SECONDARY_STATS_v2 /
 RECEIPTS_INDEX v2.
+
+## Versioned addendum (2026-09-13, manuscript v5/v6 reporting corrections)
+
+Four further reporting corrections, identified during an independent AI-assisted manuscript
+review and ratified by the chain-3 referee (v5 GO ruling); underlying audit records unchanged:
+
+1. N+ self-audit Np_m608985416_o1942292852 is 815/816 (same-value and cf-follow) at interface 1
+   and 816/816 at interfaces 0 and 2 — threshold-passing but not perfect; earlier "two perfect
+   N+ trajectories" wording corrected to one perfect + one near-perfect.
+2. Matrix deletion ranges now use the same aggregation scope on both sides (all 36
+   recipient-interface rates per arm): R+ 0.035-0.076, G+ 0.000-0.175. Earlier reporting mixed
+   trajectory maxima (G+) with all-interface extrema (R+).
+3. G- shift-retain median recomputed count-first (integer numerators/denominators, then
+   interface means, then median): 0.170, replacing the round-then-average 0.171.
+4. The frozen "deranged" intervention is different-value donor sampling with replacement
+   (independent across cases), not a one-to-one permutation; terminology corrected.
+
+Calculation details: paper repository, paper/cohort/v5/statistics-review.md (commit 200d415).
