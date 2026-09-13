@@ -1,17 +1,71 @@
-# RECEIPTS_INDEX — machine admission and training-prefix receipts (cohort)
+# RECEIPTS_INDEX v2 — machine admission and training-prefix receipts (cohort)
 
-Generated 2026-09-13 from the locally mirrored per-box logs (runs/cohort_fleet/<box>/logs/,
-mirrored before each box was destroyed). Scope and honesty notes:
-- Per-society ADMISSION_PREFIX3 receipts (cumulative semantic stream hash `sem`, condition-specific
-  serialized stream hash `ser`, and post-3-update model/optimizer/RNG/step state fingerprint `state`)
-  are recovered verbatim from retained train logs where present.
-- Societies whose training resumed from a synced checkpoint after a host failure may lack the
-  prefix line in the retained partial log; these rows say NOT_IN_RETAINED_LOG. Their final
-  evaluations are in the locked bundle regardless; admission of the *machine* was gated by the
-  deploy pipeline (probe gauntlet + bootstrap + bit-exact golden retrace) before any lane launch.
-- The two-machine reproduction: society trained end-to-end on two independently admitted hosts
-  with identical final state digests (see TWO_MACHINE_REPRODUCTION below).
+v2, 2026-09-13, supersedes v1 (v1 preserved in git history). Changes: correct row units
+(society-host rows vs distinct societies), end-to-end reproduction claim withdrawn and
+replaced by its actual receipted scope, host-level admission evidence indexed with explicit
+retained/not-retained status, evaluation-timing disclosure added.
 
+## Unique-society coverage
+The prefix table below has 64 society-host rows. The 61 populated rows cover ALL 60 distinct
+cohort society IDs (one society appears on two hosts with populated receipts - the prefix
+reproduction, see below). Each of the 3 NOT_IN_RETAINED_LOG rows is a resumed-host row whose
+society has a populated original-host row elsewhere in this index: a checkpoint resume does
+not re-emit the step-3 prefix record, so a missing prefix line in a resumed-host log is not
+a missing original prefix receipt. Distinct-society prefix coverage: 60/60.
+
+## TWO_MACHINE_PREFIX_REPRODUCTION (corrected scope; end-to-end claim withdrawn)
+What the retained receipts establish: society Rm_m1276321262_o3715708347's three-update
+admission prefix was reproduced bit-exactly on a second independently admitted host.
+- Original host 50612110: full 20,000-update run (trainer summary JSON: wall_s=23431,
+  full realized counts; ADMISSION_PREFIX3 sem=0ad4f51d... ser=0d72e6b7... state=b400b968aa...).
+- Second host 50613372: admission-prefix run only (trainer summary JSON: wall_s=4, empty
+  trajectory, prefix realized counts; identical prefix sem/ser hashes and identical
+  state fingerprint b400b968aa... = SHA-256 over model+optimizer+RNG+step state after
+  exactly three optimizer updates).
+Both trainer summary JSONs are retained in the fleet mirror (50612110/, 50613372/).
+No pair of step-20,000 final-state receipts from two hosts is retained; the previous
+index's 'end-to-end reproduction' wording overstated the receipted scope and is withdrawn.
+The prefix fingerprint covers model, optimizer, RNG streams, and step counter; it is a
+three-update state reproduction, not a 20,000-update one.
+
+## Host-level admission evidence
+Pipeline: probe gauntlet -> bootstrap (byte-verified downloads) -> bit-exact golden retrace
+(GOLDEN_VERIFY: MATCH gate) -> per-condition admission fixture (expected fingerprints:
+results_cohort_frozen/admission_expected_o*.json, 12 files, deposited) -> dP-level mask
+admission (9 acceptance fields). Gate failures auto-recycled the host (denylist in ops ledger).
+Retention status, host by host:
+- Gauntlet/retrace/mask-test transcripts for the 22 fleet boxes ran in ephemeral deploy SSH
+  sessions and were NOT retained: these checks were performed per the ops pipeline (every
+  lane launch was gated on them), but their execution receipts are not retained.
+- What IS retained per host: the per-society ADMISSION_PREFIX3 lines in train logs (61 rows
+  below, matching the deposited expected-fixture files), trainer summary JSONs with stream
+  hashes, GPU model strings, and box logs mirrored before destruction.
+- For the three audit-phase deploys the local deploy transcript IS retained
+  (audit_box_deploy.log, deposited alongside this index): it shows the gate sequence and
+  the auto-destroy of two hosts that failed to produce an endpoint.
+We report: the checks were performed as pipeline gates, but for the fleet boxes the
+execution receipts are not retained; the available record does not permit independent
+re-verification of each gauntlet/retrace execution. This is a documentation gap, not
+evidence of a skipped check; it is disclosed as a provenance limitation in the manuscript.
+
+## EVALUATION_TIMING_DISCLOSURE (protocol deviation)
+PREREG 6.3 requires the untouched primary final bank to be first evaluated only after all
+designated step-20,000 checkpoints complete. The retained file-time receipts (rsync-preserved
+mtimes in the fleet mirror) show the lanes instead evaluated each society's final checkpoint
+immediately after its training completed: first primary-bank evaluation output 2026-09-12
+00:19 local-mirror time; last designated checkpoint completed 2026-09-12 19:34; 59/60 primary
+evaluation outputs predate the last checkpoint. This is a deviation from the preregistered
+evaluation-timing clause. Scope and consequences: evaluations are deterministic, frozen, and
+final-checkpoint-only; the tier (GOLD) was committed at freeze, before any training; no
+stopping rule, arm choice, audit selection, or protocol amendment followed from any early
+read; reruns occurred only on objectively logged infrastructure failures (host preemption,
+wedged CUDA host), per the permitted infrastructure-intervention clause; and no checkpoint
+selection existed (final checkpoints only). The deviation affects the timing guarantee, not
+the content, of the primary evaluations; it is disclosed in the manuscript alongside the
+pre-verdict (non-outcome-blind) status of the manifest correction. File mtimes are recorded
+file-system receipts, not third-party timestamps.
+
+## Prefix-receipt table (society-host rows)
 | society | box | sem[:16] | ser[:16] | state[:16] |
 |---|---|---|---|---|
 | Rm_m1276321262_o2590280901 | 50612110 | cff5b04e1edead0f | 743ce38a9af76bdf | 02c7c6dcd5ed49d7 |
@@ -19,7 +73,7 @@ mirrored before each box was destroyed). Scope and honesty notes:
 | Rm_m2392236931_o4081938969 | 50612110 | 1134433eb5cb2224 | 51995b759d694d78 | eee95a940420fe75 |
 | Rm_m2392236931_o1842565541 | 50612112 | c9d2915273d0fdff | c240037012ff1238 | 97c89cdc82048f58 |
 | Rm_m2382659193_o3089238509 | 50613372 | 88a22706e13427cb | 6679429f2c919bd9 | e115ea8c12a1ce51 |
-| Rm_m2392236931_o1842565541 | 50613372 | NOT_IN_RETAINED_LOG | | |
+| Rm_m2392236931_o1842565541 | 50613372 | NOT_IN_RETAINED_LOG (resumed host; original-host row above) | | |
 | Rm_m608985416_o1942292852 | 50613372 | ac212fd73b265d84 | 94b6bc475e1fa851 | 06da91a75f860e0b |
 | Rm_m608985416_o3590022298 | 50613372 | e2f67a26dd595d11 | d551f3773d0c8ed5 | e8dee1d9797eaa87 |
 | Rm_m2382659193_o1618591058 | 50613375 | efc44c0f6593f4b3 | 79aa0392df14ac8d | 0876401fb2a2c6ee |
@@ -51,8 +105,8 @@ mirrored before each box was destroyed). Scope and honesty notes:
 | Np_m1333584616_o380366532 | 50613681 | 8e262abcb84c3820 | cc4e31d8190a995e | 7d0e6aa63ee5eba8 |
 | Np_m2382659193_o3089238509 | 50613681 | 88a22706e13427cb | 782e7d27db13810a | 665a45b5cd3197dd |
 | Np_m2392236931_o1842565541 | 50613681 | c9d2915273d0fdff | b6c26c29205a0681 | 509cbc35ded1aa0a |
-| Np_m2382659193_o3089238509 | 50613684 | NOT_IN_RETAINED_LOG | | |
-| Np_m608985416_o1942292852 | 50613684 | NOT_IN_RETAINED_LOG | | |
+| Np_m2382659193_o3089238509 | 50613684 | NOT_IN_RETAINED_LOG (resumed host; original-host row above) | | |
+| Np_m608985416_o1942292852 | 50613684 | NOT_IN_RETAINED_LOG (resumed host; original-host row above) | | |
 | Np_m608985416_o3590022298 | 50613684 | e2f67a26dd595d11 | 90a77a1ca821897c | 1d2027789a7c95a9 |
 | Np_m2382659193_o1618591058 | 50613685 | efc44c0f6593f4b3 | d9b813b408499428 | 2852c7a5a1a34311 |
 | Np_m999254511_o2610306098 | 50613685 | 2c14ccc62a4006c1 | 5a671f3038c3ef2e | 9658cbe3b413b415 |
@@ -79,39 +133,22 @@ mirrored before each box was destroyed). Scope and honesty notes:
 | Gm_m1276321262_o3715708347 | 50636715 | 0ad4f51d263fe322 | 22e88daea7435157 | 4d986dcd19aebb9d |
 | Gm_m2392236931_o4081938969 | 50636715 | 1134433eb5cb2224 | 4d996ccb20461b57 | 7bbb4d4b19bcf7a4 |
 
-Recovered receipts: 61; NOT_IN_RETAINED_LOG: 3 (resumed/partial logs).
-## TWO_MACHINE_REPRODUCTION
-Society retrained end-to-end with identical seeds on a second independently admitted host
-(box 50613372): final state digest b400b968aa... matched the first machine's digest bit-exactly.
-The matching digests and evaluation records are in the fleet mirror and the locked bundle.
-
-## Admission pipeline attestation
-Every box in the table above was admitted through scripts/vast probe gauntlet, cohort_box_bootstrap.sh
-(byte-verified downloads), and a bit-exact golden retrace (GOLDEN_VERIFY: MATCH) before any lane launch;
-the audit-phase boxes additionally re-ran the same three gates before receiving checkpoints. Deploy
-transcripts for the audit phase are in results_cohort_audits/box_logs_*/ where retained.
+Populated society-host rows: 61; NOT_IN_RETAINED_LOG resumed-host rows: 3; distinct societies with a populated receipt: 60/60.
 
 ## DUPLICATE_EXECUTION_DISCLOSURE (mechanism/dialect audit phase)
-The 30 audit jobs ran on three boxes with reversed-queue work-stealing; near queue exhaustion, up to
-four self-audit jobs and one dialect matrix were started on a second box while the first box's copy
-was in flight or complete:
-- PAIR Rp_m999254511_o2610306098/Gp_...: duplicate start on box 50613685 was terminated before
-  completion; only the box 58.224.7.137 (50615304) output ever completed. No competing outputs existed.
-- SELF jobs potentially computed twice (second copy started on the other box near queue end):
-  Rm_m608985416_o1942292852, Gm_m608985416_o1942292852, Np_m1276321262_o2590280901,
-  Rm_m1333584616_o380366532.
-Selection rule: first-harvested-wins (rsync --ignore-existing for self_*.json), applied prospectively
-during collection. Late duplicate copies were not preserved for comparison because boxes were
-destroyed after coverage verification; agreement between duplicate copies was therefore NOT assessed.
-Both boxes were identically admitted 5090-class hosts running the frozen deterministic evaluators.
+Unchanged from v1 (see git history for v1 text): near queue exhaustion up to four self-audits
+and one matrix were started twice under reversed-queue work-stealing; the matrix duplicate was
+terminated before completion (no competing output ever existed); for the selfs the
+first-harvested-wins rule (rsync --ignore-existing) was applied prospectively; later duplicate
+copies were NOT retained (boxes destroyed after coverage verification), so agreement between
+competing copies was not assessed. Deterministic settings are not offered as a substitute for
+that unperformed comparison.
 
 ## CHRONOLOGY_ADDENDUM (manifest correction)
-The correction record MANIFEST_CORRECTION.json narrates deposit/reinvocation at "~20:0x BST";
-the immutable receipts give the exact order (all 2026-09-12):
-1. First compiler invocation aborted at its first integrity gate (pre-verdict, no verdict quantities).
-2. Referee ratification received (chain-3 ruling).
-3. Correction deposit commit b8977cf at 19:58:03 BST.
-4. Verdict process start 18:58:36 UTC = 19:58:36 BST (33 s after the correction deposit commit).
-5. Verdict + bundle deposit commit 8358ed0 at 20:00:28 BST.
-The narrative "20:0x BST" was an approximation written during the deposit wave; the order of
-operations is correct per the commits above. The original correction note is preserved unmodified.
+As v1, with one precision edit: the times below are recorded Git author/commit timestamps and
+process-archive timestamps - supplied metadata preserved in the immutable history, not
+third-party upload receipts. Order (2026-09-12): compiler abort (pre-verdict, no verdict
+quantities) -> chain-3 ratification -> correction deposit commit b8977cf 19:58:03 BST ->
+verdict process start 18:58:36 UTC = 19:58:36 BST -> verdict+bundle deposit commit 8358ed0
+20:00:28 BST (verdict commit's parent is the correction commit). The original correction
+note's '~20:0x BST' narrative was approximate; it is preserved unmodified.
