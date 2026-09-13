@@ -7,8 +7,11 @@ retained/not-retained status, evaluation-timing disclosure added.
 
 ## Unique-society coverage
 The prefix table below has 64 society-host rows. The 61 populated rows cover ALL 60 distinct
-cohort society IDs (one society appears on two hosts with populated receipts - the prefix
-reproduction, see below). Each of the 3 NOT_IN_RETAINED_LOG rows is a resumed-host row whose
+cohort society IDs. The repeated populated society in this table is Gm_m1276321262_o3715708347,
+appearing on two hosts (50627176, 50636715); this duplication is separate from the R- three-update
+prefix comparison described below, whose second-host evidence lives in retained local trainer
+summary JSONs (fleet mirror, host 50613372), not in this table, and is reported as such rather
+than as independently verifiable from the released table. Each of the 3 NOT_IN_RETAINED_LOG rows is a resumed-host row whose
 society has a populated original-host row elsewhere in this index: a checkpoint resume does
 not re-emit the step-3 prefix record, so a missing prefix line in a resumed-host log is not
 a missing original prefix receipt. Distinct-society prefix coverage: 60/60.
@@ -40,9 +43,9 @@ Retention status, host by host:
 - What IS retained per host: the per-society ADMISSION_PREFIX3 lines in train logs (61 rows
   below, matching the deposited expected-fixture files), trainer summary JSONs with stream
   hashes, GPU model strings, and box logs mirrored before destruction.
-- For the three audit-phase deploys the local deploy transcript IS retained
-  (audit_box_deploy.log, deposited alongside this index): it shows the gate sequence and
-  the auto-destroy of two hosts that failed to produce an endpoint.
+- The retained audit-deploy transcript (audit_box_deploy.log, deposited alongside this index)
+  records two failed endpoint attempts (hosts 50807747, 50822152) and their cleanup. It does
+  NOT document successful execution of the admission gate sequence on any host.
 We report: the checks were performed as pipeline gates, but for the fleet boxes the
 execution receipts are not retained; the available record does not permit independent
 re-verification of each gauntlet/retrace execution. This is a documentation gap, not
@@ -57,8 +60,9 @@ immediately after its training completed: first primary-bank evaluation output 2
 evaluation outputs predate the last checkpoint. This is a deviation from the preregistered
 evaluation-timing clause. Scope and consequences: evaluations are deterministic, frozen, and
 final-checkpoint-only; the tier (GOLD) was committed at freeze, before any training; no
-stopping rule, arm choice, audit selection, or protocol amendment followed from any early
-read; reruns occurred only on objectively logged infrastructure failures (host preemption,
+outcome-dependent stopping, arm selection, audit selection, or scientific protocol amendment
+is reported (the committed roster, final-checkpoint rule, and frozen analysis definitions were
+retained); reruns occurred only on objectively logged infrastructure failures (host preemption,
 wedged CUDA host), per the permitted infrastructure-intervention clause; and no checkpoint
 selection existed (final checkpoints only). The deviation affects the timing guarantee, not
 the content, of the primary evaluations; it is disclosed in the manuscript alongside the
