@@ -1,0 +1,29 @@
+{
+ "pair": {
+  "R+": "R+_m1276321262_o3715708347",
+  "G+": "G+_m1276321262_o3715708347"
+ },
+ "cells": {
+  "self_R": "results/audits/matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347/cell_self_R.json",
+  "self_G": "results/audits/matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347/cell_self_G.json",
+  "cross_RtoG": "results/audits/matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347/cell_cross_RtoG.json",
+  "cross_GtoR": "results/audits/matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347/cell_cross_GtoR.json"
+ },
+ "bank_sha256": "1e83e6d559cdae4f4b092bdf66c3ae5df51c443a95bf8a7d84386c9542f3c380",
+ "coverage_provenance": {
+  "pre_intersection_maps": {
+   "R": {
+    "path": "results/audits/matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347/coverage_R.json",
+    "sha256": "c5038359daa73e490ec49a2ce8b5b2a4c3ad698302c75b3e7dbc4d978eff287f"
+   },
+   "G": {
+    "path": "results/audits/matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347/coverage_G.json",
+    "sha256": "65d6072458c42fc287cab15d10b1c92be04a6cac45b19cc0d1c750f5679557b9"
+   }
+  },
+  "intersection": {
+   "path": "results/audits/matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347/coverage_intersection.json",
+   "sha256": "56926526e70b914bcd8ce0db8015e608ebfd0ac95a0d087dac541a0fc5d2620d"
+  }
+ }
+}

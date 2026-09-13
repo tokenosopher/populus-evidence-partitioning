@@ -1,0 +1,3354 @@
+{
+ "matrices": {
+  "matrix_Rp_m1276321262_o2590280901__Gp_m1276321262_o2590280901": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.3627,
+    "self_deletion_max": 0.0588,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.1926,
+    "self_cf_min": 0.1457,
+    "cross_same_max": 0.684,
+    "self_deletion_max": 0.084,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m1276321262_o3715708347__Gp_m1276321262_o3715708347": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.5919,
+    "self_deletion_max": 0.0588,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": true
+   },
+   "G+": {
+    "self_same_min": 0.2369,
+    "self_cf_min": 0.0798,
+    "cross_same_max": 0.5985,
+    "self_deletion_max": 0.0948,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": true
+   }
+  },
+  "matrix_Rp_m1333584616_o1507619935__Gp_m1333584616_o1507619935": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.1298,
+    "self_deletion_max": 0.0705,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.4507,
+    "self_cf_min": 0.0169,
+    "cross_same_max": 0.25,
+    "self_deletion_max": 0.0508,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m1333584616_o380366532__Gp_m1333584616_o380366532": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.0972,
+    "self_deletion_max": 0.0739,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.6429,
+    "self_cf_min": 0.0,
+    "cross_same_max": 0.3077,
+    "self_deletion_max": 0.0976,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": false,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m2382659193_o1618591058__Gp_m2382659193_o1618591058": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.2108,
+    "self_deletion_max": 0.0588,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.2227,
+    "self_cf_min": 0.1611,
+    "cross_same_max": 0.0664,
+    "self_deletion_max": 0.0711,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m2382659193_o3089238509__Gp_m2382659193_o3089238509": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.3615,
+    "self_deletion_max": 0.0588,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.1571,
+    "self_cf_min": 0.1571,
+    "cross_same_max": 0.0857,
+    "self_deletion_max": 0.0595,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.1752,
+    "self_deletion_max": 0.0653,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.4545,
+    "self_cf_min": 0.0,
+    "cross_same_max": 0.2338,
+    "self_deletion_max": 0.1299,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m2392236931_o4081938969__Gp_m2392236931_o4081938969": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.1324,
+    "self_deletion_max": 0.0625,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.4811,
+    "self_cf_min": 0.011,
+    "cross_same_max": 0.0989,
+    "self_deletion_max": 0.1209,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m608985416_o1942292852__Gp_m608985416_o1942292852": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.1097,
+    "self_deletion_max": 0.0753,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.3934,
+    "self_cf_min": 0.0656,
+    "cross_same_max": 0.025,
+    "self_deletion_max": 0.175,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m608985416_o3590022298__Gp_m608985416_o3590022298": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.1264,
+    "self_deletion_max": 0.0758,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.5147,
+    "self_cf_min": 0.0455,
+    "cross_same_max": 0.303,
+    "self_deletion_max": 0.0758,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m999254511_o2610306098__Gp_m999254511_o2610306098": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.125,
+    "self_deletion_max": 0.0667,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.274,
+    "self_cf_min": 0.0484,
+    "cross_same_max": 0.1129,
+    "self_deletion_max": 0.129,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  },
+  "matrix_Rp_m999254511_o3273067605__Gp_m999254511_o3273067605": {
+   "R+": {
+    "self_same_min": 1.0,
+    "self_cf_min": 1.0,
+    "cross_same_max": 0.5711,
+    "self_deletion_max": 0.0588,
+    "n_ifaces": 3,
+    "strong": true,
+    "partial": true,
+    "entangle": false,
+    "interop": false
+   },
+   "G+": {
+    "self_same_min": 0.2009,
+    "self_cf_min": 0.1678,
+    "cross_same_max": 0.2577,
+    "self_deletion_max": 0.0733,
+    "n_ifaces": 3,
+    "strong": false,
+    "partial": false,
+    "entangle": true,
+    "interop": false
+   }
+  }
+ },
+ "selfs": {
+  "Gm_m1276321262_o2590280901": {
+   "0": {
+    "intact": {
+     "num": 53,
+     "den": 53,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 5,
+     "den": 53,
+     "rate": 0.0943,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 29,
+     "den": 53,
+     "rate": 0.5472,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 2,
+     "den": 53,
+     "rate": 0.0377,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 27,
+     "den": 53,
+     "rate": 0.5094,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 27,
+     "den": 53,
+     "rate": 0.5094,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 4,
+     "den": 53,
+     "rate": 0.0755,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 5,
+     "den": 53,
+     "rate": 0.0943,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 9,
+     "den": 53,
+     "rate": 0.1698,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 35,
+     "den": 35,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 5,
+     "den": 35,
+     "rate": 0.1429,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 18,
+     "den": 35,
+     "rate": 0.5143,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 4,
+     "den": 35,
+     "rate": 0.1143,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 9,
+     "den": 35,
+     "rate": 0.2571,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 10,
+     "den": 35,
+     "rate": 0.2857,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 6,
+     "den": 35,
+     "rate": 0.1714,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 3,
+     "den": 35,
+     "rate": 0.0857,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 1,
+     "den": 35,
+     "rate": 0.0286,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 52,
+     "den": 52,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 5,
+     "den": 52,
+     "rate": 0.0962,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 20,
+     "den": 52,
+     "rate": 0.3846,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 7,
+     "den": 52,
+     "rate": 0.1346,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 1,
+     "den": 52,
+     "rate": 0.0192,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 2,
+     "den": 52,
+     "rate": 0.0385,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 7,
+     "den": 52,
+     "rate": 0.1346,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 2,
+     "den": 52,
+     "rate": 0.0385,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 6,
+     "den": 52,
+     "rate": 0.1154,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Gm_m1333584616_o380366532": {
+   "0": {
+    "intact": {
+     "num": 53,
+     "den": 53,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 22,
+     "den": 53,
+     "rate": 0.4151,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 18,
+     "den": 53,
+     "rate": 0.3396,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 3,
+     "den": 53,
+     "rate": 0.0566,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 4,
+     "den": 53,
+     "rate": 0.0755,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 7,
+     "den": 53,
+     "rate": 0.1321,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 1,
+     "den": 53,
+     "rate": 0.0189,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 1,
+     "den": 53,
+     "rate": 0.0189,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 4,
+     "den": 53,
+     "rate": 0.0755,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 55,
+     "den": 55,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 23,
+     "den": 55,
+     "rate": 0.4182,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 21,
+     "den": 55,
+     "rate": 0.3818,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 8,
+     "den": 55,
+     "rate": 0.1455,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 4,
+     "den": 55,
+     "rate": 0.0727,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 1,
+     "den": 55,
+     "rate": 0.0182,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 2,
+     "den": 55,
+     "rate": 0.0364,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 3,
+     "den": 55,
+     "rate": 0.0545,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 8,
+     "den": 55,
+     "rate": 0.1455,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 51,
+     "den": 51,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 20,
+     "den": 51,
+     "rate": 0.3922,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 22,
+     "den": 51,
+     "rate": 0.4314,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 11,
+     "den": 51,
+     "rate": 0.2157,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 4,
+     "den": 51,
+     "rate": 0.0784,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 3,
+     "den": 51,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 9,
+     "den": 51,
+     "rate": 0.1765,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 6,
+     "den": 51,
+     "rate": 0.1176,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 3,
+     "den": 51,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Gm_m2382659193_o1618591058": {
+   "0": {
+    "intact": {
+     "num": 122,
+     "den": 122,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 9,
+     "den": 122,
+     "rate": 0.0738,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 87,
+     "den": 122,
+     "rate": 0.7131,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 1,
+     "den": 122,
+     "rate": 0.0082,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 42,
+     "den": 122,
+     "rate": 0.3443,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 55,
+     "den": 122,
+     "rate": 0.4508,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 5,
+     "den": 122,
+     "rate": 0.041,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 12,
+     "den": 122,
+     "rate": 0.0984,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 23,
+     "den": 122,
+     "rate": 0.1885,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 103,
+     "den": 103,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 9,
+     "den": 103,
+     "rate": 0.0874,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 44,
+     "den": 103,
+     "rate": 0.4272,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 7,
+     "den": 103,
+     "rate": 0.068,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 16,
+     "den": 103,
+     "rate": 0.1553,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 9,
+     "den": 103,
+     "rate": 0.0874,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 5,
+     "den": 103,
+     "rate": 0.0485,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 11,
+     "den": 103,
+     "rate": 0.1068,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 12,
+     "den": 103,
+     "rate": 0.1165,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 122,
+     "den": 122,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 9,
+     "den": 122,
+     "rate": 0.0738,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 43,
+     "den": 122,
+     "rate": 0.3525,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 9,
+     "den": 122,
+     "rate": 0.0738,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 5,
+     "den": 122,
+     "rate": 0.041,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 9,
+     "den": 122,
+     "rate": 0.0738,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 3,
+     "den": 122,
+     "rate": 0.0246,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 6,
+     "den": 122,
+     "rate": 0.0492,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 17,
+     "den": 122,
+     "rate": 0.1393,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Gm_m2392236931_o1842565541": {
+   "0": {
+    "intact": {
+     "num": 79,
+     "den": 79,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 7,
+     "den": 79,
+     "rate": 0.0886,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 70,
+     "den": 79,
+     "rate": 0.8861,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 2,
+     "den": 79,
+     "rate": 0.0253,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 55,
+     "den": 79,
+     "rate": 0.6962,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 55,
+     "den": 79,
+     "rate": 0.6962,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 6,
+     "den": 79,
+     "rate": 0.0759,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 13,
+     "den": 79,
+     "rate": 0.1646,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 11,
+     "den": 79,
+     "rate": 0.1392,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 76,
+     "den": 76,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 7,
+     "den": 76,
+     "rate": 0.0921,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 32,
+     "den": 76,
+     "rate": 0.4211,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 3,
+     "den": 76,
+     "rate": 0.0395,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 27,
+     "den": 76,
+     "rate": 0.3553,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 20,
+     "den": 76,
+     "rate": 0.2632,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 8,
+     "den": 76,
+     "rate": 0.1053,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 8,
+     "den": 76,
+     "rate": 0.1053,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 11,
+     "den": 76,
+     "rate": 0.1447,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 80,
+     "den": 80,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 7,
+     "den": 80,
+     "rate": 0.0875,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 46,
+     "den": 80,
+     "rate": 0.575,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 8,
+     "den": 80,
+     "rate": 0.1,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 3,
+     "den": 80,
+     "rate": 0.0375,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 8,
+     "den": 80,
+     "rate": 0.1,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 7,
+     "den": 80,
+     "rate": 0.0875,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 5,
+     "den": 80,
+     "rate": 0.0625,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 10,
+     "den": 80,
+     "rate": 0.125,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Gm_m608985416_o1942292852": {
+   "0": {
+    "intact": {
+     "num": 199,
+     "den": 199,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 16,
+     "den": 199,
+     "rate": 0.0804,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 118,
+     "den": 199,
+     "rate": 0.593,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 21,
+     "den": 199,
+     "rate": 0.1055,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 62,
+     "den": 199,
+     "rate": 0.3116,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 49,
+     "den": 199,
+     "rate": 0.2462,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 19,
+     "den": 199,
+     "rate": 0.0955,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 23,
+     "den": 199,
+     "rate": 0.1156,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 70,
+     "den": 199,
+     "rate": 0.3518,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 199,
+     "den": 199,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 16,
+     "den": 199,
+     "rate": 0.0804,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 64,
+     "den": 199,
+     "rate": 0.3216,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 27,
+     "den": 199,
+     "rate": 0.1357,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 22,
+     "den": 199,
+     "rate": 0.1106,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 22,
+     "den": 199,
+     "rate": 0.1106,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 19,
+     "den": 199,
+     "rate": 0.0955,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 19,
+     "den": 199,
+     "rate": 0.0955,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 66,
+     "den": 199,
+     "rate": 0.3317,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 199,
+     "den": 199,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 16,
+     "den": 199,
+     "rate": 0.0804,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 58,
+     "den": 199,
+     "rate": 0.2915,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 60,
+     "den": 199,
+     "rate": 0.3015,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 12,
+     "den": 199,
+     "rate": 0.0603,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 9,
+     "den": 199,
+     "rate": 0.0452,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 16,
+     "den": 199,
+     "rate": 0.0804,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 13,
+     "den": 199,
+     "rate": 0.0653,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 61,
+     "den": 199,
+     "rate": 0.3065,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Gm_m999254511_o2610306098": {
+   "0": {
+    "intact": {
+     "num": 45,
+     "den": 45,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 24,
+     "den": 45,
+     "rate": 0.5333,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 23,
+     "den": 45,
+     "rate": 0.5111,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 3,
+     "den": 45,
+     "rate": 0.0667,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 1,
+     "den": 45,
+     "rate": 0.0222,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 1,
+     "den": 45,
+     "rate": 0.0222,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 10,
+     "den": 45,
+     "rate": 0.2222,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 4,
+     "den": 45,
+     "rate": 0.0889,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 1,
+     "den": 45,
+     "rate": 0.0222,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 38,
+     "den": 38,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 22,
+     "den": 38,
+     "rate": 0.5789,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 13,
+     "den": 38,
+     "rate": 0.3421,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 5,
+     "den": 38,
+     "rate": 0.1316,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 38,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 2,
+     "den": 38,
+     "rate": 0.0526,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 10,
+     "den": 38,
+     "rate": 0.2632,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 2,
+     "den": 38,
+     "rate": 0.0526,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 3,
+     "den": 38,
+     "rate": 0.0789,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 44,
+     "den": 44,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 22,
+     "den": 44,
+     "rate": 0.5,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 17,
+     "den": 44,
+     "rate": 0.3864,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 6,
+     "den": 44,
+     "rate": 0.1364,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 4,
+     "den": 44,
+     "rate": 0.0909,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 44,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 8,
+     "den": 44,
+     "rate": 0.1818,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 0,
+     "den": 44,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 4,
+     "den": 44,
+     "rate": 0.0909,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Np_m1276321262_o2590280901": {
+   "0": {
+    "intact": {
+     "num": 730,
+     "den": 730,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 45,
+     "den": 730,
+     "rate": 0.0616,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 724,
+     "den": 730,
+     "rate": 0.9918,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 655,
+     "den": 730,
+     "rate": 0.8973,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 10,
+     "den": 730,
+     "rate": 0.0137,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 6,
+     "den": 730,
+     "rate": 0.0082,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 38,
+     "den": 730,
+     "rate": 0.0521,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 43,
+     "den": 730,
+     "rate": 0.0589,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 654,
+     "den": 730,
+     "rate": 0.8959,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 730,
+     "den": 730,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 45,
+     "den": 730,
+     "rate": 0.0616,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 727,
+     "den": 730,
+     "rate": 0.9959,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 691,
+     "den": 730,
+     "rate": 0.9466,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 8,
+     "den": 730,
+     "rate": 0.011,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 2,
+     "den": 730,
+     "rate": 0.0027,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 38,
+     "den": 730,
+     "rate": 0.0521,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 50,
+     "den": 730,
+     "rate": 0.0685,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 652,
+     "den": 730,
+     "rate": 0.8932,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 730,
+     "den": 730,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 45,
+     "den": 730,
+     "rate": 0.0616,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 697,
+     "den": 730,
+     "rate": 0.9548,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 688,
+     "den": 730,
+     "rate": 0.9425,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 2,
+     "den": 730,
+     "rate": 0.0027,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 730,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 45,
+     "den": 730,
+     "rate": 0.0616,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 54,
+     "den": 730,
+     "rate": 0.074,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 651,
+     "den": 730,
+     "rate": 0.8918,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Np_m1333584616_o380366532": {
+   "0": {
+    "intact": {
+     "num": 22,
+     "den": 22,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 4,
+     "den": 22,
+     "rate": 0.1818,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 21,
+     "den": 22,
+     "rate": 0.9545,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 0,
+     "den": 22,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 2,
+     "den": 22,
+     "rate": 0.0909,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 0,
+     "den": 22,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 2,
+     "den": 22,
+     "rate": 0.0909,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 2,
+     "den": 22,
+     "rate": 0.0909,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 0,
+     "den": 22,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 18,
+     "den": 18,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 2,
+     "den": 18,
+     "rate": 0.1111,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 14,
+     "den": 18,
+     "rate": 0.7778,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 0,
+     "den": 18,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 2,
+     "den": 18,
+     "rate": 0.1111,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 2,
+     "den": 18,
+     "rate": 0.1111,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 4,
+     "den": 18,
+     "rate": 0.2222,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 2,
+     "den": 18,
+     "rate": 0.1111,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 0,
+     "den": 18,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 26,
+     "den": 26,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 4,
+     "den": 26,
+     "rate": 0.1538,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 23,
+     "den": 26,
+     "rate": 0.8846,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 4,
+     "den": 26,
+     "rate": 0.1538,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 26,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 4,
+     "den": 26,
+     "rate": 0.1538,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 2,
+     "den": 26,
+     "rate": 0.0769,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 0,
+     "den": 26,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 4,
+     "den": 26,
+     "rate": 0.1538,
+     "low_denominator_descriptive": true
+    }
+   }
+  },
+  "Np_m2382659193_o1618591058": {
+   "0": {
+    "intact": {
+     "num": 10,
+     "den": 10,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 0,
+     "den": 10,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 10,
+     "den": 10,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 0,
+     "den": 10,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 10,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 0,
+     "den": 10,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 0,
+     "den": 10,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 0,
+     "den": 10,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 0,
+     "den": 10,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 7,
+     "den": 7,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 0,
+     "den": 7,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 6,
+     "den": 7,
+     "rate": 0.8571,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 0,
+     "den": 7,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 7,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 0,
+     "den": 7,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 0,
+     "den": 7,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 0,
+     "den": 7,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 0,
+     "den": 7,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 13,
+     "den": 13,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 1,
+     "den": 13,
+     "rate": 0.0769,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 13,
+     "den": 13,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 2,
+     "den": 13,
+     "rate": 0.1538,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 1,
+     "den": 13,
+     "rate": 0.0769,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 1,
+     "den": 13,
+     "rate": 0.0769,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 0,
+     "den": 13,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 0,
+     "den": 13,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 2,
+     "den": 13,
+     "rate": 0.1538,
+     "low_denominator_descriptive": true
+    }
+   }
+  },
+  "Np_m2392236931_o1842565541": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 46,
+     "den": 816,
+     "rate": 0.0564,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 53,
+     "den": 816,
+     "rate": 0.065,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 44,
+     "den": 816,
+     "rate": 0.0539,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 46,
+     "den": 816,
+     "rate": 0.0564,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 50,
+     "den": 816,
+     "rate": 0.0613,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 47,
+     "den": 816,
+     "rate": 0.0576,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 46,
+     "den": 816,
+     "rate": 0.0564,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 47,
+     "den": 816,
+     "rate": 0.0576,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 37,
+     "den": 816,
+     "rate": 0.0453,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Np_m608985416_o1942292852": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 52,
+     "den": 816,
+     "rate": 0.0637,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 39,
+     "den": 816,
+     "rate": 0.0478,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 815,
+     "den": 816,
+     "rate": 0.9988,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 815,
+     "den": 816,
+     "rate": 0.9988,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 49,
+     "den": 816,
+     "rate": 0.06,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 38,
+     "den": 816,
+     "rate": 0.0466,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 47,
+     "den": 816,
+     "rate": 0.0576,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 39,
+     "den": 816,
+     "rate": 0.0478,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Np_m999254511_o2610306098": {
+   "0": {
+    "intact": {
+     "num": 19,
+     "den": 19,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 0,
+     "den": 19,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 19,
+     "den": 19,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 0,
+     "den": 19,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 3,
+     "den": 19,
+     "rate": 0.1579,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 4,
+     "den": 19,
+     "rate": 0.2105,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 2,
+     "den": 19,
+     "rate": 0.1053,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 1,
+     "den": 19,
+     "rate": 0.0526,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 0,
+     "den": 19,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 19,
+     "den": 19,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 1,
+     "den": 19,
+     "rate": 0.0526,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 16,
+     "den": 19,
+     "rate": 0.8421,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 4,
+     "den": 19,
+     "rate": 0.2105,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 2,
+     "den": 19,
+     "rate": 0.1053,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 1,
+     "den": 19,
+     "rate": 0.0526,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 3,
+     "den": 19,
+     "rate": 0.1579,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 1,
+     "den": 19,
+     "rate": 0.0526,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 0,
+     "den": 19,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 20,
+     "den": 20,
+     "rate": 1.0,
+     "low_denominator_descriptive": true
+    },
+    "allcut_bank": {
+     "num": 1,
+     "den": 20,
+     "rate": 0.05,
+     "low_denominator_descriptive": true
+    },
+    "same": {
+     "num": 17,
+     "den": 20,
+     "rate": 0.85,
+     "low_denominator_descriptive": true
+    },
+    "cf_follow": {
+     "num": 4,
+     "den": 20,
+     "rate": 0.2,
+     "low_denominator_descriptive": true
+    },
+    "shift_retain": {
+     "num": 4,
+     "den": 20,
+     "rate": 0.2,
+     "low_denominator_descriptive": true
+    },
+    "deranged": {
+     "num": 2,
+     "den": 20,
+     "rate": 0.1,
+     "low_denominator_descriptive": true
+    },
+    "deletion": {
+     "num": 1,
+     "den": 20,
+     "rate": 0.05,
+     "low_denominator_descriptive": true
+    },
+    "noise": {
+     "num": 2,
+     "den": 20,
+     "rate": 0.1,
+     "low_denominator_descriptive": true
+    },
+    "span_rewrite": {
+     "num": 0,
+     "den": 20,
+     "rate": 0.0,
+     "low_denominator_descriptive": true
+    }
+   }
+  },
+  "Rm_m1276321262_o2590280901": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 44,
+     "den": 816,
+     "rate": 0.0539,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 35,
+     "den": 816,
+     "rate": 0.0429,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 49,
+     "den": 816,
+     "rate": 0.06,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Rm_m1333584616_o380366532": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 64,
+     "den": 816,
+     "rate": 0.0784,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 49,
+     "den": 816,
+     "rate": 0.06,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 46,
+     "den": 816,
+     "rate": 0.0564,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Rm_m2382659193_o1618591058": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 50,
+     "den": 816,
+     "rate": 0.0613,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 49,
+     "den": 816,
+     "rate": 0.06,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 55,
+     "den": 816,
+     "rate": 0.0674,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Rm_m2392236931_o1842565541": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 43,
+     "den": 816,
+     "rate": 0.0527,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 34,
+     "den": 816,
+     "rate": 0.0417,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 46,
+     "den": 816,
+     "rate": 0.0564,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Rm_m608985416_o1942292852": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 39,
+     "den": 816,
+     "rate": 0.0478,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 51,
+     "den": 816,
+     "rate": 0.0625,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 54,
+     "den": 816,
+     "rate": 0.0662,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  },
+  "Rm_m999254511_o2610306098": {
+   "0": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 51,
+     "den": 816,
+     "rate": 0.0625,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "1": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 41,
+     "den": 816,
+     "rate": 0.0502,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   },
+   "2": {
+    "intact": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "allcut_bank": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "same": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "cf_follow": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    },
+    "shift_retain": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deranged": {
+     "num": 0,
+     "den": 816,
+     "rate": 0.0,
+     "low_denominator_descriptive": false
+    },
+    "deletion": {
+     "num": 48,
+     "den": 816,
+     "rate": 0.0588,
+     "low_denominator_descriptive": false
+    },
+    "noise": {
+     "num": 46,
+     "den": 816,
+     "rate": 0.0564,
+     "low_denominator_descriptive": false
+    },
+    "span_rewrite": {
+     "num": 816,
+     "den": 816,
+     "rate": 1.0,
+     "low_denominator_descriptive": false
+    }
+   }
+  }
+ }
+}

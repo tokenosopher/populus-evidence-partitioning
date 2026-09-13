@@ -1,0 +1,10004 @@
+{
+ "donor": "R+_m608985416_o1942292852",
+ "recipient": "G+_m608985416_o1942292852",
+ "recipient_intact_full_bank": {
+  "num": 65,
+  "den": 816
+ },
+ "eligible_case_ids": {
+  "0": [
+   0,
+   3,
+   14,
+   15,
+   19,
+   69,
+   121,
+   170,
+   171,
+   180,
+   181,
+   183,
+   238,
+   239,
+   269,
+   283,
+   312,
+   330,
+   331,
+   350,
+   374,
+   388,
+   389,
+   408,
+   421,
+   443,
+   473,
+   476,
+   477,
+   486,
+   491,
+   501,
+   510,
+   511,
+   516,
+   517,
+   528,
+   529,
+   569,
+   578,
+   579,
+   585,
+   605,
+   606,
+   607,
+   612,
+   613,
+   688,
+   689,
+   714,
+   715,
+   733,
+   745,
+   748,
+   749,
+   760,
+   778,
+   782,
+   783,
+   802,
+   803
+  ],
+  "1": [
+   3,
+   19,
+   101,
+   121,
+   134,
+   180,
+   181,
+   183,
+   283,
+   312,
+   330,
+   331,
+   350,
+   421,
+   486,
+   501,
+   516,
+   517,
+   528,
+   529,
+   569,
+   578,
+   579,
+   585,
+   605,
+   606,
+   607,
+   612,
+   613,
+   697,
+   714,
+   715,
+   733,
+   748,
+   749,
+   764,
+   782,
+   783,
+   802,
+   803
+  ],
+  "2": [
+   0,
+   3,
+   14,
+   15,
+   19,
+   69,
+   101,
+   121,
+   134,
+   170,
+   171,
+   180,
+   181,
+   183,
+   238,
+   239,
+   283,
+   312,
+   330,
+   331,
+   350,
+   374,
+   388,
+   389,
+   408,
+   421,
+   443,
+   473,
+   476,
+   477,
+   486,
+   491,
+   510,
+   511,
+   516,
+   517,
+   528,
+   529,
+   569,
+   578,
+   579,
+   605,
+   606,
+   607,
+   612,
+   613,
+   688,
+   689,
+   697,
+   714,
+   715,
+   733,
+   745,
+   748,
+   749,
+   760,
+   764,
+   778,
+   782,
+   783,
+   802,
+   803
+  ]
+ },
+ "eligible_case_ids_sha256": {
+  "0": "b5c4aa380ef9e9fd47385476240505d6ef39edfcb036e0291a3ee9d2eeb1cf6c",
+  "1": "05c37a2490e148be8d9f4036e69fe0c402d824a275312ae0f55dce30648caed0",
+  "2": "b0a81b875660c87d10f298541a266c3936249412f201d650c2b16aad2f9c7b77"
+ },
+ "n_eligible": {
+  "0": 61,
+  "1": 40,
+  "2": 62
+ },
+ "mode": "cross",
+ "world_id": "op3843534058_split476315301",
+ "bank_sha256": "1e83e6d559cdae4f4b092bdf66c3ae5df51c443a95bf8a7d84386c9542f3c380",
+ "bank_size": 816,
+ "cf_offset": 3,
+ "donor_success": 816,
+ "coverage_file": "results/audits/matrix_Rp_m608985416_o1942292852__Gp_m608985416_o1942292852/coverage_intersection.json",
+ "zero_norm_intact_packets": {
+  "0": 0,
+  "1": 0,
+  "2": 0
+ },
+ "exclusions": {
+  "0": {
+   "base_wrong": 751,
+   "no_donor": 4
+  },
+  "1": {
+   "base_wrong": 751,
+   "no_donor": 25
+  },
+  "2": {
+   "base_wrong": 751,
+   "no_donor": 3
+  }
+ },
+ "summary": {
+  "0": {
+   "intact": {
+    "num": 61,
+    "den": 61,
+    "rate": 1.0,
+    "low_denominator_descriptive": false
+   },
+   "allcut_bank": {
+    "num": 24,
+    "den": 61,
+    "rate": 0.3934,
+    "low_denominator_descriptive": false
+   },
+   "same": {
+    "num": 0,
+    "den": 61,
+    "rate": 0.0,
+    "low_denominator_descriptive": false
+   },
+   "cf_follow": {
+    "num": 2,
+    "den": 61,
+    "rate": 0.0328,
+    "low_denominator_descriptive": false
+   },
+   "shift_retain": {
+    "num": 1,
+    "den": 61,
+    "rate": 0.0164,
+    "low_denominator_descriptive": false
+   },
+   "deranged": {
+    "num": 1,
+    "den": 61,
+    "rate": 0.0164,
+    "low_denominator_descriptive": false
+   },
+   "deletion": {
+    "num": 8,
+    "den": 61,
+    "rate": 0.1311,
+    "low_denominator_descriptive": false
+   },
+   "noise": {
+    "num": 3,
+    "den": 61,
+    "rate": 0.0492,
+    "low_denominator_descriptive": false
+   },
+   "span_rewrite": {
+    "num": 5,
+    "den": 61,
+    "rate": 0.082,
+    "low_denominator_descriptive": false
+   }
+  },
+  "1": {
+   "intact": {
+    "num": 40,
+    "den": 40,
+    "rate": 1.0,
+    "low_denominator_descriptive": false
+   },
+   "allcut_bank": {
+    "num": 17,
+    "den": 40,
+    "rate": 0.425,
+    "low_denominator_descriptive": false
+   },
+   "same": {
+    "num": 1,
+    "den": 40,
+    "rate": 0.025,
+    "low_denominator_descriptive": false
+   },
+   "cf_follow": {
+    "num": 5,
+    "den": 40,
+    "rate": 0.125,
+    "low_denominator_descriptive": false
+   },
+   "shift_retain": {
+    "num": 2,
+    "den": 40,
+    "rate": 0.05,
+    "low_denominator_descriptive": false
+   },
+   "deranged": {
+    "num": 1,
+    "den": 40,
+    "rate": 0.025,
+    "low_denominator_descriptive": false
+   },
+   "deletion": {
+    "num": 7,
+    "den": 40,
+    "rate": 0.175,
+    "low_denominator_descriptive": false
+   },
+   "noise": {
+    "num": 3,
+    "den": 40,
+    "rate": 0.075,
+    "low_denominator_descriptive": false
+   },
+   "span_rewrite": {
+    "num": 1,
+    "den": 40,
+    "rate": 0.025,
+    "low_denominator_descriptive": false
+   }
+  },
+  "2": {
+   "intact": {
+    "num": 62,
+    "den": 62,
+    "rate": 1.0,
+    "low_denominator_descriptive": false
+   },
+   "allcut_bank": {
+    "num": 23,
+    "den": 62,
+    "rate": 0.371,
+    "low_denominator_descriptive": false
+   },
+   "same": {
+    "num": 0,
+    "den": 62,
+    "rate": 0.0,
+    "low_denominator_descriptive": false
+   },
+   "cf_follow": {
+    "num": 3,
+    "den": 62,
+    "rate": 0.0484,
+    "low_denominator_descriptive": false
+   },
+   "shift_retain": {
+    "num": 9,
+    "den": 62,
+    "rate": 0.1452,
+    "low_denominator_descriptive": false
+   },
+   "deranged": {
+    "num": 5,
+    "den": 62,
+    "rate": 0.0806,
+    "low_denominator_descriptive": false
+   },
+   "deletion": {
+    "num": 10,
+    "den": 62,
+    "rate": 0.1613,
+    "low_denominator_descriptive": false
+   },
+   "noise": {
+    "num": 3,
+    "den": 62,
+    "rate": 0.0484,
+    "low_denominator_descriptive": false
+   },
+   "span_rewrite": {
+    "num": 8,
+    "den": 62,
+    "rate": 0.129,
+    "low_denominator_descriptive": false
+   }
+  }
+ },
+ "per_case_records": [
+  {
+   "bank_idx": 0,
+   "iface": 0,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 10,
+   "ans": 1,
+   "target_cf": 5,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 1,
+   "same_prog_overlap": 1,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 10,
+    "deletion": 8,
+    "noise": 11,
+    "span_rewrite": 3,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 5
+  },
+  {
+   "bank_idx": 0,
+   "iface": 2,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 2,
+   "vcf": 5,
+   "wder": 1,
+   "ans": 1,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 11,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 5,
+    "shift_retain": 5,
+    "deranged": 1,
+    "deletion": 8,
+    "noise": 3,
+    "span_rewrite": 11,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 11,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 3,
+   "iface": 0,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 1,
+   "rot": 1,
+   "v": 1,
+   "vcf": 4,
+   "wder": 7,
+   "ans": 8,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 4,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 7,
+    "deletion": 16,
+    "noise": 10,
+    "span_rewrite": 2,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 3,
+   "iface": 1,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 1,
+   "rot": 1,
+   "v": 11,
+   "vcf": 14,
+   "wder": 15,
+   "ans": 8,
+   "target_cf": 2,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 5,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 1,
+   "preds": {
+    "same": 11,
+    "cf_follow": 14,
+    "shift_retain": 14,
+    "deranged": 15,
+    "deletion": 16,
+    "noise": 8,
+    "span_rewrite": 8,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 5,
+   "span_rewrite_target": 2
+  },
+  {
+   "bank_idx": 3,
+   "iface": 2,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 1,
+   "rot": 1,
+   "v": 10,
+   "vcf": 13,
+   "wder": 7,
+   "ans": 8,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 15,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 1,
+   "preds": {
+    "same": 10,
+    "cf_follow": 13,
+    "shift_retain": 13,
+    "deranged": 7,
+    "deletion": 16,
+    "noise": 5,
+    "span_rewrite": 16,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 12,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 14,
+   "iface": 0,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 7,
+   "rot": 0,
+   "v": 7,
+   "vcf": 10,
+   "wder": 15,
+   "ans": 16,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 15,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 10,
+    "shift_retain": 10,
+    "deranged": 15,
+    "deletion": 8,
+    "noise": 3,
+    "span_rewrite": 12,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 14,
+   "iface": 2,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 7,
+   "rot": 0,
+   "v": 7,
+   "vcf": 10,
+   "wder": 6,
+   "ans": 16,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 4,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 1,
+   "same_prog_overlap": 1,
+   "preds": {
+    "same": 7,
+    "cf_follow": 10,
+    "shift_retain": 10,
+    "deranged": 6,
+    "deletion": 8,
+    "noise": 11,
+    "span_rewrite": 11,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 15,
+   "iface": 0,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 7,
+   "rot": 1,
+   "v": 7,
+   "vcf": 10,
+   "wder": 6,
+   "ans": 16,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 10,
+    "shift_retain": 10,
+    "deranged": 2,
+    "deletion": 8,
+    "noise": 11,
+    "span_rewrite": 12,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 15,
+   "iface": 2,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 7,
+   "rot": 1,
+   "v": 7,
+   "vcf": 10,
+   "wder": 14,
+   "ans": 16,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 4,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 1,
+   "same_prog_overlap": 1,
+   "preds": {
+    "same": 7,
+    "cf_follow": 10,
+    "shift_retain": 10,
+    "deranged": 14,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 8,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 19,
+   "iface": 0,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 9,
+   "vcf": 12,
+   "wder": 13,
+   "ans": 13,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 12,
+    "shift_retain": 12,
+    "deranged": 7,
+    "deletion": 9,
+    "noise": 5,
+    "span_rewrite": 16,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 12,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 19,
+   "iface": 1,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 4,
+   "ans": 13,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 4,
+    "deletion": 9,
+    "noise": 10,
+    "span_rewrite": 5,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 19,
+   "iface": 2,
+   "seq": [
+    0,
+    0,
+    1
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 6,
+   "vcf": 9,
+   "wder": 0,
+   "ans": 13,
+   "target_cf": 5,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 2,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 6,
+    "cf_follow": 9,
+    "shift_retain": 9,
+    "deranged": 0,
+    "deletion": 9,
+    "noise": 13,
+    "span_rewrite": 3,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 5
+  },
+  {
+   "bank_idx": 69,
+   "iface": 0,
+   "seq": [
+    0,
+    3,
+    2
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 3,
+   "ans": 6,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 3,
+    "deletion": 6,
+    "noise": 11,
+    "span_rewrite": 13,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 69,
+   "iface": 2,
+   "seq": [
+    0,
+    3,
+    2
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 8,
+   "vcf": 11,
+   "wder": 1,
+   "ans": 6,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 2,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 1,
+   "preds": {
+    "same": 8,
+    "cf_follow": 11,
+    "shift_retain": 11,
+    "deranged": 1,
+    "deletion": 6,
+    "noise": 10,
+    "span_rewrite": 8,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 6,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 101,
+   "iface": 1,
+   "seq": [
+    0,
+    3,
+    2
+   ],
+   "x": 16,
+   "rot": 1,
+   "v": 1,
+   "vcf": 4,
+   "wder": 7,
+   "ans": 5,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 3,
+    "span_rewrite": 13,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 101,
+   "iface": 2,
+   "seq": [
+    0,
+    3,
+    2
+   ],
+   "x": 16,
+   "rot": 1,
+   "v": 16,
+   "vcf": 2,
+   "wder": 15,
+   "ans": 5,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 16,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 15,
+    "deletion": 6,
+    "noise": 8,
+    "span_rewrite": 8,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 5,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 121,
+   "iface": 0,
+   "seq": [
+    0,
+    3,
+    4
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 9,
+   "vcf": 12,
+   "wder": 4,
+   "ans": 15,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 12,
+    "shift_retain": 12,
+    "deranged": 4,
+    "deletion": 8,
+    "noise": 7,
+    "span_rewrite": 11,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 12,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 121,
+   "iface": 1,
+   "seq": [
+    0,
+    3,
+    4
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 8,
+   "ans": 15,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 8,
+    "deletion": 8,
+    "noise": 10,
+    "span_rewrite": 15,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 121,
+   "iface": 2,
+   "seq": [
+    0,
+    3,
+    4
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 4,
+   "vcf": 7,
+   "wder": 1,
+   "ans": 15,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 1,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 11,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 134,
+   "iface": 1,
+   "seq": [
+    0,
+    3,
+    4
+   ],
+   "x": 16,
+   "rot": 0,
+   "v": 1,
+   "vcf": 4,
+   "wder": 6,
+   "ans": 11,
+   "target_cf": 16,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 6,
+    "deletion": 16,
+    "noise": 6,
+    "span_rewrite": 3,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 16
+  },
+  {
+   "bank_idx": 134,
+   "iface": 2,
+   "seq": [
+    0,
+    3,
+    4
+   ],
+   "x": 16,
+   "rot": 0,
+   "v": 16,
+   "vcf": 2,
+   "wder": 3,
+   "ans": 11,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 5,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 16,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 3,
+    "deletion": 16,
+    "noise": 6,
+    "span_rewrite": 8,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 5,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 170,
+   "iface": 0,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 7,
+   "ans": 6,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 9,
+    "noise": 2,
+    "span_rewrite": 5,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 170,
+   "iface": 2,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 3,
+   "vcf": 6,
+   "wder": 7,
+   "ans": 6,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 7,
+    "deletion": 5,
+    "noise": 6,
+    "span_rewrite": 8,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 5,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 171,
+   "iface": 0,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 7,
+   "ans": 6,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 5,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 171,
+   "iface": 2,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 3,
+   "vcf": 6,
+   "wder": 16,
+   "ans": 6,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 16,
+    "deletion": 5,
+    "noise": 4,
+    "span_rewrite": 8,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 5,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 180,
+   "iface": 0,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 5,
+   "vcf": 8,
+   "wder": 9,
+   "ans": 8,
+   "target_cf": 16,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 16,
+    "noise": 5,
+    "span_rewrite": 11,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 8,
+   "span_rewrite_target": 16
+  },
+  {
+   "bank_idx": 180,
+   "iface": 1,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 14,
+   "vcf": 0,
+   "wder": 5,
+   "ans": 8,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 5,
+    "deletion": 8,
+    "noise": 0,
+    "span_rewrite": 11,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 180,
+   "iface": 2,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 6,
+   "vcf": 9,
+   "wder": 8,
+   "ans": 8,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 2,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 6,
+    "cf_follow": 9,
+    "shift_retain": 9,
+    "deranged": 8,
+    "deletion": 16,
+    "noise": 5,
+    "span_rewrite": 6,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 181,
+   "iface": 0,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 5,
+   "rot": 1,
+   "v": 5,
+   "vcf": 8,
+   "wder": 10,
+   "ans": 8,
+   "target_cf": 16,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 10,
+    "deletion": 8,
+    "noise": 7,
+    "span_rewrite": 11,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 8,
+   "span_rewrite_target": 16
+  },
+  {
+   "bank_idx": 181,
+   "iface": 1,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 5,
+   "rot": 1,
+   "v": 14,
+   "vcf": 0,
+   "wder": 12,
+   "ans": 8,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 12,
+    "deletion": 8,
+    "noise": 9,
+    "span_rewrite": 4,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 181,
+   "iface": 2,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 5,
+   "rot": 1,
+   "v": 6,
+   "vcf": 9,
+   "wder": 9,
+   "ans": 8,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 2,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 2,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 6,
+    "cf_follow": 9,
+    "shift_retain": 9,
+    "deranged": 9,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 6,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 183,
+   "iface": 0,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 6,
+   "rot": 1,
+   "v": 6,
+   "vcf": 9,
+   "wder": 13,
+   "ans": 5,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 9,
+    "noise": 2,
+    "span_rewrite": 4,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 183,
+   "iface": 1,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 6,
+   "rot": 1,
+   "v": 2,
+   "vcf": 5,
+   "wder": 15,
+   "ans": 5,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 5,
+    "shift_retain": 5,
+    "deranged": 15,
+    "deletion": 8,
+    "noise": 10,
+    "span_rewrite": 6,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 183,
+   "iface": 2,
+   "seq": [
+    0,
+    4,
+    3
+   ],
+   "x": 6,
+   "rot": 1,
+   "v": 10,
+   "vcf": 13,
+   "wder": 4,
+   "ans": 5,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 4,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 10,
+    "cf_follow": 13,
+    "shift_retain": 13,
+    "deranged": 4,
+    "deletion": 8,
+    "noise": 5,
+    "span_rewrite": 1,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 11,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 238,
+   "iface": 0,
+   "seq": [
+    0,
+    5,
+    3
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 6,
+   "ans": 15,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 2,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 7,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 238,
+   "iface": 2,
+   "seq": [
+    0,
+    5,
+    3
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 8,
+   "vcf": 11,
+   "wder": 14,
+   "ans": 15,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 6,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 8,
+    "cf_follow": 11,
+    "shift_retain": 11,
+    "deranged": 14,
+    "deletion": 5,
+    "noise": 11,
+    "span_rewrite": 10,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 11,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 239,
+   "iface": 0,
+   "seq": [
+    0,
+    5,
+    3
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 9,
+   "ans": 15,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 11,
+    "span_rewrite": 7,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 239,
+   "iface": 2,
+   "seq": [
+    0,
+    5,
+    3
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 8,
+   "vcf": 11,
+   "wder": 6,
+   "ans": 15,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 8,
+    "cf_follow": 11,
+    "shift_retain": 11,
+    "deranged": 6,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 10,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 11,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 269,
+   "iface": 0,
+   "seq": [
+    0,
+    5,
+    3
+   ],
+   "x": 15,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 5,
+   "ans": 10,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 6,
+    "span_rewrite": 16,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 283,
+   "iface": 0,
+   "seq": [
+    0,
+    5,
+    6
+   ],
+   "x": 5,
+   "rot": 1,
+   "v": 5,
+   "vcf": 8,
+   "wder": 6,
+   "ans": 0,
+   "target_cf": 4,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 2,
+    "deletion": 8,
+    "noise": 15,
+    "span_rewrite": 0,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 8,
+   "span_rewrite_target": 4
+  },
+  {
+   "bank_idx": 283,
+   "iface": 1,
+   "seq": [
+    0,
+    5,
+    6
+   ],
+   "x": 5,
+   "rot": 1,
+   "v": 14,
+   "vcf": 0,
+   "wder": 2,
+   "ans": 0,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 2,
+    "deletion": 8,
+    "noise": 7,
+    "span_rewrite": 10,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 283,
+   "iface": 2,
+   "seq": [
+    0,
+    5,
+    6
+   ],
+   "x": 5,
+   "rot": 1,
+   "v": 14,
+   "vcf": 0,
+   "wder": 1,
+   "ans": 0,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 2,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 1,
+    "deletion": 14,
+    "noise": 4,
+    "span_rewrite": 6,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 16,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 312,
+   "iface": 0,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 3,
+   "rot": 0,
+   "v": 3,
+   "vcf": 6,
+   "wder": 12,
+   "ans": 15,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 12,
+    "deletion": 16,
+    "noise": 9,
+    "span_rewrite": 2,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 6,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 312,
+   "iface": 1,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 3,
+   "rot": 0,
+   "v": 4,
+   "vcf": 7,
+   "wder": 1,
+   "ans": 15,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 1,
+    "deletion": 11,
+    "noise": 15,
+    "span_rewrite": 15,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 312,
+   "iface": 2,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 3,
+   "rot": 0,
+   "v": 4,
+   "vcf": 7,
+   "wder": 5,
+   "ans": 15,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 11,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 5,
+    "deletion": 15,
+    "noise": 5,
+    "span_rewrite": 7,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 330,
+   "iface": 0,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 12,
+   "rot": 0,
+   "v": 12,
+   "vcf": 15,
+   "wder": 7,
+   "ans": 4,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 7,
+    "deletion": 16,
+    "noise": 10,
+    "span_rewrite": 2,
+    "allcut_bank": 3
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 330,
+   "iface": 1,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 12,
+   "rot": 0,
+   "v": 15,
+   "vcf": 1,
+   "wder": 7,
+   "ans": 4,
+   "target_cf": 1,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 15,
+    "allcut_bank": 3
+   },
+   "span_rewrite_x_cf": 16,
+   "span_rewrite_target": 1
+  },
+  {
+   "bank_idx": 330,
+   "iface": 2,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 12,
+   "rot": 0,
+   "v": 3,
+   "vcf": 6,
+   "wder": 0,
+   "ans": 4,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 0,
+    "deletion": 16,
+    "noise": 0,
+    "span_rewrite": 8,
+    "allcut_bank": 3
+   },
+   "span_rewrite_x_cf": 2,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 331,
+   "iface": 0,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 16,
+   "ans": 4,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 7,
+    "deletion": 16,
+    "noise": 11,
+    "span_rewrite": 2,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 331,
+   "iface": 1,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 12,
+   "ans": 4,
+   "target_cf": 1,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 12,
+    "deletion": 8,
+    "noise": 1,
+    "span_rewrite": 16,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 16,
+   "span_rewrite_target": 1
+  },
+  {
+   "bank_idx": 331,
+   "iface": 2,
+   "seq": [
+    0,
+    6,
+    4
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 3,
+   "vcf": 6,
+   "wder": 5,
+   "ans": 4,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 11,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 5,
+    "deletion": 16,
+    "noise": 15,
+    "span_rewrite": 8,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 2,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 350,
+   "iface": 0,
+   "seq": [
+    0,
+    7,
+    0
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 5,
+   "vcf": 8,
+   "wder": 15,
+   "ans": 14,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 15,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 15,
+    "deletion": 6,
+    "noise": 9,
+    "span_rewrite": 15,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 8,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 350,
+   "iface": 1,
+   "seq": [
+    0,
+    7,
+    0
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 14,
+   "vcf": 0,
+   "wder": 2,
+   "ans": 14,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 6,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 2,
+    "deletion": 6,
+    "noise": 13,
+    "span_rewrite": 15,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 350,
+   "iface": 2,
+   "seq": [
+    0,
+    7,
+    0
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 5,
+   "vcf": 8,
+   "wder": 16,
+   "ans": 14,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 11,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 5,
+    "cf_follow": 8,
+    "shift_retain": 8,
+    "deranged": 16,
+    "deletion": 3,
+    "noise": 4,
+    "span_rewrite": 8,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 374,
+   "iface": 0,
+   "seq": [
+    0,
+    8,
+    9
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 14,
+   "ans": 12,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 13,
+    "span_rewrite": 4,
+    "allcut_bank": 12
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 374,
+   "iface": 2,
+   "seq": [
+    0,
+    8,
+    9
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 1,
+   "vcf": 4,
+   "wder": 16,
+   "ans": 12,
+   "target_cf": 15,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 2,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 16,
+    "deletion": 6,
+    "noise": 2,
+    "span_rewrite": 8,
+    "allcut_bank": 12
+   },
+   "span_rewrite_x_cf": 2,
+   "span_rewrite_target": 15
+  },
+  {
+   "bank_idx": 388,
+   "iface": 0,
+   "seq": [
+    0,
+    8,
+    9
+   ],
+   "x": 7,
+   "rot": 0,
+   "v": 7,
+   "vcf": 10,
+   "wder": 10,
+   "ans": 14,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 10,
+    "shift_retain": 10,
+    "deranged": 10,
+    "deletion": 0,
+    "noise": 13,
+    "span_rewrite": 6,
+    "allcut_bank": 1
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 388,
+   "iface": 2,
+   "seq": [
+    0,
+    8,
+    9
+   ],
+   "x": 7,
+   "rot": 0,
+   "v": 3,
+   "vcf": 6,
+   "wder": 13,
+   "ans": 14,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 13,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 3,
+    "allcut_bank": 1
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 389,
+   "iface": 0,
+   "seq": [
+    0,
+    8,
+    9
+   ],
+   "x": 7,
+   "rot": 1,
+   "v": 7,
+   "vcf": 10,
+   "wder": 5,
+   "ans": 14,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 10,
+    "shift_retain": 10,
+    "deranged": 7,
+    "deletion": 0,
+    "noise": 9,
+    "span_rewrite": 6,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 389,
+   "iface": 2,
+   "seq": [
+    0,
+    8,
+    9
+   ],
+   "x": 7,
+   "rot": 1,
+   "v": 3,
+   "vcf": 6,
+   "wder": 6,
+   "ans": 14,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 6,
+    "deletion": 0,
+    "noise": 8,
+    "span_rewrite": 16,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 408,
+   "iface": 0,
+   "seq": [
+    0,
+    8,
+    10
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 8,
+   "ans": 2,
+   "target_cf": 5,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 9,
+    "noise": 13,
+    "span_rewrite": 10,
+    "allcut_bank": 9
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 5
+  },
+  {
+   "bank_idx": 408,
+   "iface": 2,
+   "seq": [
+    0,
+    8,
+    10
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 1,
+   "vcf": 4,
+   "wder": 16,
+   "ans": 2,
+   "target_cf": 4,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 16,
+    "deletion": 5,
+    "noise": 9,
+    "span_rewrite": 8,
+    "allcut_bank": 9
+   },
+   "span_rewrite_x_cf": 2,
+   "span_rewrite_target": 4
+  },
+  {
+   "bank_idx": 421,
+   "iface": 0,
+   "seq": [
+    0,
+    8,
+    10
+   ],
+   "x": 6,
+   "rot": 1,
+   "v": 6,
+   "vcf": 9,
+   "wder": 12,
+   "ans": 8,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 12,
+    "deletion": 8,
+    "noise": 14,
+    "span_rewrite": 2,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 421,
+   "iface": 1,
+   "seq": [
+    0,
+    8,
+    10
+   ],
+   "x": 6,
+   "rot": 1,
+   "v": 2,
+   "vcf": 5,
+   "wder": 3,
+   "ans": 8,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 5,
+    "shift_retain": 5,
+    "deranged": 3,
+    "deletion": 8,
+    "noise": 5,
+    "span_rewrite": 6,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 421,
+   "iface": 2,
+   "seq": [
+    0,
+    8,
+    10
+   ],
+   "x": 6,
+   "rot": 1,
+   "v": 10,
+   "vcf": 13,
+   "wder": 0,
+   "ans": 8,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 10,
+    "cf_follow": 13,
+    "shift_retain": 13,
+    "deranged": 0,
+    "deletion": 8,
+    "noise": 5,
+    "span_rewrite": 11,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 8,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 443,
+   "iface": 0,
+   "seq": [
+    0,
+    8,
+    11
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 13,
+   "ans": 4,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 5,
+    "span_rewrite": 6,
+    "allcut_bank": 9
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 443,
+   "iface": 2,
+   "seq": [
+    0,
+    8,
+    11
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 1,
+   "vcf": 4,
+   "wder": 5,
+   "ans": 4,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 2,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 11,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 5,
+    "deletion": 5,
+    "noise": 12,
+    "span_rewrite": 6,
+    "allcut_bank": 9
+   },
+   "span_rewrite_x_cf": 2,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 473,
+   "iface": 0,
+   "seq": [
+    0,
+    8,
+    11
+   ],
+   "x": 15,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 12,
+   "ans": 1,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 15,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 12,
+    "deletion": 0,
+    "noise": 10,
+    "span_rewrite": 5,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 473,
+   "iface": 2,
+   "seq": [
+    0,
+    8,
+    11
+   ],
+   "x": 15,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 10,
+   "ans": 1,
+   "target_cf": 4,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 1,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 10,
+    "deletion": 14,
+    "noise": 6,
+    "span_rewrite": 4,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 0,
+   "span_rewrite_target": 4
+  },
+  {
+   "bank_idx": 476,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 7,
+   "ans": 4,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 8,
+    "span_rewrite": 5,
+    "allcut_bank": 4
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 476,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 5,
+   "ans": 4,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 11,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 5,
+    "deletion": 8,
+    "noise": 11,
+    "span_rewrite": 1,
+    "allcut_bank": 4
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 477,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 13,
+   "ans": 4,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 5,
+    "noise": 15,
+    "span_rewrite": 5,
+    "allcut_bank": 4
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 477,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 1,
+   "ans": 4,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 1,
+    "deletion": 9,
+    "noise": 9,
+    "span_rewrite": 15,
+    "allcut_bank": 4
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 486,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 5,
+   "vcf": 8,
+   "wder": 13,
+   "ans": 15,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 16,
+    "noise": 8,
+    "span_rewrite": 9,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 8,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 486,
+   "iface": 1,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 14,
+   "vcf": 0,
+   "wder": 11,
+   "ans": 15,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 1,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 11,
+    "deletion": 16,
+    "noise": 5,
+    "span_rewrite": 10,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 486,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 5,
+   "rot": 0,
+   "v": 8,
+   "vcf": 11,
+   "wder": 14,
+   "ans": 15,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 8,
+    "cf_follow": 11,
+    "shift_retain": 11,
+    "deranged": 14,
+    "deletion": 16,
+    "noise": 6,
+    "span_rewrite": 10,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 491,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 7,
+   "rot": 1,
+   "v": 7,
+   "vcf": 10,
+   "wder": 13,
+   "ans": 16,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 10,
+    "shift_retain": 10,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 2,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 491,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 7,
+   "rot": 1,
+   "v": 1,
+   "vcf": 4,
+   "wder": 15,
+   "ans": 16,
+   "target_cf": 1,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 2,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 15,
+    "deletion": 3,
+    "noise": 10,
+    "span_rewrite": 10,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 11,
+   "span_rewrite_target": 1
+  },
+  {
+   "bank_idx": 501,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 14,
+   "ans": 10,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 14,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 12,
+    "span_rewrite": 4,
+    "allcut_bank": 10
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 501,
+   "iface": 1,
+   "seq": [
+    0,
+    9,
+    3
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 8,
+   "ans": 10,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 14,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 8,
+    "deletion": 8,
+    "noise": 11,
+    "span_rewrite": 11,
+    "allcut_bank": 10
+   },
+   "span_rewrite_x_cf": 16,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 510,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 14,
+   "ans": 11,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 14,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 5,
+    "noise": 13,
+    "span_rewrite": 9,
+    "allcut_bank": 11
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 510,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 15,
+   "ans": 11,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 15,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 3,
+    "allcut_bank": 11
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 511,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 7,
+   "ans": 11,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 5,
+    "noise": 5,
+    "span_rewrite": 9,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 511,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 14,
+   "ans": 11,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 15,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 14,
+    "deletion": 5,
+    "noise": 10,
+    "span_rewrite": 3,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 516,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 3,
+   "rot": 0,
+   "v": 3,
+   "vcf": 6,
+   "wder": 4,
+   "ans": 9,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 4,
+    "deletion": 6,
+    "noise": 9,
+    "span_rewrite": 13,
+    "allcut_bank": 14
+   },
+   "span_rewrite_x_cf": 6,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 516,
+   "iface": 1,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 3,
+   "rot": 0,
+   "v": 4,
+   "vcf": 7,
+   "wder": 6,
+   "ans": 9,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 6,
+    "deletion": 6,
+    "noise": 7,
+    "span_rewrite": 8,
+    "allcut_bank": 14
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 516,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 3,
+   "rot": 0,
+   "v": 15,
+   "vcf": 1,
+   "wder": 0,
+   "ans": 9,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 14,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 2,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 0,
+    "deletion": 9,
+    "noise": 5,
+    "span_rewrite": 8,
+    "allcut_bank": 14
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 517,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 3,
+   "rot": 1,
+   "v": 3,
+   "vcf": 6,
+   "wder": 12,
+   "ans": 9,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 12,
+    "deletion": 14,
+    "noise": 10,
+    "span_rewrite": 10,
+    "allcut_bank": 14
+   },
+   "span_rewrite_x_cf": 6,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 517,
+   "iface": 1,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 3,
+   "rot": 1,
+   "v": 4,
+   "vcf": 7,
+   "wder": 15,
+   "ans": 9,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 15,
+    "deletion": 15,
+    "noise": 5,
+    "span_rewrite": 8,
+    "allcut_bank": 14
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 517,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 3,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 8,
+   "ans": 9,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 14,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 8,
+    "deletion": 15,
+    "noise": 10,
+    "span_rewrite": 8,
+    "allcut_bank": 14
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 528,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 9,
+   "rot": 0,
+   "v": 9,
+   "vcf": 12,
+   "wder": 13,
+   "ans": 5,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 12,
+    "shift_retain": 12,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 14,
+    "span_rewrite": 6,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 12,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 528,
+   "iface": 1,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 9,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 1,
+   "ans": 5,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 1,
+    "deletion": 3,
+    "noise": 7,
+    "span_rewrite": 4,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 528,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 9,
+   "rot": 0,
+   "v": 11,
+   "vcf": 14,
+   "wder": 6,
+   "ans": 5,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 11,
+    "cf_follow": 14,
+    "shift_retain": 14,
+    "deranged": 6,
+    "deletion": 3,
+    "noise": 10,
+    "span_rewrite": 4,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 529,
+   "iface": 0,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 9,
+   "vcf": 12,
+   "wder": 16,
+   "ans": 5,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 12,
+    "shift_retain": 12,
+    "deranged": 7,
+    "deletion": 9,
+    "noise": 13,
+    "span_rewrite": 11,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 12,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 529,
+   "iface": 1,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 2,
+   "ans": 5,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 2,
+    "deletion": 5,
+    "noise": 13,
+    "span_rewrite": 9,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 529,
+   "iface": 2,
+   "seq": [
+    0,
+    9,
+    9
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 11,
+   "vcf": 14,
+   "wder": 14,
+   "ans": 5,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 11,
+    "cf_follow": 14,
+    "shift_retain": 14,
+    "deranged": 14,
+    "deletion": 5,
+    "noise": 6,
+    "span_rewrite": 9,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 569,
+   "iface": 0,
+   "seq": [
+    0,
+    10,
+    3
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 10,
+   "ans": 4,
+   "target_cf": 5,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 10,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 11,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 5
+  },
+  {
+   "bank_idx": 569,
+   "iface": 1,
+   "seq": [
+    0,
+    10,
+    3
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 8,
+   "ans": 4,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 14,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 8,
+    "deletion": 6,
+    "noise": 13,
+    "span_rewrite": 7,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 16,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 569,
+   "iface": 2,
+   "seq": [
+    0,
+    10,
+    3
+   ],
+   "x": 12,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 6,
+   "ans": 4,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 15,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 6,
+    "deletion": 6,
+    "noise": 0,
+    "span_rewrite": 8,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 578,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 10,
+   "ans": 13,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 10,
+    "deletion": 6,
+    "noise": 10,
+    "span_rewrite": 8,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 578,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 12,
+   "vcf": 15,
+   "wder": 1,
+   "ans": 13,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 1,
+    "deletion": 3,
+    "noise": 11,
+    "span_rewrite": 16,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 578,
+   "iface": 2,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 15,
+   "vcf": 1,
+   "wder": 3,
+   "ans": 13,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 3,
+    "deletion": 3,
+    "noise": 12,
+    "span_rewrite": 13,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 579,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 8,
+   "ans": 13,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 0,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 579,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 7,
+   "ans": 13,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 4,
+    "span_rewrite": 5,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 579,
+   "iface": 2,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 11,
+   "ans": 13,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 11,
+    "deletion": 13,
+    "noise": 11,
+    "span_rewrite": 13,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 585,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 3,
+   "rot": 1,
+   "v": 3,
+   "vcf": 6,
+   "wder": 10,
+   "ans": 0,
+   "target_cf": 4,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 10,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 15,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 6,
+   "span_rewrite_target": 4
+  },
+  {
+   "bank_idx": 585,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 3,
+   "rot": 1,
+   "v": 4,
+   "vcf": 7,
+   "wder": 1,
+   "ans": 0,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 1,
+    "deletion": 0,
+    "noise": 7,
+    "span_rewrite": 4,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 605,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 13,
+   "rot": 1,
+   "v": 13,
+   "vcf": 16,
+   "wder": 16,
+   "ans": 2,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 0,
+    "noise": 5,
+    "span_rewrite": 7,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 16,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 605,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 13,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 12,
+   "ans": 2,
+   "target_cf": 9,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 0,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 12,
+    "deletion": 0,
+    "noise": 5,
+    "span_rewrite": 9,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 14,
+   "span_rewrite_target": 9
+  },
+  {
+   "bank_idx": 605,
+   "iface": 2,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 13,
+   "rot": 1,
+   "v": 6,
+   "vcf": 9,
+   "wder": 8,
+   "ans": 2,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 6,
+    "cf_follow": 9,
+    "shift_retain": 9,
+    "deranged": 8,
+    "deletion": 0,
+    "noise": 16,
+    "span_rewrite": 0,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 606,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 14,
+   "rot": 0,
+   "v": 14,
+   "vcf": 0,
+   "wder": 3,
+   "ans": 9,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 14,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 3,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 13,
+    "allcut_bank": 2
+   },
+   "span_rewrite_x_cf": 0,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 606,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 14,
+   "rot": 0,
+   "v": 3,
+   "vcf": 6,
+   "wder": 1,
+   "ans": 9,
+   "target_cf": 16,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 1,
+    "deletion": 6,
+    "noise": 8,
+    "span_rewrite": 6,
+    "allcut_bank": 2
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 16
+  },
+  {
+   "bank_idx": 606,
+   "iface": 2,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 14,
+   "rot": 0,
+   "v": 4,
+   "vcf": 7,
+   "wder": 15,
+   "ans": 9,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 14,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 15,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 0,
+    "allcut_bank": 2
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 607,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 14,
+   "rot": 1,
+   "v": 14,
+   "vcf": 0,
+   "wder": 5,
+   "ans": 9,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 14,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 0,
+    "noise": 9,
+    "span_rewrite": 13,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 0,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 607,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 14,
+   "rot": 1,
+   "v": 3,
+   "vcf": 6,
+   "wder": 13,
+   "ans": 9,
+   "target_cf": 16,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 3,
+    "cf_follow": 6,
+    "shift_retain": 6,
+    "deranged": 13,
+    "deletion": 0,
+    "noise": 5,
+    "span_rewrite": 6,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 16
+  },
+  {
+   "bank_idx": 607,
+   "iface": 2,
+   "seq": [
+    1,
+    0,
+    0
+   ],
+   "x": 14,
+   "rot": 1,
+   "v": 4,
+   "vcf": 7,
+   "wder": 7,
+   "ans": 9,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 0,
+    "noise": 6,
+    "span_rewrite": 4,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 612,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 8,
+   "ans": 6,
+   "target_cf": 5,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 16,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 5
+  },
+  {
+   "bank_idx": 612,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 12,
+   "vcf": 15,
+   "wder": 0,
+   "ans": 6,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 0,
+    "deletion": 6,
+    "noise": 6,
+    "span_rewrite": 9,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 612,
+   "iface": 2,
+   "seq": [
+    1,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 15,
+   "vcf": 1,
+   "wder": 14,
+   "ans": 6,
+   "target_cf": 15,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 14,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 14,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 6,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 15
+  },
+  {
+   "bank_idx": 613,
+   "iface": 0,
+   "seq": [
+    1,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 4,
+   "ans": 6,
+   "target_cf": 5,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 4,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 16,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 5
+  },
+  {
+   "bank_idx": 613,
+   "iface": 1,
+   "seq": [
+    1,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 6,
+   "ans": 6,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 0,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 6,
+    "deletion": 6,
+    "noise": 16,
+    "span_rewrite": 2,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 613,
+   "iface": 2,
+   "seq": [
+    1,
+    0,
+    1
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 11,
+   "ans": 6,
+   "target_cf": 15,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 11,
+    "deletion": 6,
+    "noise": 15,
+    "span_rewrite": 4,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 15
+  },
+  {
+   "bank_idx": 688,
+   "iface": 0,
+   "seq": [
+    1,
+    1,
+    4
+   ],
+   "x": 4,
+   "rot": 0,
+   "v": 4,
+   "vcf": 7,
+   "wder": 15,
+   "ans": 11,
+   "target_cf": 2,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 4,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 15,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 15,
+    "deletion": 6,
+    "noise": 7,
+    "span_rewrite": 13,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 2
+  },
+  {
+   "bank_idx": 688,
+   "iface": 2,
+   "seq": [
+    1,
+    1,
+    4
+   ],
+   "x": 4,
+   "rot": 0,
+   "v": 16,
+   "vcf": 2,
+   "wder": 6,
+   "ans": 11,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 16,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 6,
+    "deletion": 6,
+    "noise": 6,
+    "span_rewrite": 13,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 689,
+   "iface": 0,
+   "seq": [
+    1,
+    1,
+    4
+   ],
+   "x": 4,
+   "rot": 1,
+   "v": 4,
+   "vcf": 7,
+   "wder": 14,
+   "ans": 11,
+   "target_cf": 2,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 4,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 14,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 4,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 11,
+    "span_rewrite": 13,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 2
+  },
+  {
+   "bank_idx": 689,
+   "iface": 2,
+   "seq": [
+    1,
+    1,
+    4
+   ],
+   "x": 4,
+   "rot": 1,
+   "v": 16,
+   "vcf": 2,
+   "wder": 2,
+   "ans": 11,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 5,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 16,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 2,
+    "deletion": 14,
+    "noise": 7,
+    "span_rewrite": 11,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 697,
+   "iface": 1,
+   "seq": [
+    1,
+    1,
+    4
+   ],
+   "x": 8,
+   "rot": 1,
+   "v": 2,
+   "vcf": 5,
+   "wder": 7,
+   "ans": 16,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 5,
+    "shift_retain": 5,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 11,
+    "span_rewrite": 4,
+    "allcut_bank": 16
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 697,
+   "iface": 2,
+   "seq": [
+    1,
+    1,
+    4
+   ],
+   "x": 8,
+   "rot": 1,
+   "v": 1,
+   "vcf": 4,
+   "wder": 5,
+   "ans": 16,
+   "target_cf": 15,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 11,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 1,
+    "cf_follow": 4,
+    "shift_retain": 4,
+    "deranged": 5,
+    "deletion": 0,
+    "noise": 1,
+    "span_rewrite": 8,
+    "allcut_bank": 16
+   },
+   "span_rewrite_x_cf": 14,
+   "span_rewrite_target": 15
+  },
+  {
+   "bank_idx": 714,
+   "iface": 0,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 5,
+   "ans": 8,
+   "target_cf": 1,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 11,
+    "span_rewrite": 7,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 1
+  },
+  {
+   "bank_idx": 714,
+   "iface": 1,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 12,
+   "vcf": 15,
+   "wder": 15,
+   "ans": 8,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 15,
+    "deletion": 6,
+    "noise": 13,
+    "span_rewrite": 2,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 714,
+   "iface": 2,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 14,
+   "vcf": 0,
+   "wder": 8,
+   "ans": 8,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 8,
+    "deletion": 6,
+    "noise": 13,
+    "span_rewrite": 13,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 6,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 715,
+   "iface": 0,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 4,
+   "ans": 8,
+   "target_cf": 1,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 4,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 7,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 1
+  },
+  {
+   "bank_idx": 715,
+   "iface": 1,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 6,
+   "ans": 8,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 6,
+    "deletion": 9,
+    "noise": 6,
+    "span_rewrite": 2,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 715,
+   "iface": 2,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 14,
+   "vcf": 0,
+   "wder": 3,
+   "ans": 8,
+   "target_cf": 11,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 3,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 16,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 6,
+   "span_rewrite_target": 11
+  },
+  {
+   "bank_idx": 733,
+   "iface": 0,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 9,
+   "vcf": 12,
+   "wder": 8,
+   "ans": 4,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 8,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 12,
+    "shift_retain": 12,
+    "deranged": 7,
+    "deletion": 9,
+    "noise": 7,
+    "span_rewrite": 4,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 12,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 733,
+   "iface": 1,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 5,
+   "vcf": 8,
+   "wder": 6,
+   "ans": 4,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 14,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 5,
+    "cf_follow": 8,
+    "shift_retain": 8,
+    "deranged": 6,
+    "deletion": 9,
+    "noise": 2,
+    "span_rewrite": 2,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 10,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 733,
+   "iface": 2,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 9,
+   "rot": 1,
+   "v": 10,
+   "vcf": 13,
+   "wder": 9,
+   "ans": 4,
+   "target_cf": 7,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 4,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 2,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 10,
+    "cf_follow": 13,
+    "shift_retain": 13,
+    "deranged": 9,
+    "deletion": 14,
+    "noise": 5,
+    "span_rewrite": 7,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 7
+  },
+  {
+   "bank_idx": 745,
+   "iface": 0,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 15,
+   "rot": 1,
+   "v": 15,
+   "vcf": 1,
+   "wder": 5,
+   "ans": 7,
+   "target_cf": 0,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 15,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 7,
+    "deletion": 0,
+    "noise": 8,
+    "span_rewrite": 2,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 0
+  },
+  {
+   "bank_idx": 745,
+   "iface": 2,
+   "seq": [
+    1,
+    1,
+    9
+   ],
+   "x": 15,
+   "rot": 1,
+   "v": 13,
+   "vcf": 16,
+   "wder": 7,
+   "ans": 7,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 16,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 13,
+    "cf_follow": 16,
+    "shift_retain": 16,
+    "deranged": 7,
+    "deletion": 14,
+    "noise": 10,
+    "span_rewrite": 6,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 4,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 748,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 4,
+   "ans": 8,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 4,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 4,
+    "deletion": 6,
+    "noise": 1,
+    "span_rewrite": 15,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 748,
+   "iface": 1,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 12,
+   "vcf": 15,
+   "wder": 5,
+   "ans": 8,
+   "target_cf": 4,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 5,
+    "deletion": 6,
+    "noise": 16,
+    "span_rewrite": 15,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 4
+  },
+  {
+   "bank_idx": 748,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 14,
+   "vcf": 0,
+   "wder": 4,
+   "ans": 8,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 9,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 4,
+    "deletion": 6,
+    "noise": 12,
+    "span_rewrite": 16,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 749,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 9,
+   "ans": 8,
+   "target_cf": 13,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 0,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 0,
+    "noise": 7,
+    "span_rewrite": 15,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 13
+  },
+  {
+   "bank_idx": 749,
+   "iface": 1,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 0,
+   "ans": 8,
+   "target_cf": 4,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 0,
+    "deletion": 0,
+    "noise": 13,
+    "span_rewrite": 5,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 4
+  },
+  {
+   "bank_idx": 749,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 14,
+   "vcf": 0,
+   "wder": 16,
+   "ans": 8,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 4,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 16,
+    "deletion": 0,
+    "noise": 15,
+    "span_rewrite": 16,
+    "allcut_bank": 5
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 760,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 6,
+   "rot": 0,
+   "v": 6,
+   "vcf": 9,
+   "wder": 8,
+   "ans": 1,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 6,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 9,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 9,
+    "span_rewrite": 16,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 760,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 6,
+   "rot": 0,
+   "v": 16,
+   "vcf": 2,
+   "wder": 5,
+   "ans": 1,
+   "target_cf": 16,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 16,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 11,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 16,
+    "cf_follow": 2,
+    "shift_retain": 2,
+    "deranged": 5,
+    "deletion": 3,
+    "noise": 10,
+    "span_rewrite": 16,
+    "allcut_bank": 0
+   },
+   "span_rewrite_x_cf": 15,
+   "span_rewrite_target": 16
+  },
+  {
+   "bank_idx": 764,
+   "iface": 1,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 8,
+   "rot": 0,
+   "v": 2,
+   "vcf": 5,
+   "wder": 12,
+   "ans": 10,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 6,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 5,
+    "shift_retain": 5,
+    "deranged": 12,
+    "deletion": 6,
+    "noise": 13,
+    "span_rewrite": 16,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 764,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 8,
+   "rot": 0,
+   "v": 11,
+   "vcf": 14,
+   "wder": 13,
+   "ans": 10,
+   "target_cf": 8,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 16,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 10,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 11,
+    "cf_follow": 14,
+    "shift_retain": 14,
+    "deranged": 13,
+    "deletion": 6,
+    "noise": 12,
+    "span_rewrite": 8,
+    "allcut_bank": 6
+   },
+   "span_rewrite_x_cf": 0,
+   "span_rewrite_target": 8
+  },
+  {
+   "bank_idx": 778,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 15,
+   "rot": 0,
+   "v": 15,
+   "vcf": 1,
+   "wder": 5,
+   "ans": 16,
+   "target_cf": 4,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 5,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 15,
+    "cf_follow": 1,
+    "shift_retain": 1,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 2,
+    "span_rewrite": 15,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 4
+  },
+  {
+   "bank_idx": 778,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    0
+   ],
+   "x": 15,
+   "rot": 0,
+   "v": 2,
+   "vcf": 5,
+   "wder": 7,
+   "ans": 16,
+   "target_cf": 14,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 11,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 15,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 2,
+    "cf_follow": 5,
+    "shift_retain": 5,
+    "deranged": 7,
+    "deletion": 6,
+    "noise": 5,
+    "span_rewrite": 15,
+    "allcut_bank": 8
+   },
+   "span_rewrite_x_cf": 7,
+   "span_rewrite_target": 14
+  },
+  {
+   "bank_idx": 782,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 0,
+   "vcf": 3,
+   "wder": 16,
+   "ans": 0,
+   "target_cf": 1,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 16,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 4,
+    "span_rewrite": 6,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 1
+  },
+  {
+   "bank_idx": 782,
+   "iface": 1,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 12,
+   "vcf": 15,
+   "wder": 4,
+   "ans": 0,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 4,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 15,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 782,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 0,
+   "rot": 0,
+   "v": 14,
+   "vcf": 0,
+   "wder": 4,
+   "ans": 0,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 9,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 4,
+    "deletion": 0,
+    "noise": 11,
+    "span_rewrite": 16,
+    "allcut_bank": 15
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 783,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 0,
+   "vcf": 3,
+   "wder": 7,
+   "ans": 0,
+   "target_cf": 1,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 3,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 7,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 7,
+    "cf_follow": 3,
+    "shift_retain": 3,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 11,
+    "span_rewrite": 15,
+    "allcut_bank": 2
+   },
+   "span_rewrite_x_cf": 3,
+   "span_rewrite_target": 1
+  },
+  {
+   "bank_idx": 783,
+   "iface": 1,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 12,
+   "vcf": 15,
+   "wder": 6,
+   "ans": 0,
+   "target_cf": 6,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 8,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 12,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 0,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 12,
+    "cf_follow": 15,
+    "shift_retain": 15,
+    "deranged": 6,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 4,
+    "allcut_bank": 2
+   },
+   "span_rewrite_x_cf": 1,
+   "span_rewrite_target": 6
+  },
+  {
+   "bank_idx": 783,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 0,
+   "rot": 1,
+   "v": 14,
+   "vcf": 0,
+   "wder": 9,
+   "ans": 0,
+   "target_cf": 3,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 14,
+    "cf_follow": 0,
+    "shift_retain": 0,
+    "deranged": 9,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 16,
+    "allcut_bank": 2
+   },
+   "span_rewrite_x_cf": 9,
+   "span_rewrite_target": 3
+  },
+  {
+   "bank_idx": 802,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 10,
+   "rot": 0,
+   "v": 10,
+   "vcf": 13,
+   "wder": 12,
+   "ans": 9,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 12,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 10,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 12,
+    "deletion": 8,
+    "noise": 7,
+    "span_rewrite": 15,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 802,
+   "iface": 1,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 10,
+   "rot": 0,
+   "v": 8,
+   "vcf": 11,
+   "wder": 11,
+   "ans": 9,
+   "target_cf": 15,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 14,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 1,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 8,
+    "cf_follow": 11,
+    "shift_retain": 11,
+    "deranged": 11,
+    "deletion": 8,
+    "noise": 0,
+    "span_rewrite": 12,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 11,
+   "span_rewrite_target": 15
+  },
+  {
+   "bank_idx": 802,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 10,
+   "rot": 0,
+   "v": 6,
+   "vcf": 9,
+   "wder": 9,
+   "ans": 9,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 6,
+    "cf_follow": 9,
+    "shift_retain": 9,
+    "deranged": 9,
+    "deletion": 8,
+    "noise": 13,
+    "span_rewrite": 6,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 2,
+   "span_rewrite_target": 12
+  },
+  {
+   "bank_idx": 803,
+   "iface": 0,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 10,
+   "rot": 1,
+   "v": 10,
+   "vcf": 13,
+   "wder": 5,
+   "ans": 9,
+   "target_cf": 10,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 10,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 13,
+     "rot": 0
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 5,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 10,
+    "cf_follow": 7,
+    "shift_retain": 7,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 7,
+    "span_rewrite": 15,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 13,
+   "span_rewrite_target": 10
+  },
+  {
+   "bank_idx": 803,
+   "iface": 1,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 10,
+   "rot": 1,
+   "v": 8,
+   "vcf": 11,
+   "wder": 7,
+   "ans": 9,
+   "target_cf": 15,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 14,
+     "rot": 0
+    },
+    "cf": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 1,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 7,
+     "rot": 0
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 8,
+    "cf_follow": 11,
+    "shift_retain": 11,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 6,
+    "span_rewrite": 5,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 11,
+   "span_rewrite_target": 15
+  },
+  {
+   "bank_idx": 803,
+   "iface": 2,
+   "seq": [
+    1,
+    2,
+    11
+   ],
+   "x": 10,
+   "rot": 1,
+   "v": 6,
+   "vcf": 9,
+   "wder": 7,
+   "ans": 9,
+   "target_cf": 12,
+   "donor_meta": {
+    "same": {
+     "seq": [
+      0,
+      3,
+      2
+     ],
+     "x": 13,
+     "rot": 1
+    },
+    "cf": {
+     "seq": [
+      0,
+      0,
+      1
+     ],
+     "x": 3,
+     "rot": 1
+    },
+    "deranged": {
+     "seq": [
+      0,
+      3,
+      0
+     ],
+     "x": 15,
+     "rot": 1
+    }
+   },
+   "same_exact_overlap": 0,
+   "same_prog_overlap": 0,
+   "preds": {
+    "same": 6,
+    "cf_follow": 9,
+    "shift_retain": 9,
+    "deranged": 7,
+    "deletion": 8,
+    "noise": 7,
+    "span_rewrite": 6,
+    "allcut_bank": 13
+   },
+   "span_rewrite_x_cf": 2,
+   "span_rewrite_target": 12
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "pair": {
+  "R+": "R+_m608985416_o3590022298",
+  "G+": "G+_m608985416_o3590022298"
+ },
+ "bank_sha256": "1e83e6d559cdae4f4b092bdf66c3ae5df51c443a95bf8a7d84386c9542f3c380",
+ "thresholds": {
+  "strong": 0.9,
+  "partial": 0.6,
+  "entangle_self_same_lt": 0.6,
+  "entangle_deletion_le": 0.7,
+  "interop": 0.5,
+  "low_denominator": 30
+ },
+ "recipients": {
+  "R+": {
+   "trajectory": "R+_m608985416_o3590022298",
+   "interfaces": {
+    "0": {
+     "self_same": {
+      "rate": 1.0,
+      "num": 528,
+      "den": 528
+     },
+     "self_cf_follow": {
+      "rate": 1.0,
+      "num": 528,
+      "den": 528
+     },
+     "cross_same": {
+      "rate": 0.036,
+      "num": 19,
+      "den": 528
+     },
+     "cross_cf_follow": {
+      "rate": 0.0455,
+      "num": 24,
+      "den": 528
+     },
+     "self_deletion": {
+      "rate": 0.0758
+     },
+     "rho_preservation": 0.036,
+     "rho_cf_follow": 0.0455,
+     "status": "OK",
+     "indicators": {
+      "strong_within_regime_canonicality": true,
+      "partial_within_regime_canonicality": false,
+      "operational_context_entanglement": false,
+      "cross_regime_interoperability": false
+     }
+    },
+    "1": {
+     "self_same": {
+      "rate": 1.0,
+      "num": 624,
+      "den": 624
+     },
+     "self_cf_follow": {
+      "rate": 1.0,
+      "num": 624,
+      "den": 624
+     },
+     "cross_same": {
+      "rate": 0.0897,
+      "num": 56,
+      "den": 624
+     },
+     "cross_cf_follow": {
+      "rate": 0.0833,
+      "num": 52,
+      "den": 624
+     },
+     "self_deletion": {
+      "rate": 0.0721
+     },
+     "rho_preservation": 0.0897,
+     "rho_cf_follow": 0.0833,
+     "status": "OK",
+     "indicators": {
+      "strong_within_regime_canonicality": true,
+      "partial_within_regime_canonicality": false,
+      "operational_context_entanglement": false,
+      "cross_regime_interoperability": false
+     }
+    },
+    "2": {
+     "self_same": {
+      "rate": 1.0,
+      "num": 720,
+      "den": 720
+     },
+     "self_cf_follow": {
+      "rate": 1.0,
+      "num": 720,
+      "den": 720
+     },
+     "cross_same": {
+      "rate": 0.1264,
+      "num": 91,
+      "den": 720
+     },
+     "cross_cf_follow": {
+      "rate": 0.1458,
+      "num": 105,
+      "den": 720
+     },
+     "self_deletion": {
+      "rate": 0.0667
+     },
+     "rho_preservation": 0.1264,
+     "rho_cf_follow": 0.1458,
+     "status": "OK",
+     "indicators": {
+      "strong_within_regime_canonicality": true,
+      "partial_within_regime_canonicality": false,
+      "operational_context_entanglement": false,
+      "cross_regime_interoperability": false
+     }
+    }
+   }
+  },
+  "G+": {
+   "trajectory": "G+_m608985416_o3590022298",
+   "interfaces": {
+    "0": {
+     "self_same": {
+      "rate": 0.6061,
+      "num": 40,
+      "den": 66
+     },
+     "self_cf_follow": {
+      "rate": 0.0455,
+      "num": 3,
+      "den": 66
+     },
+     "cross_same": {
+      "rate": 0.303,
+      "num": 20,
+      "den": 66
+     },
+     "cross_cf_follow": {
+      "rate": 0.0152,
+      "num": 1,
+      "den": 66
+     },
+     "self_deletion": {
+      "rate": 0.0758
+     },
+     "rho_preservation": 0.499918,
+     "rho_cf_follow": 0.334066,
+     "status": "OK",
+     "indicators": {
+      "strong_within_regime_canonicality": false,
+      "partial_within_regime_canonicality": false,
+      "operational_context_entanglement": false,
+      "cross_regime_interoperability": false
+     }
+    },
+    "1": {
+     "self_same": {
+      "rate": 0.566,
+      "num": 30,
+      "den": 53
+     },
+     "self_cf_follow": {
+      "rate": 0.0755,
+      "num": 4,
+      "den": 53
+     },
+     "cross_same": {
+      "rate": 0.1132,
+      "num": 6,
+      "den": 53
+     },
+     "cross_cf_follow": {
+      "rate": 0.1698,
+      "num": 9,
+      "den": 53
+     },
+     "self_deletion": {
+      "rate": 0.0377
+     },
+     "rho_preservation": 0.2,
+     "rho_cf_follow": 2.249007,
+     "status": "OK",
+     "indicators": {
+      "strong_within_regime_canonicality": false,
+      "partial_within_regime_canonicality": false,
+      "operational_context_entanglement": true,
+      "cross_regime_interoperability": false
+     }
+    },
+    "2": {
+     "self_same": {
+      "rate": 0.5147,
+      "num": 35,
+      "den": 68
+     },
+     "self_cf_follow": {
+      "rate": 0.1176,
+      "num": 8,
+      "den": 68
+     },
+     "cross_same": {
+      "rate": 0.1618,
+      "num": 11,
+      "den": 68
+     },
+     "cross_cf_follow": {
+      "rate": 0.2647,
+      "num": 18,
+      "den": 68
+     },
+     "self_deletion": {
+      "rate": 0.0441
+     },
+     "rho_preservation": 0.314358,
+     "rho_cf_follow": 2.25085,
+     "status": "OK",
+     "indicators": {
+      "strong_within_regime_canonicality": false,
+      "partial_within_regime_canonicality": false,
+      "operational_context_entanglement": true,
+      "cross_regime_interoperability": false
+     }
+    }
+   }
+  }
+ }
+}

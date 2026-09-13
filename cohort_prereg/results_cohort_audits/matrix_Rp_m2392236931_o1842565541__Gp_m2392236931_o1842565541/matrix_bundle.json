@@ -1,0 +1,29 @@
+{
+ "pair": {
+  "R+": "R+_m2392236931_o1842565541",
+  "G+": "G+_m2392236931_o1842565541"
+ },
+ "cells": {
+  "self_R": "results/audits/matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541/cell_self_R.json",
+  "self_G": "results/audits/matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541/cell_self_G.json",
+  "cross_RtoG": "results/audits/matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541/cell_cross_RtoG.json",
+  "cross_GtoR": "results/audits/matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541/cell_cross_GtoR.json"
+ },
+ "bank_sha256": "1e83e6d559cdae4f4b092bdf66c3ae5df51c443a95bf8a7d84386c9542f3c380",
+ "coverage_provenance": {
+  "pre_intersection_maps": {
+   "R": {
+    "path": "results/audits/matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541/coverage_R.json",
+    "sha256": "1cc927a1a7d158004053a5d06c2741290213051f1aa725d0953eb2a6a8e48ae1"
+   },
+   "G": {
+    "path": "results/audits/matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541/coverage_G.json",
+    "sha256": "471e5078bcbf0a6de2cb696e5b00f2b21a3f2af4cbd4c7a6cb000363cd7350fb"
+   }
+  },
+  "intersection": {
+   "path": "results/audits/matrix_Rp_m2392236931_o1842565541__Gp_m2392236931_o1842565541/coverage_intersection.json",
+   "sha256": "a327b5ca5f47059ba2ff5c00e63aa56347deb330a92d67a409fadb0428e9b6e2"
+  }
+ }
+}
