@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-13",
+  "source_pdf_v4_sha256": "65a45b04ca4e6ef2f161834e2b482ebe7a789b0ad2ae8140cd4628424ae7cbd1",
+  "pdf_v5_sha256": "6b764f69e9e6166d02b318f09c13405769101a219b753dfc8f46ffed8e47bdf6",
+  "source_zip_sha256": "739609b6306ee60f7f4f93162287a997bd8e66f4fed079430f666e17ee2f9f22",
+  "pages": 16,
+  "abstract_ascii_characters": 1542,
+  "original_tracked_files_hash_verified_unchanged": 1147,
+  "clean_archive_build": "Tectonic succeeded; extracted text identical",
+  "render_review": "All final pages visually inspected; zero overfull boxes or undefined references",
+  "training_or_checkpoint_inference_rerun": false,
+  "public_audit_revision": "ebe2ebf80d55d52a6ef9b6c237e2fee1e6c99294"
+}
